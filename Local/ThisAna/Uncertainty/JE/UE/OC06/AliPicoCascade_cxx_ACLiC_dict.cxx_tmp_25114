@@ -1,0 +1,143 @@
+// Do NOT change. Changes will be lost next time file is generated
+
+#define R__DICTIONARY_FILENAME dIhomedIcuipengyaodIstudydIppdILocaldIThisAnadIUncertaintydIJEdIUEdIOC06dIAliPicoCascade_cxx_ACLiC_dict
+
+/*******************************************************************/
+#include <stddef.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <assert.h>
+#define G__DICTIONARY
+#include "RConfig.h"
+#include "TClass.h"
+#include "TDictAttributeMap.h"
+#include "TInterpreter.h"
+#include "TROOT.h"
+#include "TBuffer.h"
+#include "TMemberInspector.h"
+#include "TInterpreter.h"
+#include "TVirtualMutex.h"
+#include "TError.h"
+
+#ifndef G__ROOT
+#define G__ROOT
+#endif
+
+#include "RtypesImp.h"
+#include "TIsAProxy.h"
+#include "TFileMergeInfo.h"
+#include <algorithm>
+#include "TCollectionProxyInfo.h"
+/*******************************************************************/
+
+#include "TDataMember.h"
+
+// Since CINT ignores the std namespace, we need to do so in this file.
+namespace std {} using namespace std;
+
+// Header files passed as explicit arguments
+#include "/home/cuipengyao/study/pp/Local/ThisAna/Uncertainty/JE/UE/OC06/AliPicoCascade.cxx"
+
+// Header files passed via #pragma extra_include
+
+   namespace ROOT {
+      inline ::ROOT::TGenericClassInfo *GenerateInitInstance();
+      static TClass *ROOT_Dictionary();
+
+      // Function generating the singleton type initializer
+      inline ::ROOT::TGenericClassInfo *GenerateInitInstance()
+      {
+         static ::ROOT::TGenericClassInfo 
+            instance("ROOT", 0 /*version*/, "Rtypes.h", 106,
+                     ::ROOT::Internal::DefineBehavior((void*)0,(void*)0),
+                     &ROOT_Dictionary, 0);
+         return &instance;
+      }
+      // Insure that the inline function is _not_ optimized away by the compiler
+      ::ROOT::TGenericClassInfo *(*_R__UNIQUE_DICT_(InitFunctionKeeper))() = &GenerateInitInstance;  
+      // Static variable to force the class initialization
+      static ::ROOT::TGenericClassInfo *_R__UNIQUE_DICT_(Init) = GenerateInitInstance(); R__UseDummy(_R__UNIQUE_DICT_(Init));
+
+      // Dictionary for non-ClassDef classes
+      static TClass *ROOT_Dictionary() {
+         return GenerateInitInstance()->GetClass();
+      }
+
+   }
+
+namespace ROOT {
+   static void delete_AliPicoCascade(void *p);
+   static void deleteArray_AliPicoCascade(void *p);
+   static void destruct_AliPicoCascade(void *p);
+
+   // Function generating the singleton type initializer
+   static TGenericClassInfo *GenerateInitInstanceLocal(const ::AliPicoCascade*)
+   {
+      ::AliPicoCascade *ptr = 0;
+      static ::TVirtualIsAProxy* isa_proxy = new ::TInstrumentedIsAProxy< ::AliPicoCascade >(0);
+      static ::ROOT::TGenericClassInfo 
+         instance("AliPicoCascade", ::AliPicoCascade::Class_Version(), "AliPicoCascade.h", 11,
+                  typeid(::AliPicoCascade), ::ROOT::Internal::DefineBehavior(ptr, ptr),
+                  &::AliPicoCascade::Dictionary, isa_proxy, 4,
+                  sizeof(::AliPicoCascade) );
+      instance.SetDelete(&delete_AliPicoCascade);
+      instance.SetDeleteArray(&deleteArray_AliPicoCascade);
+      instance.SetDestructor(&destruct_AliPicoCascade);
+      return &instance;
+   }
+   TGenericClassInfo *GenerateInitInstance(const ::AliPicoCascade*)
+   {
+      return GenerateInitInstanceLocal((::AliPicoCascade*)0);
+   }
+   // Static variable to force the class initialization
+   static ::ROOT::TGenericClassInfo *_R__UNIQUE_DICT_(Init) = GenerateInitInstanceLocal((const ::AliPicoCascade*)0x0); R__UseDummy(_R__UNIQUE_DICT_(Init));
+} // end of namespace ROOT
+
+//______________________________________________________________________________
+atomic_TClass_ptr AliPicoCascade::fgIsA(0);  // static to hold class pointer
+
+//______________________________________________________________________________
+const char *AliPicoCascade::Class_Name()
+{
+   return "AliPicoCascade";
+}
+
+//______________________________________________________________________________
+const char *AliPicoCascade::ImplFileName()
+{
+   return ::ROOT::GenerateInitInstanceLocal((const ::AliPicoCascade*)0x0)->GetImplFileName();
+}
+
+//______________________________________________________________________________
+int AliPicoCascade::ImplFileLine()
+{
+   return ::ROOT::GenerateInitInstanceLocal((const ::AliPicoCascade*)0x0)->GetImplFileLine();
+}
+
+//______________________________________________________________________________
+TClass *AliPicoCascade::Dictionary()
+{
+   fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::AliPicoCascade*)0x0)->GetClass();
+   return fgIsA;
+}
+
+//______________________________________________________________________________
+TClass *AliPicoCascade::Class()
+{
+   if (!fgIsA.load()) { R__LOCKGUARD(gInterpreterMutex); fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::AliPicoCascade*)0x0)->GetClass(); }
+   return fgIsA;
+}
+
+//______________________________________________________________________________
+void AliPicoCascade::Streamer(TBuffer &R__b)
+{
+   // Stream an object of class AliPicoCascade.
+
+   if (R__b.IsReading()) {
+      R__b.ReadClassBuffer(AliPicoCascade::Class(),this);
+   } else {
+      R__b.WriteClassBuffer(AliPicoCascade::Class(),this);
+   }
+}
+

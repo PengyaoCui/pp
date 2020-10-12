@@ -1,0 +1,554 @@
+
+Processing runLocalStrangeJets.C...
+Info in <TUnixSystem::ACLiC>: creating shared library /home/cuipengyao/study/pp/FullStat/QADiffPeriod/17f/AliPicoBaseDev_cxx.so
+Info in <TUnixSystem::ACLiC>: creating shared library /home/cuipengyao/study/pp/FullStat/QADiffPeriod/17f/AliPicoCascade_cxx.so
+In file included from /home/cuipengyao/alice/sw/ubuntu1804_x86-64/AliPhysics/aliroot6-1/include/AliPicoV0RD.h:4:0,
+                 from /home/cuipengyao/study/pp/FullStat/QADiffPeriod/17f/AliPicoCascade.cxx:5,
+                 from /home/cuipengyao/study/pp/FullStat/QADiffPeriod/17f/AliPicoCascade_cxx_ACLiC_dict.cxx:40:
+/home/cuipengyao/alice/sw/ubuntu1804_x86-64/AliPhysics/aliroot6-1/include/AliPicoV0.h:42:3: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+   const Double_t RapidityKa() const;
+   ^~~~~
+/home/cuipengyao/alice/sw/ubuntu1804_x86-64/AliPhysics/aliroot6-1/include/AliPicoV0.h:43:3: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+   const Double_t RapidityLa() const;
+   ^~~~~
+In file included from /home/cuipengyao/study/pp/FullStat/QADiffPeriod/17f/AliPicoCascade.cxx:7:0,
+                 from /home/cuipengyao/study/pp/FullStat/QADiffPeriod/17f/AliPicoCascade_cxx_ACLiC_dict.cxx:40:
+/home/cuipengyao/study/pp/FullStat/QADiffPeriod/17f/AliPicoCascade.h:43:3: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+   const Double_t RapidityXi() const;
+   ^~~~~
+/home/cuipengyao/study/pp/FullStat/QADiffPeriod/17f/AliPicoCascade.h:44:3: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+   const Double_t RapidityOmega() const;
+   ^~~~~
+In file included from /home/cuipengyao/study/pp/FullStat/QADiffPeriod/17f/AliPicoCascade_cxx_ACLiC_dict.cxx:40:0:
+/home/cuipengyao/study/pp/FullStat/QADiffPeriod/17f/AliPicoCascade.cxx:424:1: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ const Double_t AliPicoCascade::RapidityXi() const
+ ^~~~~
+/home/cuipengyao/study/pp/FullStat/QADiffPeriod/17f/AliPicoCascade.cxx:437:1: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ const Double_t AliPicoCascade::RapidityOmega() const
+ ^~~~~
+Info in <TUnixSystem::ACLiC>: creating shared library /home/cuipengyao/study/pp/FullStat/QADiffPeriod/17f/AliPicoCascadeRD_cxx.so
+In file included from /home/cuipengyao/alice/sw/ubuntu1804_x86-64/AliPhysics/aliroot6-1/include/AliPicoV0RD.h:4:0,
+                 from /home/cuipengyao/study/pp/FullStat/QADiffPeriod/17f/AliPicoCascadeRD.cxx:4,
+                 from /home/cuipengyao/study/pp/FullStat/QADiffPeriod/17f/AliPicoCascadeRD_cxx_ACLiC_dict.cxx:40:
+/home/cuipengyao/alice/sw/ubuntu1804_x86-64/AliPhysics/aliroot6-1/include/AliPicoV0.h:42:3: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+   const Double_t RapidityKa() const;
+   ^~~~~
+/home/cuipengyao/alice/sw/ubuntu1804_x86-64/AliPhysics/aliroot6-1/include/AliPicoV0.h:43:3: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+   const Double_t RapidityLa() const;
+   ^~~~~
+In file included from /home/cuipengyao/study/pp/FullStat/QADiffPeriod/17f/AliPicoCascadeRD.h:4:0,
+                 from /home/cuipengyao/study/pp/FullStat/QADiffPeriod/17f/AliPicoCascadeRD.cxx:5,
+                 from /home/cuipengyao/study/pp/FullStat/QADiffPeriod/17f/AliPicoCascadeRD_cxx_ACLiC_dict.cxx:40:
+/home/cuipengyao/study/pp/FullStat/QADiffPeriod/17f/AliPicoCascade.h:43:3: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+   const Double_t RapidityXi() const;
+   ^~~~~
+/home/cuipengyao/study/pp/FullStat/QADiffPeriod/17f/AliPicoCascade.h:44:3: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+   const Double_t RapidityOmega() const;
+   ^~~~~
+Info in <TUnixSystem::ACLiC>: creating shared library /home/cuipengyao/study/pp/FullStat/QADiffPeriod/17f/AliPicoCascadeMC_cxx.so
+In file included from /home/cuipengyao/alice/sw/ubuntu1804_x86-64/AliPhysics/aliroot6-1/include/AliPicoV0MC.h:6:0,
+                 from /home/cuipengyao/study/pp/FullStat/QADiffPeriod/17f/AliPicoCascadeMC.cxx:4,
+                 from /home/cuipengyao/study/pp/FullStat/QADiffPeriod/17f/AliPicoCascadeMC_cxx_ACLiC_dict.cxx:40:
+/home/cuipengyao/alice/sw/ubuntu1804_x86-64/AliPhysics/aliroot6-1/include/AliPicoV0.h:42:3: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+   const Double_t RapidityKa() const;
+   ^~~~~
+/home/cuipengyao/alice/sw/ubuntu1804_x86-64/AliPhysics/aliroot6-1/include/AliPicoV0.h:43:3: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+   const Double_t RapidityLa() const;
+   ^~~~~
+In file included from /home/cuipengyao/study/pp/FullStat/QADiffPeriod/17f/AliPicoCascadeMC.h:4:0,
+                 from /home/cuipengyao/study/pp/FullStat/QADiffPeriod/17f/AliPicoCascadeMC.cxx:5,
+                 from /home/cuipengyao/study/pp/FullStat/QADiffPeriod/17f/AliPicoCascadeMC_cxx_ACLiC_dict.cxx:40:
+/home/cuipengyao/study/pp/FullStat/QADiffPeriod/17f/AliPicoCascade.h:43:3: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+   const Double_t RapidityXi() const;
+   ^~~~~
+/home/cuipengyao/study/pp/FullStat/QADiffPeriod/17f/AliPicoCascade.h:44:3: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+   const Double_t RapidityOmega() const;
+   ^~~~~
+Info in <TUnixSystem::ACLiC>: creating shared library /home/cuipengyao/study/pp/FullStat/QADiffPeriod/17f/AliAnalysisTaskUserStraneJets_cxx.so
+In file included from /home/cuipengyao/alice/sw/ubuntu1804_x86-64/AliPhysics/aliroot6-1/include/AliPicoV0RD.h:4:0,
+                 from /home/cuipengyao/study/pp/FullStat/QADiffPeriod/17f/AliAnalysisTaskUserStraneJets.cxx:22,
+                 from /home/cuipengyao/study/pp/FullStat/QADiffPeriod/17f/AliAnalysisTaskUserStraneJets_cxx_ACLiC_dict.cxx:40:
+/home/cuipengyao/alice/sw/ubuntu1804_x86-64/AliPhysics/aliroot6-1/include/AliPicoV0.h:42:3: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+   const Double_t RapidityKa() const;
+   ^~~~~
+/home/cuipengyao/alice/sw/ubuntu1804_x86-64/AliPhysics/aliroot6-1/include/AliPicoV0.h:43:3: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+   const Double_t RapidityLa() const;
+   ^~~~~
+In file included from /home/cuipengyao/study/pp/FullStat/QADiffPeriod/17f/AliAnalysisTaskUserStraneJets.cxx:30:0,
+                 from /home/cuipengyao/study/pp/FullStat/QADiffPeriod/17f/AliAnalysisTaskUserStraneJets_cxx_ACLiC_dict.cxx:40:
+/home/cuipengyao/study/pp/FullStat/QADiffPeriod/17f/AliPicoCascade.h:43:3: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+   const Double_t RapidityXi() const;
+   ^~~~~
+/home/cuipengyao/study/pp/FullStat/QADiffPeriod/17f/AliPicoCascade.h:44:3: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+   const Double_t RapidityOmega() const;
+   ^~~~~
+W-AliAODEvent::ReadFromTree: AliAODEvent::ReadFromTree() TList contains less than the standard contents 4 < 22 That might be fine though (at least for filtered AODs)
+Analyzing inclusive Kshort 1st loop in RD...
+11303415
+1 = M
+2 = M
+3 = M
+4 = M
+5 = M
+6 = M
+7 = M
+8 = M
+9 = M
+10 = M
+11 = M
+Fit Kshort InvM...
+Fitting Kshort InvM in pT bin:  1: mean = 0.4976095, sigma = 0.00359815382
+Fitting Kshort InvM in pT bin:  2: mean = 0.4978096, sigma = 0.00364519667
+Fitting Kshort InvM in pT bin:  3: mean = 0.4979497, sigma = 0.00365832447
+Fitting Kshort InvM in pT bin:  4: mean = 0.4980902, sigma = 0.00365225
+Fitting Kshort InvM in pT bin:  5: mean = 0.4981663, sigma = 0.00368835455
+Fitting Kshort InvM in pT bin:  6: mean = 0.4982497, sigma = 0.00372497892
+Fitting Kshort InvM in pT bin:  7: mean = 0.4983287, sigma = 0.00367352933
+Fitting Kshort InvM in pT bin:  8: mean = 0.4983985, sigma = 0.00374789953
+Fitting Kshort InvM in pT bin:  9: mean = 0.498401, sigma = 0.00379716241
+Fitting Kshort InvM in pT bin: 10: mean = 0.498433, sigma = 0.00382262856
+Fitting Kshort InvM in pT bin: 11: mean = 0.4984129, sigma = 0.00383734747
+Fitting Kshort InvM in pT bin: 12: mean = 0.4985112, sigma = 0.00393268019
+Fitting Kshort InvM in pT bin: 13: mean = 0.4984826, sigma = 0.00393046909
+Fitting Kshort InvM in pT bin: 14: mean = 0.4984648, sigma = 0.00395836548
+Fitting Kshort InvM in pT bin: 15: mean = 0.4985209, sigma = 0.00405535104
+Fitting Kshort InvM in pT bin: 16: mean = 0.4985146, sigma = 0.00419581891
+Fitting Kshort InvM in pT bin: 17: mean = 0.4985151, sigma = 0.00434694578
+Fitting Kshort InvM in pT bin: 18: mean = 0.4986423, sigma = 0.00440286974
+Fitting Kshort InvM in pT bin: 19: mean = 0.4984326, sigma = 0.00453406383
+Fitting Kshort InvM in pT bin: 20: mean = 0.4988651, sigma = 0.00476278801
+Fitting Kshort InvM in pT bin: 21: mean = 0.4987442, sigma = 0.00458309538
+Analyzing inclusive Kshort 2nd loop in RD...
+1 = M
+2 = M
+3 = M
+4 = M
+5 = M
+6 = M
+7 = M
+8 = M
+9 = M
+10 = M
+11 = M
+Bin counting the Kshort candidates...
+Fitting Kshort InvM in pT bin:  1
+Fitting Kshort InvM in pT bin:  2
+Fitting Kshort InvM in pT bin:  3
+Fitting Kshort InvM in pT bin:  4
+Fitting Kshort InvM in pT bin:  5
+Fitting Kshort InvM in pT bin:  6
+Fitting Kshort InvM in pT bin:  7
+Fitting Kshort InvM in pT bin:  8
+Fitting Kshort InvM in pT bin:  9
+Fitting Kshort InvM in pT bin: 10
+Fitting Kshort InvM in pT bin: 11
+Fitting Kshort InvM in pT bin: 12
+Fitting Kshort InvM in pT bin: 13
+Fitting Kshort InvM in pT bin: 14
+Fitting Kshort InvM in pT bin: 15
+Fitting Kshort InvM in pT bin: 16
+Fitting Kshort InvM in pT bin: 17
+Fitting Kshort InvM in pT bin: 18
+Fitting Kshort InvM in pT bin: 19
+Fitting Kshort InvM in pT bin: 20
+Fitting Kshort InvM in pT bin: 21
+Analyzing inclusive Lambda 1st loop in RD...
+11303415
+1 = M
+2 = M
+3 = M
+4 = M
+5 = M
+6 = M
+7 = M
+8 = M
+9 = M
+10 = M
+11 = M
+Fit Lambda InvM...
+Fitting Lambda InvM in pT bin:  1: mean = 1.115677, sigma = 0.00157435486
+Fitting Lambda InvM in pT bin:  2: mean = 1.115736, sigma = 0.00151892538
+Fitting Lambda InvM in pT bin:  3: mean = 1.115765, sigma = 0.00147331114
+Fitting Lambda InvM in pT bin:  4: mean = 1.115785, sigma = 0.00145491843
+Fitting Lambda InvM in pT bin:  5: mean = 1.115863, sigma = 0.00144914315
+Fitting Lambda InvM in pT bin:  6: mean = 1.115941, sigma = 0.00142999391
+Fitting Lambda InvM in pT bin:  7: mean = 1.115995, sigma = 0.00141915485
+Fitting Lambda InvM in pT bin:  8: mean = 1.115988, sigma = 0.00142119142
+Fitting Lambda InvM in pT bin:  9: mean = 1.116007, sigma = 0.00140790175
+Fitting Lambda InvM in pT bin: 10: mean = 1.115994, sigma = 0.0014517037
+Fitting Lambda InvM in pT bin: 11: mean = 1.116017, sigma = 0.00147388501
+Fitting Lambda InvM in pT bin: 12: mean = 1.116, sigma = 0.00149886145
+Fitting Lambda InvM in pT bin: 13: mean = 1.115978, sigma = 0.00150479397
+Fitting Lambda InvM in pT bin: 14: mean = 1.11599, sigma = 0.00151332433
+Fitting Lambda InvM in pT bin: 15: mean = 1.116, sigma = 0.00152787965
+Fitting Lambda InvM in pT bin: 16: mean = 1.116019, sigma = 0.00159006449
+Fitting Lambda InvM in pT bin: 17: mean = 1.115976, sigma = 0.00165565433
+Fitting Lambda InvM in pT bin: 18: mean = 1.116025, sigma = 0.00164455581
+Fitting Lambda InvM in pT bin: 19: mean = 1.116086, sigma = 0.00171861157
+Fitting Lambda InvM in pT bin: 20: mean = 1.115915, sigma = 0.00163439087
+Fitting Lambda InvM in pT bin: 21: mean = 1.116504, sigma = 0.00123996625
+Analyzing inclusive Lambda 2nd loop in RD...
+1 = M
+2 = M
+3 = M
+4 = M
+5 = M
+6 = M
+7 = M
+8 = M
+9 = M
+10 = M
+11 = M
+Bin counting the Lambda candidates...
+Fitting Lambda InvM in pT bin:  1
+Fitting Lambda InvM in pT bin:  2
+Fitting Lambda InvM in pT bin:  3
+Fitting Lambda InvM in pT bin:  4
+Fitting Lambda InvM in pT bin:  5
+Fitting Lambda InvM in pT bin:  6
+Fitting Lambda InvM in pT bin:  7
+Fitting Lambda InvM in pT bin:  8
+Fitting Lambda InvM in pT bin:  9
+Fitting Lambda InvM in pT bin: 10
+Fitting Lambda InvM in pT bin: 11
+Fitting Lambda InvM in pT bin: 12
+Fitting Lambda InvM in pT bin: 13
+Fitting Lambda InvM in pT bin: 14
+Fitting Lambda InvM in pT bin: 15
+Fitting Lambda InvM in pT bin: 16
+Fitting Lambda InvM in pT bin: 17
+Fitting Lambda InvM in pT bin: 18
+Fitting Lambda InvM in pT bin: 19
+Fitting Lambda InvM in pT bin: 20
+Fitting Lambda InvM in pT bin: 21
+Analyzing inclusive AntiLa 1st loop in RD...
+11303415
+1 = M
+2 = M
+3 = M
+4 = M
+5 = M
+6 = M
+7 = M
+8 = M
+9 = M
+10 = M
+11 = M
+Fit AntiLa InvM...
+Fitting AntiLa InvM in pT bin:  1: mean = 1.115764, sigma = 0.00153372288
+Fitting AntiLa InvM in pT bin:  2: mean = 1.115792, sigma = 0.00151167338
+Fitting AntiLa InvM in pT bin:  3: mean = 1.115852, sigma = 0.00148080144
+Fitting AntiLa InvM in pT bin:  4: mean = 1.115862, sigma = 0.00145690061
+Fitting AntiLa InvM in pT bin:  5: mean = 1.115944, sigma = 0.00145088561
+Fitting AntiLa InvM in pT bin:  6: mean = 1.115929, sigma = 0.00142731232
+Fitting AntiLa InvM in pT bin:  7: mean = 1.116018, sigma = 0.00141878858
+Fitting AntiLa InvM in pT bin:  8: mean = 1.116024, sigma = 0.0014247962
+Fitting AntiLa InvM in pT bin:  9: mean = 1.116018, sigma = 0.00142953783
+Fitting AntiLa InvM in pT bin: 10: mean = 1.116023, sigma = 0.00146824033
+Fitting AntiLa InvM in pT bin: 11: mean = 1.116019, sigma = 0.00146319969
+Fitting AntiLa InvM in pT bin: 12: mean = 1.116032, sigma = 0.00151637735
+Fitting AntiLa InvM in pT bin: 13: mean = 1.116003, sigma = 0.00146346096
+Fitting AntiLa InvM in pT bin: 14: mean = 1.115937, sigma = 0.00147971986
+Fitting AntiLa InvM in pT bin: 15: mean = 1.11597, sigma = 0.00157865972
+Fitting AntiLa InvM in pT bin: 16: mean = 1.115977, sigma = 0.0015539952
+Fitting AntiLa InvM in pT bin: 17: mean = 1.115908, sigma = 0.00160201717
+Fitting AntiLa InvM in pT bin: 18: mean = 1.116016, sigma = 0.00162166736
+Fitting AntiLa InvM in pT bin: 19: mean = 1.115934, sigma = 0.00162802151
+Fitting AntiLa InvM in pT bin: 20: mean = 1.116017, sigma = 0.00176911279
+Fitting AntiLa InvM in pT bin: 21: mean = 1.116477, sigma = 0.00139242772
+Analyzing inclusive AntiLa 2nd loop in RD...
+1 = M
+2 = M
+3 = M
+4 = M
+5 = M
+6 = M
+7 = M
+8 = M
+9 = M
+10 = M
+11 = M
+Bin counting the AntiLa candidates...
+Fitting AntiLa InvM in pT bin:  1
+Fitting AntiLa InvM in pT bin:  2
+Fitting AntiLa InvM in pT bin:  3
+Fitting AntiLa InvM in pT bin:  4
+Fitting AntiLa InvM in pT bin:  5
+Fitting AntiLa InvM in pT bin:  6
+Fitting AntiLa InvM in pT bin:  7
+Fitting AntiLa InvM in pT bin:  8
+Fitting AntiLa InvM in pT bin:  9
+Fitting AntiLa InvM in pT bin: 10
+Fitting AntiLa InvM in pT bin: 11
+Fitting AntiLa InvM in pT bin: 12
+Fitting AntiLa InvM in pT bin: 13
+Fitting AntiLa InvM in pT bin: 14
+Fitting AntiLa InvM in pT bin: 15
+Fitting AntiLa InvM in pT bin: 16
+Fitting AntiLa InvM in pT bin: 17
+Fitting AntiLa InvM in pT bin: 18
+Fitting AntiLa InvM in pT bin: 19
+Fitting AntiLa InvM in pT bin: 20
+Fitting AntiLa InvM in pT bin: 21
+Analyzing inclusive Xi 1st loop in RD...
+11303415
+1 = M
+2 = M
+3 = M
+4 = M
+5 = M
+6 = M
+7 = M
+8 = M
+9 = M
+10 = M
+11 = M
+Fit Xi InvM...
+Fitting Xi InvM in pT bin:  1: mean = 1.321203, sigma = 0.00146262796
+Fitting Xi InvM in pT bin:  2: mean = 1.321527, sigma = 0.0018108529
+Fitting Xi InvM in pT bin:  3: mean = 1.321651, sigma = 0.001911322
+Fitting Xi InvM in pT bin:  4: mean = 1.321663, sigma = 0.00177273418
+Fitting Xi InvM in pT bin:  5: mean = 1.321657, sigma = 0.00169809407
+Fitting Xi InvM in pT bin:  6: mean = 1.321792, sigma = 0.00181614347
+Fitting Xi InvM in pT bin:  7: mean = 1.32188, sigma = 0.00185404326
+Fitting Xi InvM in pT bin:  8: mean = 1.321899, sigma = 0.00189744187
+Fitting Xi InvM in pT bin:  9: mean = 1.322105, sigma = 0.001857035
+Fitting Xi InvM in pT bin: 10: mean = 1.322088, sigma = 0.00191381654
+Fitting Xi InvM in pT bin: 11: mean = 1.322062, sigma = 0.00192694091
+Fitting Xi InvM in pT bin: 12: mean = 1.322151, sigma = 0.00183064732
+Fitting Xi InvM in pT bin: 13: mean = 1.3221, sigma = 0.00191119275
+Fitting Xi InvM in pT bin: 14: mean = 1.32218, sigma = 0.00191274635
+Fitting Xi InvM in pT bin: 15: mean = 1.322377, sigma = 0.00198668909
+Fitting Xi InvM in pT bin: 16: mean = 1.322382, sigma = 0.00206220914
+Fitting Xi InvM in pT bin: 17: mean = 1.322325, sigma = 0.00230987882
+Fitting Xi InvM in pT bin: 18: mean = 1.322482, sigma = 0.00242489227
+Fitting Xi InvM in pT bin: 19: mean = 1.322376, sigma = 0.00197018487
+Fitting Xi InvM in pT bin: 20: mean = 1.323262, sigma = 0.000757292252
+Fitting Xi InvM in pT bin: 21: mean = 1.310268, sigma = 0.013731683
+Analyzing inclusive Xi 2nd loop in RD...
+1 = M
+2 = M
+3 = M
+4 = M
+5 = M
+6 = M
+7 = M
+8 = M
+9 = M
+10 = M
+11 = M
+Bin counting the Xi candidates...
+Fitting Xi InvM in pT bin:  1
+Fitting Xi InvM in pT bin:  2
+Fitting Xi InvM in pT bin:  3
+Fitting Xi InvM in pT bin:  4
+Fitting Xi InvM in pT bin:  5
+Fitting Xi InvM in pT bin:  6
+Fitting Xi InvM in pT bin:  7
+Fitting Xi InvM in pT bin:  8
+Fitting Xi InvM in pT bin:  9
+Fitting Xi InvM in pT bin: 10
+Fitting Xi InvM in pT bin: 11
+Fitting Xi InvM in pT bin: 12
+Fitting Xi InvM in pT bin: 13
+Fitting Xi InvM in pT bin: 14
+Fitting Xi InvM in pT bin: 15
+Fitting Xi InvM in pT bin: 16
+Fitting Xi InvM in pT bin: 17
+Fitting Xi InvM in pT bin: 18
+Fitting Xi InvM in pT bin: 19
+Fitting Xi InvM in pT bin: 20
+Fitting Xi InvM in pT bin: 21
+Analyzing inclusive Omega 1st loop in RD...
+11303415
+1 = M
+2 = M
+3 = M
+4 = M
+5 = M
+6 = M
+7 = M
+8 = M
+9 = M
+10 = M
+11 = M
+Fit Omega InvM...
+Fitting Omega InvM in pT bin:  1: W-Fit: Fit data is empty 
+mean = 1.67245, sigma = 0.002
+Fitting Omega InvM in pT bin:  2: mean = 1.674529, sigma = 0.00200606425
+Fitting Omega InvM in pT bin:  3: mean = 1.682137, sigma = 0.00211575864
+Fitting Omega InvM in pT bin:  4: mean = 1.671007, sigma = 0.00146908135
+Fitting Omega InvM in pT bin:  5: mean = 1.676474, sigma = 0.000736254208
+Fitting Omega InvM in pT bin:  6: mean = 1.675386, sigma = 0.00286240383
+Fitting Omega InvM in pT bin:  7: mean = 1.673502, sigma = 0.00284509744
+Fitting Omega InvM in pT bin:  8: mean = 1.673077, sigma = 0.00111675073
+Fitting Omega InvM in pT bin:  9: mean = 1.672715, sigma = 0.000832016569
+Fitting Omega InvM in pT bin: 10: mean = 1.672843, sigma = 0.000639801025
+Fitting Omega InvM in pT bin: 11: mean = 1.672858, sigma = 0.001936454
+Fitting Omega InvM in pT bin: 12: mean = 1.673019, sigma = 0.00123282702
+Fitting Omega InvM in pT bin: 13: mean = 1.672667, sigma = 0.00186941462
+Fitting Omega InvM in pT bin: 14: mean = 1.673295, sigma = 0.00224166136
+Fitting Omega InvM in pT bin: 15: mean = 1.672498, sigma = 0.00200731359
+Fitting Omega InvM in pT bin: 16: mean = 1.671761, sigma = 0.00165295134
+Fitting Omega InvM in pT bin: 17: mean = 1.673289, sigma = 0.00169704299
+Fitting Omega InvM in pT bin: 18: mean = 1.67354, sigma = 0.000904951328
+Fitting Omega InvM in pT bin: 19: mean = 1.672929, sigma = 0.000670201281
+Fitting Omega InvM in pT bin: 20: mean = 1.671956, sigma = 7.48566209e-06
+Fitting Omega InvM in pT bin: 21: mean = 1.67441, sigma = 0.0236575815
+Analyzing inclusive Omega 2nd loop in RD...
+1 = M
+2 = M
+3 = M
+4 = M
+5 = M
+6 = M
+7 = M
+8 = M
+9 = M
+10 = M
+11 = M
+Bin counting the Omega candidates...
+Fitting Omega InvM in pT bin:  1
+Fitting Omega InvM in pT bin:  2
+Fitting Omega InvM in pT bin:  3
+Fitting Omega InvM in pT bin:  4
+Fitting Omega InvM in pT bin:  5
+Fitting Omega InvM in pT bin:  6
+Fitting Omega InvM in pT bin:  7
+Fitting Omega InvM in pT bin:  8
+Fitting Omega InvM in pT bin:  9
+Fitting Omega InvM in pT bin: 10
+Fitting Omega InvM in pT bin: 11
+Fitting Omega InvM in pT bin: 12
+Fitting Omega InvM in pT bin: 13
+Fitting Omega InvM in pT bin: 14
+Fitting Omega InvM in pT bin: 15
+Fitting Omega InvM in pT bin: 16
+Fitting Omega InvM in pT bin: 17
+Fitting Omega InvM in pT bin: 18
+Fitting Omega InvM in pT bin: 19
+Fitting Omega InvM in pT bin: 20
+Fitting Omega InvM in pT bin: 21
+
+Processing runLocalStrangeJets.C...
+Info in <TUnixSystem::ACLiC>: creating shared library /home/cuipengyao/study/pp/FullStat/QADiffPeriod/17f/AliPicoBaseDev_cxx.so
+Info in <TUnixSystem::ACLiC>: creating shared library /home/cuipengyao/study/pp/FullStat/QADiffPeriod/17f/AliPicoCascade_cxx.so
+In file included from /home/cuipengyao/alice/sw/ubuntu1804_x86-64/AliPhysics/aliroot6-1/include/AliPicoV0RD.h:4:0,
+                 from /home/cuipengyao/study/pp/FullStat/QADiffPeriod/17f/AliPicoCascade.cxx:5,
+                 from /home/cuipengyao/study/pp/FullStat/QADiffPeriod/17f/AliPicoCascade_cxx_ACLiC_dict.cxx:40:
+/home/cuipengyao/alice/sw/ubuntu1804_x86-64/AliPhysics/aliroot6-1/include/AliPicoV0.h:42:3: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+   const Double_t RapidityKa() const;
+   ^~~~~
+/home/cuipengyao/alice/sw/ubuntu1804_x86-64/AliPhysics/aliroot6-1/include/AliPicoV0.h:43:3: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+   const Double_t RapidityLa() const;
+   ^~~~~
+In file included from /home/cuipengyao/study/pp/FullStat/QADiffPeriod/17f/AliPicoCascade.cxx:7:0,
+                 from /home/cuipengyao/study/pp/FullStat/QADiffPeriod/17f/AliPicoCascade_cxx_ACLiC_dict.cxx:40:
+/home/cuipengyao/study/pp/FullStat/QADiffPeriod/17f/AliPicoCascade.h:43:3: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+   const Double_t RapidityXi() const;
+   ^~~~~
+/home/cuipengyao/study/pp/FullStat/QADiffPeriod/17f/AliPicoCascade.h:44:3: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+   const Double_t RapidityOmega() const;
+   ^~~~~
+In file included from /home/cuipengyao/study/pp/FullStat/QADiffPeriod/17f/AliPicoCascade_cxx_ACLiC_dict.cxx:40:0:
+/home/cuipengyao/study/pp/FullStat/QADiffPeriod/17f/AliPicoCascade.cxx:424:1: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ const Double_t AliPicoCascade::RapidityXi() const
+ ^~~~~
+/home/cuipengyao/study/pp/FullStat/QADiffPeriod/17f/AliPicoCascade.cxx:437:1: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ const Double_t AliPicoCascade::RapidityOmega() const
+ ^~~~~
+Info in <TUnixSystem::ACLiC>: creating shared library /home/cuipengyao/study/pp/FullStat/QADiffPeriod/17f/AliPicoCascadeRD_cxx.so
+In file included from /home/cuipengyao/alice/sw/ubuntu1804_x86-64/AliPhysics/aliroot6-1/include/AliPicoV0RD.h:4:0,
+                 from /home/cuipengyao/study/pp/FullStat/QADiffPeriod/17f/AliPicoCascadeRD.cxx:4,
+                 from /home/cuipengyao/study/pp/FullStat/QADiffPeriod/17f/AliPicoCascadeRD_cxx_ACLiC_dict.cxx:40:
+/home/cuipengyao/alice/sw/ubuntu1804_x86-64/AliPhysics/aliroot6-1/include/AliPicoV0.h:42:3: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+   const Double_t RapidityKa() const;
+   ^~~~~
+/home/cuipengyao/alice/sw/ubuntu1804_x86-64/AliPhysics/aliroot6-1/include/AliPicoV0.h:43:3: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+   const Double_t RapidityLa() const;
+   ^~~~~
+In file included from /home/cuipengyao/study/pp/FullStat/QADiffPeriod/17f/AliPicoCascadeRD.h:4:0,
+                 from /home/cuipengyao/study/pp/FullStat/QADiffPeriod/17f/AliPicoCascadeRD.cxx:5,
+                 from /home/cuipengyao/study/pp/FullStat/QADiffPeriod/17f/AliPicoCascadeRD_cxx_ACLiC_dict.cxx:40:
+/home/cuipengyao/study/pp/FullStat/QADiffPeriod/17f/AliPicoCascade.h:43:3: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+   const Double_t RapidityXi() const;
+   ^~~~~
+/home/cuipengyao/study/pp/FullStat/QADiffPeriod/17f/AliPicoCascade.h:44:3: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+   const Double_t RapidityOmega() const;
+   ^~~~~
+Info in <TUnixSystem::ACLiC>: creating shared library /home/cuipengyao/study/pp/FullStat/QADiffPeriod/17f/AliPicoCascadeMC_cxx.so
+In file included from /home/cuipengyao/alice/sw/ubuntu1804_x86-64/AliPhysics/aliroot6-1/include/AliPicoV0MC.h:6:0,
+                 from /home/cuipengyao/study/pp/FullStat/QADiffPeriod/17f/AliPicoCascadeMC.cxx:4,
+                 from /home/cuipengyao/study/pp/FullStat/QADiffPeriod/17f/AliPicoCascadeMC_cxx_ACLiC_dict.cxx:40:
+/home/cuipengyao/alice/sw/ubuntu1804_x86-64/AliPhysics/aliroot6-1/include/AliPicoV0.h:42:3: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+   const Double_t RapidityKa() const;
+   ^~~~~
+/home/cuipengyao/alice/sw/ubuntu1804_x86-64/AliPhysics/aliroot6-1/include/AliPicoV0.h:43:3: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+   const Double_t RapidityLa() const;
+   ^~~~~
+In file included from /home/cuipengyao/study/pp/FullStat/QADiffPeriod/17f/AliPicoCascadeMC.h:4:0,
+                 from /home/cuipengyao/study/pp/FullStat/QADiffPeriod/17f/AliPicoCascadeMC.cxx:5,
+                 from /home/cuipengyao/study/pp/FullStat/QADiffPeriod/17f/AliPicoCascadeMC_cxx_ACLiC_dict.cxx:40:
+/home/cuipengyao/study/pp/FullStat/QADiffPeriod/17f/AliPicoCascade.h:43:3: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+   const Double_t RapidityXi() const;
+   ^~~~~
+/home/cuipengyao/study/pp/FullStat/QADiffPeriod/17f/AliPicoCascade.h:44:3: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+   const Double_t RapidityOmega() const;
+   ^~~~~
+Info in <TUnixSystem::ACLiC>: creating shared library /home/cuipengyao/study/pp/FullStat/QADiffPeriod/17f/AliAnalysisTaskUserStraneJets_cxx.so
+In file included from /home/cuipengyao/alice/sw/ubuntu1804_x86-64/AliPhysics/aliroot6-1/include/AliPicoV0RD.h:4:0,
+                 from /home/cuipengyao/study/pp/FullStat/QADiffPeriod/17f/AliAnalysisTaskUserStraneJets.cxx:22,
+                 from /home/cuipengyao/study/pp/FullStat/QADiffPeriod/17f/AliAnalysisTaskUserStraneJets_cxx_ACLiC_dict.cxx:40:
+/home/cuipengyao/alice/sw/ubuntu1804_x86-64/AliPhysics/aliroot6-1/include/AliPicoV0.h:42:3: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+   const Double_t RapidityKa() const;
+   ^~~~~
+/home/cuipengyao/alice/sw/ubuntu1804_x86-64/AliPhysics/aliroot6-1/include/AliPicoV0.h:43:3: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+   const Double_t RapidityLa() const;
+   ^~~~~
+In file included from /home/cuipengyao/study/pp/FullStat/QADiffPeriod/17f/AliAnalysisTaskUserStraneJets.cxx:30:0,
+                 from /home/cuipengyao/study/pp/FullStat/QADiffPeriod/17f/AliAnalysisTaskUserStraneJets_cxx_ACLiC_dict.cxx:40:
+/home/cuipengyao/study/pp/FullStat/QADiffPeriod/17f/AliPicoCascade.h:43:3: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+   const Double_t RapidityXi() const;
+   ^~~~~
+/home/cuipengyao/study/pp/FullStat/QADiffPeriod/17f/AliPicoCascade.h:44:3: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+   const Double_t RapidityOmega() const;
+   ^~~~~
+W-AliAODEvent::ReadFromTree: AliAODEvent::ReadFromTree() TList contains less than the standard contents 4 < 22 That might be fine though (at least for filtered AODs)
+Analyzing inclusive Kshort 1st loop in RD...
+Fit Kshort InvM...
+Analyzing inclusive Kshort 2nd loop in RD...
+Bin counting the Kshort candidates...
+Analyzing Kshort in jets RD04...
+event = 1M
+event = 2M
+event = 3M
+event = 4M
+event = 5M
+event = 6M
+event = 7M
+event = 8M
+event = 9M
+event = 10M
+event = 11M
+Bin counting the Kshort candidates...
+Fitting Kshort InvM in pT bin:  1
+Fitting Kshort InvM in pT bin:  2
+Fitting Kshort InvM in pT bin:  3
+Fitting Kshort InvM in pT bin:  4
+Fitting Kshort InvM in pT bin:  5
+Fitting Kshort InvM in pT bin:  6
+Fitting Kshort InvM in pT bin:  7
+Fitting Kshort InvM in pT bin:  8
+Fitting Kshort InvM in pT bin:  9
+Fitting Kshort InvM in pT bin: 10
+Fitting Kshort InvM in pT bin: 11
+Fitting Kshort InvM in pT bin: 12
+Fitting Kshort InvM in pT bin: 13
+Fitting Kshort InvM in pT bin: 14
+Fitting Kshort InvM in pT bin: 15
+Fitting Kshort InvM in pT bin: 16
+Fitting Kshort InvM in pT bin: 17
+Fitting Kshort InvM in pT bin: 18
+Fitting Kshort InvM in pT bin: 19
+Fitting Kshort InvM in pT bin: 20
+Fitting Kshort InvM in pT bin: 21

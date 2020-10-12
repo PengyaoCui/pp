@@ -1,0 +1,259 @@
+nohup: ignoring input
+
+Processing runLocalStrangeJets.C...
+Info in <TUnixSystem::ACLiC>: creating shared library /afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna_16-17_NewBins/Uncertainty/Incl/Lambda/MLoverP/Loose/AliPicoBaseDev_cxx.so
+Info in <TUnixSystem::ACLiC>: creating shared library /afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna_16-17_NewBins/Uncertainty/Incl/Lambda/MLoverP/Loose/AliPicoCascade_cxx.so
+Error in cling::AutoloadingVisitor::InsertIntoAutoloadingState:
+   Missing FileEntry for include/RooUnfold.h
+   requested to autoload type RooUnfoldResponse
+Error in cling::AutoloadingVisitor::InsertIntoAutoloadingState:
+   Missing FileEntry for include/RooUnfold.h
+   requested to autoload type RooUnfold
+Error in cling::AutoloadingVisitor::InsertIntoAutoloadingState:
+   Missing FileEntry for include/RooUnfoldBayes.h
+   requested to autoload type RooUnfoldBayes
+Error in cling::AutoloadingVisitor::InsertIntoAutoloadingState:
+   Missing FileEntry for include/RooUnfoldBinByBin.h
+   requested to autoload type RooUnfoldBinByBin
+Error in cling::AutoloadingVisitor::InsertIntoAutoloadingState:
+   Missing FileEntry for include/RooUnfoldErrors.h
+   requested to autoload type RooUnfoldErrors
+Error in cling::AutoloadingVisitor::InsertIntoAutoloadingState:
+   Missing FileEntry for include/RooUnfoldInvert.h
+   requested to autoload type RooUnfoldInvert
+Error in cling::AutoloadingVisitor::InsertIntoAutoloadingState:
+   Missing FileEntry for include/RooUnfoldParms.h
+   requested to autoload type RooUnfoldParms
+Error in cling::AutoloadingVisitor::InsertIntoAutoloadingState:
+   Missing FileEntry for include/RooUnfoldSvd.h
+   requested to autoload type RooUnfoldSvd
+Error in cling::AutoloadingVisitor::InsertIntoAutoloadingState:
+   Missing FileEntry for include/RooUnfoldTUnfold.h
+   requested to autoload type RooUnfoldTUnfold
+Error in cling::AutoloadingVisitor::InsertIntoAutoloadingState:
+   Missing FileEntry for include/TSVDUnfold_local.h
+   requested to autoload type TSVDUnfold_local
+Error in cling::AutoloadingVisitor::InsertIntoAutoloadingState:
+   Missing FileEntry for include/TauSVDUnfold.h
+   requested to autoload type TauSVDUnfold
+In file included from /cvmfs/alice.cern.ch/el6-x86_64/Packages/AliPhysics/vAN-20190201_ROOT6-1/include/AliPicoV0RD.h:4:0,
+                 from /afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna_16-17_NewBins/Uncertainty/Incl/Lambda/MLoverP/Loose/AliPicoCascade.cxx:5,
+                 from /afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna_16-17_NewBins/Uncertainty/Incl/Lambda/MLoverP/Loose/AliPicoCascade_cxx_ACLiC_dict.cxx:40:
+/cvmfs/alice.cern.ch/el6-x86_64/Packages/AliPhysics/vAN-20190201_ROOT6-1/include/AliPicoV0.h:42:3: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+   const Double_t RapidityKa() const;
+   ^~~~~
+/cvmfs/alice.cern.ch/el6-x86_64/Packages/AliPhysics/vAN-20190201_ROOT6-1/include/AliPicoV0.h:43:3: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+   const Double_t RapidityLa() const;
+   ^~~~~
+In file included from /afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna_16-17_NewBins/Uncertainty/Incl/Lambda/MLoverP/Loose/AliPicoCascade.cxx:7:0,
+                 from /afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna_16-17_NewBins/Uncertainty/Incl/Lambda/MLoverP/Loose/AliPicoCascade_cxx_ACLiC_dict.cxx:40:
+/afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna_16-17_NewBins/Uncertainty/Incl/Lambda/MLoverP/Loose/AliPicoCascade.h:43:3: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+   const Double_t RapidityXi() const;
+   ^~~~~
+/afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna_16-17_NewBins/Uncertainty/Incl/Lambda/MLoverP/Loose/AliPicoCascade.h:44:3: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+   const Double_t RapidityOmega() const;
+   ^~~~~
+In file included from /afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna_16-17_NewBins/Uncertainty/Incl/Lambda/MLoverP/Loose/AliPicoCascade_cxx_ACLiC_dict.cxx:40:0:
+/afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna_16-17_NewBins/Uncertainty/Incl/Lambda/MLoverP/Loose/AliPicoCascade.cxx:424:1: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ const Double_t AliPicoCascade::RapidityXi() const
+ ^~~~~
+/afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna_16-17_NewBins/Uncertainty/Incl/Lambda/MLoverP/Loose/AliPicoCascade.cxx:437:1: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ const Double_t AliPicoCascade::RapidityOmega() const
+ ^~~~~
+Info in <TUnixSystem::ACLiC>: creating shared library /afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna_16-17_NewBins/Uncertainty/Incl/Lambda/MLoverP/Loose/AliPicoCascadeRD_cxx.so
+In file included from /cvmfs/alice.cern.ch/el6-x86_64/Packages/AliPhysics/vAN-20190201_ROOT6-1/include/AliPicoV0RD.h:4:0,
+                 from /afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna_16-17_NewBins/Uncertainty/Incl/Lambda/MLoverP/Loose/AliPicoCascadeRD.cxx:4,
+                 from /afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna_16-17_NewBins/Uncertainty/Incl/Lambda/MLoverP/Loose/AliPicoCascadeRD_cxx_ACLiC_dict.cxx:40:
+/cvmfs/alice.cern.ch/el6-x86_64/Packages/AliPhysics/vAN-20190201_ROOT6-1/include/AliPicoV0.h:42:3: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+   const Double_t RapidityKa() const;
+   ^~~~~
+/cvmfs/alice.cern.ch/el6-x86_64/Packages/AliPhysics/vAN-20190201_ROOT6-1/include/AliPicoV0.h:43:3: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+   const Double_t RapidityLa() const;
+   ^~~~~
+In file included from /afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna_16-17_NewBins/Uncertainty/Incl/Lambda/MLoverP/Loose/AliPicoCascadeRD.h:4:0,
+                 from /afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna_16-17_NewBins/Uncertainty/Incl/Lambda/MLoverP/Loose/AliPicoCascadeRD.cxx:5,
+                 from /afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna_16-17_NewBins/Uncertainty/Incl/Lambda/MLoverP/Loose/AliPicoCascadeRD_cxx_ACLiC_dict.cxx:40:
+/afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna_16-17_NewBins/Uncertainty/Incl/Lambda/MLoverP/Loose/AliPicoCascade.h:43:3: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+   const Double_t RapidityXi() const;
+   ^~~~~
+/afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna_16-17_NewBins/Uncertainty/Incl/Lambda/MLoverP/Loose/AliPicoCascade.h:44:3: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+   const Double_t RapidityOmega() const;
+   ^~~~~
+Info in <TUnixSystem::ACLiC>: creating shared library /afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna_16-17_NewBins/Uncertainty/Incl/Lambda/MLoverP/Loose/AliPicoCascadeMC_cxx.so
+In file included from /cvmfs/alice.cern.ch/el6-x86_64/Packages/AliPhysics/vAN-20190201_ROOT6-1/include/AliPicoV0MC.h:6:0,
+                 from /afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna_16-17_NewBins/Uncertainty/Incl/Lambda/MLoverP/Loose/AliPicoCascadeMC.cxx:4,
+                 from /afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna_16-17_NewBins/Uncertainty/Incl/Lambda/MLoverP/Loose/AliPicoCascadeMC_cxx_ACLiC_dict.cxx:40:
+/cvmfs/alice.cern.ch/el6-x86_64/Packages/AliPhysics/vAN-20190201_ROOT6-1/include/AliPicoV0.h:42:3: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+   const Double_t RapidityKa() const;
+   ^~~~~
+/cvmfs/alice.cern.ch/el6-x86_64/Packages/AliPhysics/vAN-20190201_ROOT6-1/include/AliPicoV0.h:43:3: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+   const Double_t RapidityLa() const;
+   ^~~~~
+In file included from /afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna_16-17_NewBins/Uncertainty/Incl/Lambda/MLoverP/Loose/AliPicoCascadeMC.h:4:0,
+                 from /afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna_16-17_NewBins/Uncertainty/Incl/Lambda/MLoverP/Loose/AliPicoCascadeMC.cxx:5,
+                 from /afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna_16-17_NewBins/Uncertainty/Incl/Lambda/MLoverP/Loose/AliPicoCascadeMC_cxx_ACLiC_dict.cxx:40:
+/afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna_16-17_NewBins/Uncertainty/Incl/Lambda/MLoverP/Loose/AliPicoCascade.h:43:3: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+   const Double_t RapidityXi() const;
+   ^~~~~
+/afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna_16-17_NewBins/Uncertainty/Incl/Lambda/MLoverP/Loose/AliPicoCascade.h:44:3: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+   const Double_t RapidityOmega() const;
+   ^~~~~
+Info in <TUnixSystem::ACLiC>: creating shared library /afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna_16-17_NewBins/Uncertainty/Incl/Lambda/MLoverP/Loose/AliAnalysisTaskUserStraneJets_cxx.so
+In file included from /cvmfs/alice.cern.ch/el6-x86_64/Packages/AliRoot/v5-09-45_ROOT6-1/include/AliAODEvent.h:19:0,
+                 from /afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna_16-17_NewBins/Uncertainty/Incl/Lambda/MLoverP/Loose/AliAnalysisTaskUserStraneJets.cxx:19,
+                 from /afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna_16-17_NewBins/Uncertainty/Incl/Lambda/MLoverP/Loose/AliAnalysisTaskUserStraneJets_cxx_ACLiC_dict.cxx:40:
+/cvmfs/alice.cern.ch/el6-x86_64/Packages/AliRoot/v5-09-45_ROOT6-1/include/AliVEvent.h:244:17: warning: 'virtual Int_t AliVEvent::GetMultiplicity(AliMultiplicity&) const' was hidden [-Woverloaded-virtual]
+   virtual Int_t GetMultiplicity( AliMultiplicity & ) const {return -1;}
+                 ^~~~~~~~~~~~~~~
+In file included from /afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna_16-17_NewBins/Uncertainty/Incl/Lambda/MLoverP/Loose/AliAnalysisTaskUserStraneJets.cxx:19:0,
+                 from /afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna_16-17_NewBins/Uncertainty/Incl/Lambda/MLoverP/Loose/AliAnalysisTaskUserStraneJets_cxx_ACLiC_dict.cxx:40:
+/cvmfs/alice.cern.ch/el6-x86_64/Packages/AliRoot/v5-09-45_ROOT6-1/include/AliAODEvent.h:271:20: warning:   by 'virtual AliAODTracklets* AliAODEvent::GetMultiplicity() const' [-Woverloaded-virtual]
+   AliAODTracklets *GetMultiplicity() const {return GetTracklets();}
+                    ^~~~~~~~~~~~~~~
+In file included from /cvmfs/alice.cern.ch/el6-x86_64/Packages/AliRoot/v5-09-45_ROOT6-1/include/AliAODEvent.h:19:0,
+                 from /afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna_16-17_NewBins/Uncertainty/Incl/Lambda/MLoverP/Loose/AliAnalysisTaskUserStraneJets.cxx:19,
+                 from /afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna_16-17_NewBins/Uncertainty/Incl/Lambda/MLoverP/Loose/AliAnalysisTaskUserStraneJets_cxx_ACLiC_dict.cxx:40:
+/cvmfs/alice.cern.ch/el6-x86_64/Packages/AliRoot/v5-09-45_ROOT6-1/include/AliVEvent.h:243:17: warning: 'virtual Int_t AliVEvent::GetVZEROData(AliESDVZERO&) const' was hidden [-Woverloaded-virtual]
+   virtual Int_t GetVZEROData( AliESDVZERO & ) const {return -1;}
+                 ^~~~~~~~~~~~
+In file included from /afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna_16-17_NewBins/Uncertainty/Incl/Lambda/MLoverP/Loose/AliAnalysisTaskUserStraneJets.cxx:19:0,
+                 from /afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna_16-17_NewBins/Uncertainty/Incl/Lambda/MLoverP/Loose/AliAnalysisTaskUserStraneJets_cxx_ACLiC_dict.cxx:40:
+/cvmfs/alice.cern.ch/el6-x86_64/Packages/AliRoot/v5-09-45_ROOT6-1/include/AliAODEvent.h:333:16: warning:   by 'virtual AliAODVZERO* AliAODEvent::GetVZEROData() const' [-Woverloaded-virtual]
+   AliAODVZERO *GetVZEROData() const { return fAODVZERO; }
+                ^~~~~~~~~~~~
+In file included from /cvmfs/alice.cern.ch/el6-x86_64/Packages/AliPhysics/vAN-20190201_ROOT6-1/include/AliPicoV0RD.h:4:0,
+                 from /afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna_16-17_NewBins/Uncertainty/Incl/Lambda/MLoverP/Loose/AliAnalysisTaskUserStraneJets.cxx:22,
+                 from /afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna_16-17_NewBins/Uncertainty/Incl/Lambda/MLoverP/Loose/AliAnalysisTaskUserStraneJets_cxx_ACLiC_dict.cxx:40:
+/cvmfs/alice.cern.ch/el6-x86_64/Packages/AliPhysics/vAN-20190201_ROOT6-1/include/AliPicoV0.h:42:3: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+   const Double_t RapidityKa() const;
+   ^~~~~
+/cvmfs/alice.cern.ch/el6-x86_64/Packages/AliPhysics/vAN-20190201_ROOT6-1/include/AliPicoV0.h:43:3: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+   const Double_t RapidityLa() const;
+   ^~~~~
+In file included from /afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna_16-17_NewBins/Uncertainty/Incl/Lambda/MLoverP/Loose/AliAnalysisTaskUserStraneJets.cxx:30:0,
+                 from /afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna_16-17_NewBins/Uncertainty/Incl/Lambda/MLoverP/Loose/AliAnalysisTaskUserStraneJets_cxx_ACLiC_dict.cxx:40:
+/afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna_16-17_NewBins/Uncertainty/Incl/Lambda/MLoverP/Loose/AliPicoCascade.h:43:3: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+   const Double_t RapidityXi() const;
+   ^~~~~
+/afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna_16-17_NewBins/Uncertainty/Incl/Lambda/MLoverP/Loose/AliPicoCascade.h:44:3: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+   const Double_t RapidityOmega() const;
+   ^~~~~
+/afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna_16-17_NewBins/Uncertainty/Incl/Lambda/MLoverP/Loose/AliPicoCascadeRD_cxx.so: file not recognized: File truncated
+collect2: error: ld returned 1 exit status
+Error in <ACLiC>: Compilation failed!
+In file included from input_line_10:1:
+/afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna_16-17_NewBins/Uncertainty/Incl/Lambda/MLoverP/Loose/runLocalStrangeJets.C:88:44: error: allocation of incomplete type 'AliAnalysisTaskUserStraneJets'
+  AliAnalysisTaskUserStraneJets *ana = new AliAnalysisTaskUserStraneJets("AnaStrangeParJet");
+                                           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna_16-17_NewBins/Uncertainty/Incl/Lambda/MLoverP/Loose/runLocalStrangeJets.C:69:7: note: forward declaration of 'AliAnalysisTaskUserStraneJets'
+class AliAnalysisTaskUserStraneJets;
+      ^
+/afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna_16-17_NewBins/Uncertainty/Incl/Lambda/MLoverP/Loose/runLocalStrangeJets.C:91:12: error: member access into incomplete type 'AliAnalysisTaskUserStraneJets'
+    if (ana->SetInputEventsRD(CreateAODChain(sRunList)))return;//在runlist里找到PicoHeaderCJ并存放在 AliPicoHeaderCJ *fHeader指针。//CreateAODChain定义在343-357
+           ^
+/afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna_16-17_NewBins/Uncertainty/Incl/Lambda/MLoverP/Loose/runLocalStrangeJets.C:69:7: note: forward declaration of 'AliAnalysisTaskUserStraneJets'
+class AliAnalysisTaskUserStraneJets;
+      ^
+/afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna_16-17_NewBins/Uncertainty/Incl/Lambda/MLoverP/Loose/runLocalStrangeJets.C:93:12: error: member access into incomplete type 'AliAnalysisTaskUserStraneJets'
+    if (ana->SetInputEventsMC(CreateAODChain(localFiles)))return;
+           ^
+/afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna_16-17_NewBins/Uncertainty/Incl/Lambda/MLoverP/Loose/runLocalStrangeJets.C:69:7: note: forward declaration of 'AliAnalysisTaskUserStraneJets'
+class AliAnalysisTaskUserStraneJets;
+      ^
+/afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna_16-17_NewBins/Uncertainty/Incl/Lambda/MLoverP/Loose/runLocalStrangeJets.C:106:6: error: member access into incomplete type 'AliAnalysisTaskUserStraneJets'
+  ana->SetIsInJPCLAna(PCL);
+     ^
+/afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna_16-17_NewBins/Uncertainty/Incl/Lambda/MLoverP/Loose/runLocalStrangeJets.C:69:7: note: forward declaration of 'AliAnalysisTaskUserStraneJets'
+class AliAnalysisTaskUserStraneJets;
+      ^
+/afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna_16-17_NewBins/Uncertainty/Incl/Lambda/MLoverP/Loose/runLocalStrangeJets.C:107:6: error: member access into incomplete type 'AliAnalysisTaskUserStraneJets'
+  ana->SetIsInJPCUAna(PCU);
+     ^
+/afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna_16-17_NewBins/Uncertainty/Incl/Lambda/MLoverP/Loose/runLocalStrangeJets.C:69:7: note: forward declaration of 'AliAnalysisTaskUserStraneJets'
+class AliAnalysisTaskUserStraneJets;
+      ^
+/afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna_16-17_NewBins/Uncertainty/Incl/Lambda/MLoverP/Loose/runLocalStrangeJets.C:108:6: error: member access into incomplete type 'AliAnalysisTaskUserStraneJets'
+  ana->SetIsInJetsAna(!IsOC);
+     ^
+/afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna_16-17_NewBins/Uncertainty/Incl/Lambda/MLoverP/Loose/runLocalStrangeJets.C:69:7: note: forward declaration of 'AliAnalysisTaskUserStraneJets'
+class AliAnalysisTaskUserStraneJets;
+      ^
+/afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna_16-17_NewBins/Uncertainty/Incl/Lambda/MLoverP/Loose/runLocalStrangeJets.C:118:6: error: member access into incomplete type 'AliAnalysisTaskUserStraneJets'
+  ana->SetJetPtRange(dJetPtBin); 
+     ^
+/afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna_16-17_NewBins/Uncertainty/Incl/Lambda/MLoverP/Loose/runLocalStrangeJets.C:69:7: note: forward declaration of 'AliAnalysisTaskUserStraneJets'
+class AliAnalysisTaskUserStraneJets;
+      ^
+/afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna_16-17_NewBins/Uncertainty/Incl/Lambda/MLoverP/Loose/runLocalStrangeJets.C:129:10: error: member access into incomplete type 'AliAnalysisTaskUserStraneJets'
+      ana->SetDataLoop1st(sFileLoop1ndRD, Form("%s_%s_%s",sListLoop1ndRD.Data(),sType1.Data(),sCut.Data()));ana->AnaLoop1RD(sType1.Data());
+         ^
+/afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna_16-17_NewBins/Uncertainty/Incl/Lambda/MLoverP/Loose/runLocalStrangeJets.C:69:7: note: forward declaration of 'AliAnalysisTaskUserStraneJets'
+class AliAnalysisTaskUserStraneJets;
+      ^
+/afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna_16-17_NewBins/Uncertainty/Incl/Lambda/MLoverP/Loose/runLocalStrangeJets.C:129:112: error: member access into incomplete type 'AliAnalysisTaskUserStraneJets'
+      ana->SetDataLoop1st(sFileLoop1ndRD, Form("%s_%s_%s",sListLoop1ndRD.Data(),sType1.Data(),sCut.Data()));ana->AnaLoop1RD(sType1.Data());
+                                                                                                               ^
+/afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna_16-17_NewBins/Uncertainty/Incl/Lambda/MLoverP/Loose/runLocalStrangeJets.C:69:7: note: forward declaration of 'AliAnalysisTaskUserStraneJets'
+class AliAnalysisTaskUserStraneJets;
+      ^
+/afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna_16-17_NewBins/Uncertainty/Incl/Lambda/MLoverP/Loose/runLocalStrangeJets.C:130:10: error: member access into incomplete type 'AliAnalysisTaskUserStraneJets'
+      ana->SetDataFitInvM(sFileFitInvMrd, Form("%s_%s_%s",sListFitInvMrd.Data(),sType1.Data(),sCut.Data())); ana->AnaFitInvM(sType1.Data(), kFALSE);
+         ^
+/afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna_16-17_NewBins/Uncertainty/Incl/Lambda/MLoverP/Loose/runLocalStrangeJets.C:69:7: note: forward declaration of 'AliAnalysisTaskUserStraneJets'
+class AliAnalysisTaskUserStraneJets;
+      ^
+/afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna_16-17_NewBins/Uncertainty/Incl/Lambda/MLoverP/Loose/runLocalStrangeJets.C:130:113: error: member access into incomplete type 'AliAnalysisTaskUserStraneJets'
+      ana->SetDataFitInvM(sFileFitInvMrd, Form("%s_%s_%s",sListFitInvMrd.Data(),sType1.Data(),sCut.Data())); ana->AnaFitInvM(sType1.Data(), kFALSE);
+                                                                                                                ^
+/afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna_16-17_NewBins/Uncertainty/Incl/Lambda/MLoverP/Loose/runLocalStrangeJets.C:69:7: note: forward declaration of 'AliAnalysisTaskUserStraneJets'
+class AliAnalysisTaskUserStraneJets;
+      ^
+/afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna_16-17_NewBins/Uncertainty/Incl/Lambda/MLoverP/Loose/runLocalStrangeJets.C:131:10: error: member access into incomplete type 'AliAnalysisTaskUserStraneJets'
+      ana->SetDataLoop2nd(sFileLoop2ndRD, Form("%s_%s_%s",sListLoop2ndRD.Data(),sType1.Data(),sCut.Data()));ana->AnaLoop2RD(sType1.Data()); 
+         ^
+/afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna_16-17_NewBins/Uncertainty/Incl/Lambda/MLoverP/Loose/runLocalStrangeJets.C:69:7: note: forward declaration of 'AliAnalysisTaskUserStraneJets'
+class AliAnalysisTaskUserStraneJets;
+      ^
+/afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna_16-17_NewBins/Uncertainty/Incl/Lambda/MLoverP/Loose/runLocalStrangeJets.C:131:112: error: member access into incomplete type 'AliAnalysisTaskUserStraneJets'
+      ana->SetDataLoop2nd(sFileLoop2ndRD, Form("%s_%s_%s",sListLoop2ndRD.Data(),sType1.Data(),sCut.Data()));ana->AnaLoop2RD(sType1.Data()); 
+                                                                                                               ^
+/afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna_16-17_NewBins/Uncertainty/Incl/Lambda/MLoverP/Loose/runLocalStrangeJets.C:69:7: note: forward declaration of 'AliAnalysisTaskUserStraneJets'
+class AliAnalysisTaskUserStraneJets;
+      ^
+/afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna_16-17_NewBins/Uncertainty/Incl/Lambda/MLoverP/Loose/runLocalStrangeJets.C:132:10: error: member access into incomplete type 'AliAnalysisTaskUserStraneJets'
+      ana->SetDataFitCbin(sFileFitCbinRD, Form("%s_%s_%s",slistFitCbinRD.Data(),sType1.Data(),sCut.Data())); ana->AnaFitCbin(sType1.Data());  
+         ^
+/afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna_16-17_NewBins/Uncertainty/Incl/Lambda/MLoverP/Loose/runLocalStrangeJets.C:69:7: note: forward declaration of 'AliAnalysisTaskUserStraneJets'
+class AliAnalysisTaskUserStraneJets;
+      ^
+/afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna_16-17_NewBins/Uncertainty/Incl/Lambda/MLoverP/Loose/runLocalStrangeJets.C:132:113: error: member access into incomplete type 'AliAnalysisTaskUserStraneJets'
+      ana->SetDataFitCbin(sFileFitCbinRD, Form("%s_%s_%s",slistFitCbinRD.Data(),sType1.Data(),sCut.Data())); ana->AnaFitCbin(sType1.Data());  
+                                                                                                                ^
+/afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna_16-17_NewBins/Uncertainty/Incl/Lambda/MLoverP/Loose/runLocalStrangeJets.C:69:7: note: forward declaration of 'AliAnalysisTaskUserStraneJets'
+class AliAnalysisTaskUserStraneJets;
+      ^
+/afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna_16-17_NewBins/Uncertainty/Incl/Lambda/MLoverP/Loose/runLocalStrangeJets.C:134:12: error: member access into incomplete type 'AliAnalysisTaskUserStraneJets'
+        ana->SetDataLoop1st(sFileLoop1ndRD, Form("%s_%s_%s",sListLoop1ndRD.Data(),sType1.Data(),sCut.Data()));
+           ^
+/afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna_16-17_NewBins/Uncertainty/Incl/Lambda/MLoverP/Loose/runLocalStrangeJets.C:69:7: note: forward declaration of 'AliAnalysisTaskUserStraneJets'
+class AliAnalysisTaskUserStraneJets;
+      ^
+/afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna_16-17_NewBins/Uncertainty/Incl/Lambda/MLoverP/Loose/runLocalStrangeJets.C:135:12: error: member access into incomplete type 'AliAnalysisTaskUserStraneJets'
+        ana->SetDataFitInvM(sFileFitInvMrd, Form("%s_%s_%s",sListFitInvMrd.Data(),sType1.Data(),sCut.Data()));
+           ^
+/afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna_16-17_NewBins/Uncertainty/Incl/Lambda/MLoverP/Loose/runLocalStrangeJets.C:69:7: note: forward declaration of 'AliAnalysisTaskUserStraneJets'
+class AliAnalysisTaskUserStraneJets;
+      ^
+/afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna_16-17_NewBins/Uncertainty/Incl/Lambda/MLoverP/Loose/runLocalStrangeJets.C:136:12: error: member access into incomplete type 'AliAnalysisTaskUserStraneJets'
+        ana->SetDataLoop2nd(sFileLoop2ndRD, Form("%s_%s_%s",sListLoop2ndRD.Data(),sType1.Data(),sCut.Data())); 
+           ^
+/afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna_16-17_NewBins/Uncertainty/Incl/Lambda/MLoverP/Loose/runLocalStrangeJets.C:69:7: note: forward declaration of 'AliAnalysisTaskUserStraneJets'
+class AliAnalysisTaskUserStraneJets;
+      ^
+/afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna_16-17_NewBins/Uncertainty/Incl/Lambda/MLoverP/Loose/runLocalStrangeJets.C:137:12: error: member access into incomplete type 'AliAnalysisTaskUserStraneJets'
+        ana->SetDataLoopJet(sFileLoopJetRD, Form("%s_%s_%s",sListLoopJetRD.Data(),sType1.Data(),sFix.Data()));
+           ^
+/afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna_16-17_NewBins/Uncertainty/Incl/Lambda/MLoverP/Loose/runLocalStrangeJets.C:69:7: note: forward declaration of 'AliAnalysisTaskUserStraneJets'
+class AliAnalysisTaskUserStraneJets;
+      ^
+fatal error: too many errors emitted, stopping now [-ferror-limit=]

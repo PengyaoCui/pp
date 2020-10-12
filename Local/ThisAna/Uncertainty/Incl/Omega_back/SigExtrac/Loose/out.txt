@@ -1,0 +1,207 @@
+nohup: ignoring input
+
+Processing runLocalStrangeJets.C...
+Info in <TUnixSystem::ACLiC>: creating shared library /afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna_16-17_NewBins/Uncertainty/Incl/Omega/SigExtrac/Loose/AliPicoBaseDev_cxx.so
+Info in <TUnixSystem::ACLiC>: creating shared library /afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna_16-17_NewBins/Uncertainty/Incl/Omega/SigExtrac/Loose/AliPicoCascade_cxx.so
+Error in cling::AutoloadingVisitor::InsertIntoAutoloadingState:
+   Missing FileEntry for include/RooUnfold.h
+   requested to autoload type RooUnfoldResponse
+Error in cling::AutoloadingVisitor::InsertIntoAutoloadingState:
+   Missing FileEntry for include/RooUnfold.h
+   requested to autoload type RooUnfold
+Error in cling::AutoloadingVisitor::InsertIntoAutoloadingState:
+   Missing FileEntry for include/RooUnfoldBayes.h
+   requested to autoload type RooUnfoldBayes
+Error in cling::AutoloadingVisitor::InsertIntoAutoloadingState:
+   Missing FileEntry for include/RooUnfoldBinByBin.h
+   requested to autoload type RooUnfoldBinByBin
+Error in cling::AutoloadingVisitor::InsertIntoAutoloadingState:
+   Missing FileEntry for include/RooUnfoldErrors.h
+   requested to autoload type RooUnfoldErrors
+Error in cling::AutoloadingVisitor::InsertIntoAutoloadingState:
+   Missing FileEntry for include/RooUnfoldInvert.h
+   requested to autoload type RooUnfoldInvert
+Error in cling::AutoloadingVisitor::InsertIntoAutoloadingState:
+   Missing FileEntry for include/RooUnfoldParms.h
+   requested to autoload type RooUnfoldParms
+Error in cling::AutoloadingVisitor::InsertIntoAutoloadingState:
+   Missing FileEntry for include/RooUnfoldSvd.h
+   requested to autoload type RooUnfoldSvd
+Error in cling::AutoloadingVisitor::InsertIntoAutoloadingState:
+   Missing FileEntry for include/RooUnfoldTUnfold.h
+   requested to autoload type RooUnfoldTUnfold
+Error in cling::AutoloadingVisitor::InsertIntoAutoloadingState:
+   Missing FileEntry for include/TSVDUnfold_local.h
+   requested to autoload type TSVDUnfold_local
+Error in cling::AutoloadingVisitor::InsertIntoAutoloadingState:
+   Missing FileEntry for include/TauSVDUnfold.h
+   requested to autoload type TauSVDUnfold
+In file included from /cvmfs/alice.cern.ch/el6-x86_64/Packages/AliPhysics/vAN-20190201_ROOT6-1/include/AliPicoV0RD.h:4:0,
+                 from /afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna_16-17_NewBins/Uncertainty/Incl/Omega/SigExtrac/Loose/AliPicoCascade.cxx:5,
+                 from /afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna_16-17_NewBins/Uncertainty/Incl/Omega/SigExtrac/Loose/AliPicoCascade_cxx_ACLiC_dict.cxx:40:
+/cvmfs/alice.cern.ch/el6-x86_64/Packages/AliPhysics/vAN-20190201_ROOT6-1/include/AliPicoV0.h:42:3: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+   const Double_t RapidityKa() const;
+   ^~~~~
+/cvmfs/alice.cern.ch/el6-x86_64/Packages/AliPhysics/vAN-20190201_ROOT6-1/include/AliPicoV0.h:43:3: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+   const Double_t RapidityLa() const;
+   ^~~~~
+In file included from /afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna_16-17_NewBins/Uncertainty/Incl/Omega/SigExtrac/Loose/AliPicoCascade.cxx:7:0,
+                 from /afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna_16-17_NewBins/Uncertainty/Incl/Omega/SigExtrac/Loose/AliPicoCascade_cxx_ACLiC_dict.cxx:40:
+/afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna_16-17_NewBins/Uncertainty/Incl/Omega/SigExtrac/Loose/AliPicoCascade.h:43:3: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+   const Double_t RapidityXi() const;
+   ^~~~~
+/afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna_16-17_NewBins/Uncertainty/Incl/Omega/SigExtrac/Loose/AliPicoCascade.h:44:3: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+   const Double_t RapidityOmega() const;
+   ^~~~~
+In file included from /afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna_16-17_NewBins/Uncertainty/Incl/Omega/SigExtrac/Loose/AliPicoCascade_cxx_ACLiC_dict.cxx:40:0:
+/afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna_16-17_NewBins/Uncertainty/Incl/Omega/SigExtrac/Loose/AliPicoCascade.cxx:424:1: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ const Double_t AliPicoCascade::RapidityXi() const
+ ^~~~~
+/afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna_16-17_NewBins/Uncertainty/Incl/Omega/SigExtrac/Loose/AliPicoCascade.cxx:437:1: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ const Double_t AliPicoCascade::RapidityOmega() const
+ ^~~~~
+Info in <TUnixSystem::ACLiC>: creating shared library /afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna_16-17_NewBins/Uncertainty/Incl/Omega/SigExtrac/Loose/AliPicoCascadeRD_cxx.so
+In file included from /cvmfs/alice.cern.ch/el6-x86_64/Packages/AliPhysics/vAN-20190201_ROOT6-1/include/AliPicoV0RD.h:4:0,
+                 from /afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna_16-17_NewBins/Uncertainty/Incl/Omega/SigExtrac/Loose/AliPicoCascadeRD.cxx:4,
+                 from /afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna_16-17_NewBins/Uncertainty/Incl/Omega/SigExtrac/Loose/AliPicoCascadeRD_cxx_ACLiC_dict.cxx:40:
+/cvmfs/alice.cern.ch/el6-x86_64/Packages/AliPhysics/vAN-20190201_ROOT6-1/include/AliPicoV0.h:42:3: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+   const Double_t RapidityKa() const;
+   ^~~~~
+/cvmfs/alice.cern.ch/el6-x86_64/Packages/AliPhysics/vAN-20190201_ROOT6-1/include/AliPicoV0.h:43:3: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+   const Double_t RapidityLa() const;
+   ^~~~~
+In file included from /afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna_16-17_NewBins/Uncertainty/Incl/Omega/SigExtrac/Loose/AliPicoCascadeRD.h:4:0,
+                 from /afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna_16-17_NewBins/Uncertainty/Incl/Omega/SigExtrac/Loose/AliPicoCascadeRD.cxx:5,
+                 from /afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna_16-17_NewBins/Uncertainty/Incl/Omega/SigExtrac/Loose/AliPicoCascadeRD_cxx_ACLiC_dict.cxx:40:
+/afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna_16-17_NewBins/Uncertainty/Incl/Omega/SigExtrac/Loose/AliPicoCascade.h:43:3: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+   const Double_t RapidityXi() const;
+   ^~~~~
+/afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna_16-17_NewBins/Uncertainty/Incl/Omega/SigExtrac/Loose/AliPicoCascade.h:44:3: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+   const Double_t RapidityOmega() const;
+   ^~~~~
+Info in <TUnixSystem::ACLiC>: creating shared library /afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna_16-17_NewBins/Uncertainty/Incl/Omega/SigExtrac/Loose/AliPicoCascadeMC_cxx.so
+In file included from /cvmfs/alice.cern.ch/el6-x86_64/Packages/AliPhysics/vAN-20190201_ROOT6-1/include/AliPicoV0MC.h:6:0,
+                 from /afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna_16-17_NewBins/Uncertainty/Incl/Omega/SigExtrac/Loose/AliPicoCascadeMC.cxx:4,
+                 from /afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna_16-17_NewBins/Uncertainty/Incl/Omega/SigExtrac/Loose/AliPicoCascadeMC_cxx_ACLiC_dict.cxx:40:
+/cvmfs/alice.cern.ch/el6-x86_64/Packages/AliPhysics/vAN-20190201_ROOT6-1/include/AliPicoV0.h:42:3: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+   const Double_t RapidityKa() const;
+   ^~~~~
+/cvmfs/alice.cern.ch/el6-x86_64/Packages/AliPhysics/vAN-20190201_ROOT6-1/include/AliPicoV0.h:43:3: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+   const Double_t RapidityLa() const;
+   ^~~~~
+In file included from /afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna_16-17_NewBins/Uncertainty/Incl/Omega/SigExtrac/Loose/AliPicoCascadeMC.h:4:0,
+                 from /afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna_16-17_NewBins/Uncertainty/Incl/Omega/SigExtrac/Loose/AliPicoCascadeMC.cxx:5,
+                 from /afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna_16-17_NewBins/Uncertainty/Incl/Omega/SigExtrac/Loose/AliPicoCascadeMC_cxx_ACLiC_dict.cxx:40:
+/afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna_16-17_NewBins/Uncertainty/Incl/Omega/SigExtrac/Loose/AliPicoCascade.h:43:3: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+   const Double_t RapidityXi() const;
+   ^~~~~
+/afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna_16-17_NewBins/Uncertainty/Incl/Omega/SigExtrac/Loose/AliPicoCascade.h:44:3: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+   const Double_t RapidityOmega() const;
+   ^~~~~
+Info in <TUnixSystem::ACLiC>: creating shared library /afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna_16-17_NewBins/Uncertainty/Incl/Omega/SigExtrac/Loose/AliAnalysisTaskUserStraneJets_cxx.so
+In file included from /cvmfs/alice.cern.ch/el6-x86_64/Packages/AliRoot/v5-09-45_ROOT6-1/include/AliAODEvent.h:19:0,
+                 from /afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna_16-17_NewBins/Uncertainty/Incl/Omega/SigExtrac/Loose/AliAnalysisTaskUserStraneJets.cxx:19,
+                 from /afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna_16-17_NewBins/Uncertainty/Incl/Omega/SigExtrac/Loose/AliAnalysisTaskUserStraneJets_cxx_ACLiC_dict.cxx:40:
+/cvmfs/alice.cern.ch/el6-x86_64/Packages/AliRoot/v5-09-45_ROOT6-1/include/AliVEvent.h:244:17: warning: 'virtual Int_t AliVEvent::GetMultiplicity(AliMultiplicity&) const' was hidden [-Woverloaded-virtual]
+   virtual Int_t GetMultiplicity( AliMultiplicity & ) const {return -1;}
+                 ^~~~~~~~~~~~~~~
+In file included from /afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna_16-17_NewBins/Uncertainty/Incl/Omega/SigExtrac/Loose/AliAnalysisTaskUserStraneJets.cxx:19:0,
+                 from /afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna_16-17_NewBins/Uncertainty/Incl/Omega/SigExtrac/Loose/AliAnalysisTaskUserStraneJets_cxx_ACLiC_dict.cxx:40:
+/cvmfs/alice.cern.ch/el6-x86_64/Packages/AliRoot/v5-09-45_ROOT6-1/include/AliAODEvent.h:271:20: warning:   by 'virtual AliAODTracklets* AliAODEvent::GetMultiplicity() const' [-Woverloaded-virtual]
+   AliAODTracklets *GetMultiplicity() const {return GetTracklets();}
+                    ^~~~~~~~~~~~~~~
+In file included from /cvmfs/alice.cern.ch/el6-x86_64/Packages/AliRoot/v5-09-45_ROOT6-1/include/AliAODEvent.h:19:0,
+                 from /afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna_16-17_NewBins/Uncertainty/Incl/Omega/SigExtrac/Loose/AliAnalysisTaskUserStraneJets.cxx:19,
+                 from /afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna_16-17_NewBins/Uncertainty/Incl/Omega/SigExtrac/Loose/AliAnalysisTaskUserStraneJets_cxx_ACLiC_dict.cxx:40:
+/cvmfs/alice.cern.ch/el6-x86_64/Packages/AliRoot/v5-09-45_ROOT6-1/include/AliVEvent.h:243:17: warning: 'virtual Int_t AliVEvent::GetVZEROData(AliESDVZERO&) const' was hidden [-Woverloaded-virtual]
+   virtual Int_t GetVZEROData( AliESDVZERO & ) const {return -1;}
+                 ^~~~~~~~~~~~
+In file included from /afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna_16-17_NewBins/Uncertainty/Incl/Omega/SigExtrac/Loose/AliAnalysisTaskUserStraneJets.cxx:19:0,
+                 from /afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna_16-17_NewBins/Uncertainty/Incl/Omega/SigExtrac/Loose/AliAnalysisTaskUserStraneJets_cxx_ACLiC_dict.cxx:40:
+/cvmfs/alice.cern.ch/el6-x86_64/Packages/AliRoot/v5-09-45_ROOT6-1/include/AliAODEvent.h:333:16: warning:   by 'virtual AliAODVZERO* AliAODEvent::GetVZEROData() const' [-Woverloaded-virtual]
+   AliAODVZERO *GetVZEROData() const { return fAODVZERO; }
+                ^~~~~~~~~~~~
+In file included from /cvmfs/alice.cern.ch/el6-x86_64/Packages/AliPhysics/vAN-20190201_ROOT6-1/include/AliPicoV0RD.h:4:0,
+                 from /afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna_16-17_NewBins/Uncertainty/Incl/Omega/SigExtrac/Loose/AliAnalysisTaskUserStraneJets.cxx:22,
+                 from /afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna_16-17_NewBins/Uncertainty/Incl/Omega/SigExtrac/Loose/AliAnalysisTaskUserStraneJets_cxx_ACLiC_dict.cxx:40:
+/cvmfs/alice.cern.ch/el6-x86_64/Packages/AliPhysics/vAN-20190201_ROOT6-1/include/AliPicoV0.h:42:3: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+   const Double_t RapidityKa() const;
+   ^~~~~
+/cvmfs/alice.cern.ch/el6-x86_64/Packages/AliPhysics/vAN-20190201_ROOT6-1/include/AliPicoV0.h:43:3: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+   const Double_t RapidityLa() const;
+   ^~~~~
+In file included from /afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna_16-17_NewBins/Uncertainty/Incl/Omega/SigExtrac/Loose/AliAnalysisTaskUserStraneJets.cxx:30:0,
+                 from /afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna_16-17_NewBins/Uncertainty/Incl/Omega/SigExtrac/Loose/AliAnalysisTaskUserStraneJets_cxx_ACLiC_dict.cxx:40:
+/afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna_16-17_NewBins/Uncertainty/Incl/Omega/SigExtrac/Loose/AliPicoCascade.h:43:3: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+   const Double_t RapidityXi() const;
+   ^~~~~
+/afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna_16-17_NewBins/Uncertainty/Incl/Omega/SigExtrac/Loose/AliPicoCascade.h:44:3: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+   const Double_t RapidityOmega() const;
+   ^~~~~
+W-AliAODEvent::ReadFromTree: AliAODEvent::ReadFromTree() TList contains less than the standard contents 4 < 22 That might be fine though (at least for filtered AODs)
+Analyzing inclusive Omega loop in MC...
+1 = M
+2 = M
+3 = M
+4 = M
+5 = M
+6 = M
+7 = M
+8 = M
+9 = M
+10 = M
+11 = M
+12 = M
+13 = M
+14 = M
+15 = M
+16 = M
+17 = M
+18 = M
+19 = M
+20 = M
+21 = M
+22 = M
+23 = M
+24 = M
+25 = M
+26 = M
+27 = M
+28 = M
+29 = M
+30 = M
+31 = M
+32 = M
+33 = M
+34 = M
+35 = M
+36 = M
+37 = M
+38 = M
+39 = M
+40 = M
+41 = M
+42 = M
+43 = M
+44 = M
+45 = M
+46 = M
+47 = M
+48 = M
+49 = M
+Bin counting the Omega candidates...
+Fitting Omega InvM in pT bin:  1
+Fitting Omega InvM in pT bin:  2
+Fitting Omega InvM in pT bin:  3
+Fitting Omega InvM in pT bin:  4
+Fitting Omega InvM in pT bin:  5
+Fitting Omega InvM in pT bin:  6
+Fitting Omega InvM in pT bin:  7
+Fitting Omega InvM in pT bin:  8
+Fitting Omega InvM in pT bin:  9
+Fitting Omega InvM in pT bin: 10
+Fitting Omega InvM in pT bin: 11
+Fitting Omega InvM in pT bin: 12
+Fitting Omega InvM in pT bin: 13
+Make efficiency... 
+Make final results...

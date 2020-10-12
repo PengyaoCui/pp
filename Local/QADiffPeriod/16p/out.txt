@@ -1,0 +1,876 @@
+
+Processing runLocalStrangeJets.C...
+Info in <TUnixSystem::ACLiC>: creating shared library /home/cuipengyao/study/pp/QADiffPeriod/16p/AliPicoBaseDev_cxx.so
+Info in <TUnixSystem::ACLiC>: creating shared library /home/cuipengyao/study/pp/QADiffPeriod/16p/AliPicoCascade_cxx.so
+In file included from /home/cuipengyao/alice/sw/ubuntu1804_x86-64/AliPhysics/aliroot6-1/include/AliPicoV0RD.h:4:0,
+                 from /home/cuipengyao/study/pp/QADiffPeriod/16p/AliPicoCascade.cxx:5,
+                 from /home/cuipengyao/study/pp/QADiffPeriod/16p/AliPicoCascade_cxx_ACLiC_dict.cxx:40:
+/home/cuipengyao/alice/sw/ubuntu1804_x86-64/AliPhysics/aliroot6-1/include/AliPicoV0.h:42:3: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+   const Double_t RapidityKa() const;
+   ^~~~~
+/home/cuipengyao/alice/sw/ubuntu1804_x86-64/AliPhysics/aliroot6-1/include/AliPicoV0.h:43:3: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+   const Double_t RapidityLa() const;
+   ^~~~~
+In file included from /home/cuipengyao/study/pp/QADiffPeriod/16p/AliPicoCascade.cxx:7:0,
+                 from /home/cuipengyao/study/pp/QADiffPeriod/16p/AliPicoCascade_cxx_ACLiC_dict.cxx:40:
+/home/cuipengyao/study/pp/QADiffPeriod/16p/AliPicoCascade.h:43:3: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+   const Double_t RapidityXi() const;
+   ^~~~~
+/home/cuipengyao/study/pp/QADiffPeriod/16p/AliPicoCascade.h:44:3: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+   const Double_t RapidityOmega() const;
+   ^~~~~
+In file included from /home/cuipengyao/study/pp/QADiffPeriod/16p/AliPicoCascade_cxx_ACLiC_dict.cxx:40:0:
+/home/cuipengyao/study/pp/QADiffPeriod/16p/AliPicoCascade.cxx:424:1: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ const Double_t AliPicoCascade::RapidityXi() const
+ ^~~~~
+/home/cuipengyao/study/pp/QADiffPeriod/16p/AliPicoCascade.cxx:437:1: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ const Double_t AliPicoCascade::RapidityOmega() const
+ ^~~~~
+Info in <TUnixSystem::ACLiC>: creating shared library /home/cuipengyao/study/pp/QADiffPeriod/16p/AliPicoCascadeRD_cxx.so
+In file included from /home/cuipengyao/alice/sw/ubuntu1804_x86-64/AliPhysics/aliroot6-1/include/AliPicoV0RD.h:4:0,
+                 from /home/cuipengyao/study/pp/QADiffPeriod/16p/AliPicoCascadeRD.cxx:4,
+                 from /home/cuipengyao/study/pp/QADiffPeriod/16p/AliPicoCascadeRD_cxx_ACLiC_dict.cxx:40:
+/home/cuipengyao/alice/sw/ubuntu1804_x86-64/AliPhysics/aliroot6-1/include/AliPicoV0.h:42:3: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+   const Double_t RapidityKa() const;
+   ^~~~~
+/home/cuipengyao/alice/sw/ubuntu1804_x86-64/AliPhysics/aliroot6-1/include/AliPicoV0.h:43:3: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+   const Double_t RapidityLa() const;
+   ^~~~~
+In file included from /home/cuipengyao/study/pp/QADiffPeriod/16p/AliPicoCascadeRD.h:4:0,
+                 from /home/cuipengyao/study/pp/QADiffPeriod/16p/AliPicoCascadeRD.cxx:5,
+                 from /home/cuipengyao/study/pp/QADiffPeriod/16p/AliPicoCascadeRD_cxx_ACLiC_dict.cxx:40:
+/home/cuipengyao/study/pp/QADiffPeriod/16p/AliPicoCascade.h:43:3: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+   const Double_t RapidityXi() const;
+   ^~~~~
+/home/cuipengyao/study/pp/QADiffPeriod/16p/AliPicoCascade.h:44:3: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+   const Double_t RapidityOmega() const;
+   ^~~~~
+Info in <TUnixSystem::ACLiC>: creating shared library /home/cuipengyao/study/pp/QADiffPeriod/16p/AliPicoCascadeMC_cxx.so
+In file included from /home/cuipengyao/alice/sw/ubuntu1804_x86-64/AliPhysics/aliroot6-1/include/AliPicoV0MC.h:6:0,
+                 from /home/cuipengyao/study/pp/QADiffPeriod/16p/AliPicoCascadeMC.cxx:4,
+                 from /home/cuipengyao/study/pp/QADiffPeriod/16p/AliPicoCascadeMC_cxx_ACLiC_dict.cxx:40:
+/home/cuipengyao/alice/sw/ubuntu1804_x86-64/AliPhysics/aliroot6-1/include/AliPicoV0.h:42:3: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+   const Double_t RapidityKa() const;
+   ^~~~~
+/home/cuipengyao/alice/sw/ubuntu1804_x86-64/AliPhysics/aliroot6-1/include/AliPicoV0.h:43:3: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+   const Double_t RapidityLa() const;
+   ^~~~~
+In file included from /home/cuipengyao/study/pp/QADiffPeriod/16p/AliPicoCascadeMC.h:4:0,
+                 from /home/cuipengyao/study/pp/QADiffPeriod/16p/AliPicoCascadeMC.cxx:5,
+                 from /home/cuipengyao/study/pp/QADiffPeriod/16p/AliPicoCascadeMC_cxx_ACLiC_dict.cxx:40:
+/home/cuipengyao/study/pp/QADiffPeriod/16p/AliPicoCascade.h:43:3: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+   const Double_t RapidityXi() const;
+   ^~~~~
+/home/cuipengyao/study/pp/QADiffPeriod/16p/AliPicoCascade.h:44:3: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+   const Double_t RapidityOmega() const;
+   ^~~~~
+Info in <TUnixSystem::ACLiC>: creating shared library /home/cuipengyao/study/pp/QADiffPeriod/16p/AliAnalysisTaskUserStraneJets_cxx.so
+In file included from /home/cuipengyao/alice/sw/ubuntu1804_x86-64/AliPhysics/aliroot6-1/include/AliPicoV0RD.h:4:0,
+                 from /home/cuipengyao/study/pp/QADiffPeriod/16p/AliAnalysisTaskUserStraneJets.cxx:22,
+                 from /home/cuipengyao/study/pp/QADiffPeriod/16p/AliAnalysisTaskUserStraneJets_cxx_ACLiC_dict.cxx:40:
+/home/cuipengyao/alice/sw/ubuntu1804_x86-64/AliPhysics/aliroot6-1/include/AliPicoV0.h:42:3: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+   const Double_t RapidityKa() const;
+   ^~~~~
+/home/cuipengyao/alice/sw/ubuntu1804_x86-64/AliPhysics/aliroot6-1/include/AliPicoV0.h:43:3: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+   const Double_t RapidityLa() const;
+   ^~~~~
+In file included from /home/cuipengyao/study/pp/QADiffPeriod/16p/AliAnalysisTaskUserStraneJets.cxx:30:0,
+                 from /home/cuipengyao/study/pp/QADiffPeriod/16p/AliAnalysisTaskUserStraneJets_cxx_ACLiC_dict.cxx:40:
+/home/cuipengyao/study/pp/QADiffPeriod/16p/AliPicoCascade.h:43:3: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+   const Double_t RapidityXi() const;
+   ^~~~~
+/home/cuipengyao/study/pp/QADiffPeriod/16p/AliPicoCascade.h:44:3: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+   const Double_t RapidityOmega() const;
+   ^~~~~
+W-AliAODEvent::ReadFromTree: AliAODEvent::ReadFromTree() TList contains less than the standard contents 4 < 22 That might be fine though (at least for filtered AODs)
+Analyzing inclusive Kshort 1st loop in RD...
+28461846
+1 = M
+2 = M
+3 = M
+4 = M
+5 = M
+6 = M
+7 = M
+8 = M
+9 = M
+10 = M
+11 = M
+12 = M
+13 = M
+14 = M
+15 = M
+16 = M
+17 = M
+18 = M
+19 = M
+20 = M
+21 = M
+22 = M
+23 = M
+24 = M
+25 = M
+26 = M
+27 = M
+28 = M
+Fit Kshort InvM...
+Fitting Kshort InvM in pT bin:  1: mean = 0.497508, sigma = 0.00376754749
+Fitting Kshort InvM in pT bin:  2: mean = 0.4977272, sigma = 0.00380848207
+Fitting Kshort InvM in pT bin:  3: mean = 0.4979023, sigma = 0.00385144793
+Fitting Kshort InvM in pT bin:  4: mean = 0.4980262, sigma = 0.00384993703
+Fitting Kshort InvM in pT bin:  5: mean = 0.4981536, sigma = 0.00385282197
+Fitting Kshort InvM in pT bin:  6: mean = 0.4981931, sigma = 0.00384894178
+Fitting Kshort InvM in pT bin:  7: mean = 0.4982726, sigma = 0.00387198754
+Fitting Kshort InvM in pT bin:  8: mean = 0.498341, sigma = 0.0039091543
+Fitting Kshort InvM in pT bin:  9: mean = 0.4983396, sigma = 0.00396373456
+Fitting Kshort InvM in pT bin: 10: mean = 0.4983993, sigma = 0.00401647237
+Fitting Kshort InvM in pT bin: 11: mean = 0.4984351, sigma = 0.00408087842
+Fitting Kshort InvM in pT bin: 12: mean = 0.4984047, sigma = 0.00410164189
+Fitting Kshort InvM in pT bin: 13: mean = 0.498466, sigma = 0.00414695057
+Fitting Kshort InvM in pT bin: 14: mean = 0.4984534, sigma = 0.00419991078
+Fitting Kshort InvM in pT bin: 15: mean = 0.4984844, sigma = 0.00426415118
+Fitting Kshort InvM in pT bin: 16: mean = 0.4985244, sigma = 0.00444308353
+Fitting Kshort InvM in pT bin: 17: mean = 0.4985079, sigma = 0.00464828838
+Fitting Kshort InvM in pT bin: 18: mean = 0.4985687, sigma = 0.00477117877
+Fitting Kshort InvM in pT bin: 19: mean = 0.4984777, sigma = 0.00497772237
+Fitting Kshort InvM in pT bin: 20: mean = 0.4983396, sigma = 0.00531135522
+Fitting Kshort InvM in pT bin: 21: mean = 0.4980608, sigma = 0.00543225665
+Analyzing inclusive Kshort 2nd loop in RD...
+1 = M
+2 = M
+3 = M
+4 = M
+5 = M
+6 = M
+7 = M
+8 = M
+9 = M
+10 = M
+11 = M
+12 = M
+13 = M
+14 = M
+15 = M
+16 = M
+17 = M
+18 = M
+19 = M
+20 = M
+21 = M
+22 = M
+23 = M
+24 = M
+25 = M
+26 = M
+27 = M
+28 = M
+Bin counting the Kshort candidates...
+Fitting Kshort InvM in pT bin:  1
+Fitting Kshort InvM in pT bin:  2
+Fitting Kshort InvM in pT bin:  3
+Fitting Kshort InvM in pT bin:  4
+Fitting Kshort InvM in pT bin:  5
+Fitting Kshort InvM in pT bin:  6
+Fitting Kshort InvM in pT bin:  7
+Fitting Kshort InvM in pT bin:  8
+Fitting Kshort InvM in pT bin:  9
+Fitting Kshort InvM in pT bin: 10
+Fitting Kshort InvM in pT bin: 11
+Fitting Kshort InvM in pT bin: 12
+Fitting Kshort InvM in pT bin: 13
+Fitting Kshort InvM in pT bin: 14
+Fitting Kshort InvM in pT bin: 15
+Fitting Kshort InvM in pT bin: 16
+Fitting Kshort InvM in pT bin: 17
+Fitting Kshort InvM in pT bin: 18
+Fitting Kshort InvM in pT bin: 19
+Fitting Kshort InvM in pT bin: 20
+Fitting Kshort InvM in pT bin: 21
+Analyzing Kshort in jets RD04...
+event = 1M
+event = 2M
+event = 3M
+event = 4M
+event = 5M
+event = 6M
+event = 7M
+event = 8M
+event = 9M
+event = 10M
+event = 11M
+event = 12M
+event = 13M
+event = 14M
+event = 15M
+event = 16M
+event = 17M
+event = 18M
+event = 19M
+event = 20M
+event = 21M
+event = 22M
+event = 23M
+event = 24M
+event = 25M
+event = 26M
+event = 27M
+event = 28M
+Bin counting the Kshort candidates...
+Fitting Kshort InvM in pT bin:  1
+Fitting Kshort InvM in pT bin:  2
+Fitting Kshort InvM in pT bin:  3
+Fitting Kshort InvM in pT bin:  4
+Fitting Kshort InvM in pT bin:  5
+Fitting Kshort InvM in pT bin:  6
+Fitting Kshort InvM in pT bin:  7
+Fitting Kshort InvM in pT bin:  8
+Fitting Kshort InvM in pT bin:  9
+Fitting Kshort InvM in pT bin: 10
+Fitting Kshort InvM in pT bin: 11
+Fitting Kshort InvM in pT bin: 12
+Fitting Kshort InvM in pT bin: 13
+Fitting Kshort InvM in pT bin: 14
+Fitting Kshort InvM in pT bin: 15
+Fitting Kshort InvM in pT bin: 16
+Fitting Kshort InvM in pT bin: 17
+Fitting Kshort InvM in pT bin: 18
+Fitting Kshort InvM in pT bin: 19
+Fitting Kshort InvM in pT bin: 20
+Fitting Kshort InvM in pT bin: 21
+Analyzing inclusive Lambda 1st loop in RD...
+28461846
+1 = M
+2 = M
+3 = M
+4 = M
+5 = M
+6 = M
+7 = M
+8 = M
+9 = M
+10 = M
+11 = M
+12 = M
+13 = M
+14 = M
+15 = M
+16 = M
+17 = M
+18 = M
+19 = M
+20 = M
+21 = M
+22 = M
+23 = M
+24 = M
+25 = M
+26 = M
+27 = M
+28 = M
+Fit Lambda InvM...
+Fitting Lambda InvM in pT bin:  1: mean = 1.115649, sigma = 0.00167250765
+Fitting Lambda InvM in pT bin:  2: mean = 1.115717, sigma = 0.00157744729
+Fitting Lambda InvM in pT bin:  3: mean = 1.115756, sigma = 0.00156103099
+Fitting Lambda InvM in pT bin:  4: mean = 1.115788, sigma = 0.00153178519
+Fitting Lambda InvM in pT bin:  5: mean = 1.115843, sigma = 0.00152057674
+Fitting Lambda InvM in pT bin:  6: mean = 1.115895, sigma = 0.00152043896
+Fitting Lambda InvM in pT bin:  7: mean = 1.115947, sigma = 0.00148709372
+Fitting Lambda InvM in pT bin:  8: mean = 1.115988, sigma = 0.00150598097
+Fitting Lambda InvM in pT bin:  9: mean = 1.116009, sigma = 0.00153677186
+Fitting Lambda InvM in pT bin: 10: mean = 1.11604, sigma = 0.0015385785
+Fitting Lambda InvM in pT bin: 11: mean = 1.116031, sigma = 0.00155957393
+Fitting Lambda InvM in pT bin: 12: mean = 1.116017, sigma = 0.00158450925
+Fitting Lambda InvM in pT bin: 13: mean = 1.116002, sigma = 0.00160115854
+Fitting Lambda InvM in pT bin: 14: mean = 1.116015, sigma = 0.0015970278
+Fitting Lambda InvM in pT bin: 15: mean = 1.116012, sigma = 0.00160386071
+Fitting Lambda InvM in pT bin: 16: mean = 1.116023, sigma = 0.00163721625
+Fitting Lambda InvM in pT bin: 17: mean = 1.115978, sigma = 0.00164819216
+Fitting Lambda InvM in pT bin: 18: mean = 1.116015, sigma = 0.0017177771
+Fitting Lambda InvM in pT bin: 19: mean = 1.116046, sigma = 0.00194066885
+Fitting Lambda InvM in pT bin: 20: mean = 1.116096, sigma = 0.00199073501
+Fitting Lambda InvM in pT bin: 21: mean = 1.116531, sigma = 0.00189167256
+Analyzing inclusive Lambda 2nd loop in RD...
+1 = M
+2 = M
+3 = M
+4 = M
+5 = M
+6 = M
+7 = M
+8 = M
+9 = M
+10 = M
+11 = M
+12 = M
+13 = M
+14 = M
+15 = M
+16 = M
+17 = M
+18 = M
+19 = M
+20 = M
+21 = M
+22 = M
+23 = M
+24 = M
+25 = M
+26 = M
+27 = M
+28 = M
+Bin counting the Lambda candidates...
+Fitting Lambda InvM in pT bin:  1
+Fitting Lambda InvM in pT bin:  2
+Fitting Lambda InvM in pT bin:  3
+Fitting Lambda InvM in pT bin:  4
+Fitting Lambda InvM in pT bin:  5
+Fitting Lambda InvM in pT bin:  6
+Fitting Lambda InvM in pT bin:  7
+Fitting Lambda InvM in pT bin:  8
+Fitting Lambda InvM in pT bin:  9
+Fitting Lambda InvM in pT bin: 10
+Fitting Lambda InvM in pT bin: 11
+Fitting Lambda InvM in pT bin: 12
+Fitting Lambda InvM in pT bin: 13
+Fitting Lambda InvM in pT bin: 14
+Fitting Lambda InvM in pT bin: 15
+Fitting Lambda InvM in pT bin: 16
+Fitting Lambda InvM in pT bin: 17
+Fitting Lambda InvM in pT bin: 18
+Fitting Lambda InvM in pT bin: 19
+Fitting Lambda InvM in pT bin: 20
+Fitting Lambda InvM in pT bin: 21
+Analyzing Lambda in jets RD04...
+event = 1M
+event = 2M
+event = 3M
+event = 4M
+event = 5M
+event = 6M
+event = 7M
+event = 8M
+event = 9M
+event = 10M
+event = 11M
+event = 12M
+event = 13M
+event = 14M
+event = 15M
+event = 16M
+event = 17M
+event = 18M
+event = 19M
+event = 20M
+event = 21M
+event = 22M
+event = 23M
+event = 24M
+event = 25M
+event = 26M
+event = 27M
+event = 28M
+Bin counting the Lambda candidates...
+Fitting Lambda InvM in pT bin:  1
+Fitting Lambda InvM in pT bin:  2
+Fitting Lambda InvM in pT bin:  3
+Fitting Lambda InvM in pT bin:  4
+Fitting Lambda InvM in pT bin:  5
+Fitting Lambda InvM in pT bin:  6
+Fitting Lambda InvM in pT bin:  7
+Fitting Lambda InvM in pT bin:  8
+Fitting Lambda InvM in pT bin:  9
+Fitting Lambda InvM in pT bin: 10
+Fitting Lambda InvM in pT bin: 11
+Fitting Lambda InvM in pT bin: 12
+Fitting Lambda InvM in pT bin: 13
+Fitting Lambda InvM in pT bin: 14
+Fitting Lambda InvM in pT bin: 15
+Fitting Lambda InvM in pT bin: 16
+Fitting Lambda InvM in pT bin: 17
+Fitting Lambda InvM in pT bin: 18
+Fitting Lambda InvM in pT bin: 19
+Fitting Lambda InvM in pT bin: 20
+Fitting Lambda InvM in pT bin: 21
+Analyzing inclusive AntiLa 1st loop in RD...
+28461846
+1 = M
+2 = M
+3 = M
+4 = M
+5 = M
+6 = M
+7 = M
+8 = M
+9 = M
+10 = M
+11 = M
+12 = M
+13 = M
+14 = M
+15 = M
+16 = M
+17 = M
+18 = M
+19 = M
+20 = M
+21 = M
+22 = M
+23 = M
+24 = M
+25 = M
+26 = M
+27 = M
+28 = M
+Fit AntiLa InvM...
+Fitting AntiLa InvM in pT bin:  1: mean = 1.115717, sigma = 0.00163071916
+Fitting AntiLa InvM in pT bin:  2: mean = 1.115782, sigma = 0.00155622727
+Fitting AntiLa InvM in pT bin:  3: mean = 1.11581, sigma = 0.00155316755
+Fitting AntiLa InvM in pT bin:  4: mean = 1.115866, sigma = 0.00153440777
+Fitting AntiLa InvM in pT bin:  5: mean = 1.115898, sigma = 0.00151170912
+Fitting AntiLa InvM in pT bin:  6: mean = 1.115956, sigma = 0.00151131205
+Fitting AntiLa InvM in pT bin:  7: mean = 1.115988, sigma = 0.00153185245
+Fitting AntiLa InvM in pT bin:  8: mean = 1.116008, sigma = 0.00151290809
+Fitting AntiLa InvM in pT bin:  9: mean = 1.116015, sigma = 0.00152774376
+Fitting AntiLa InvM in pT bin: 10: mean = 1.11601, sigma = 0.00155446928
+Fitting AntiLa InvM in pT bin: 11: mean = 1.115978, sigma = 0.00158242492
+Fitting AntiLa InvM in pT bin: 12: mean = 1.115976, sigma = 0.00160807082
+Fitting AntiLa InvM in pT bin: 13: mean = 1.115988, sigma = 0.0015870718
+Fitting AntiLa InvM in pT bin: 14: mean = 1.115987, sigma = 0.00164459004
+Fitting AntiLa InvM in pT bin: 15: mean = 1.115989, sigma = 0.00162035597
+Fitting AntiLa InvM in pT bin: 16: mean = 1.115965, sigma = 0.00162748926
+Fitting AntiLa InvM in pT bin: 17: mean = 1.115959, sigma = 0.00170632671
+Fitting AntiLa InvM in pT bin: 18: mean = 1.115956, sigma = 0.00170393271
+Fitting AntiLa InvM in pT bin: 19: mean = 1.11604, sigma = 0.00176394553
+Fitting AntiLa InvM in pT bin: 20: mean = 1.116122, sigma = 0.00201064526
+Fitting AntiLa InvM in pT bin: 21: mean = 1.11581, sigma = 0.00177023697
+Analyzing inclusive AntiLa 2nd loop in RD...
+1 = M
+2 = M
+3 = M
+4 = M
+5 = M
+6 = M
+7 = M
+8 = M
+9 = M
+10 = M
+11 = M
+12 = M
+13 = M
+14 = M
+15 = M
+16 = M
+17 = M
+18 = M
+19 = M
+20 = M
+21 = M
+22 = M
+23 = M
+24 = M
+25 = M
+26 = M
+27 = M
+28 = M
+Bin counting the AntiLa candidates...
+Fitting AntiLa InvM in pT bin:  1
+Fitting AntiLa InvM in pT bin:  2
+Fitting AntiLa InvM in pT bin:  3
+Fitting AntiLa InvM in pT bin:  4
+Fitting AntiLa InvM in pT bin:  5
+Fitting AntiLa InvM in pT bin:  6
+Fitting AntiLa InvM in pT bin:  7
+Fitting AntiLa InvM in pT bin:  8
+Fitting AntiLa InvM in pT bin:  9
+Fitting AntiLa InvM in pT bin: 10
+Fitting AntiLa InvM in pT bin: 11
+Fitting AntiLa InvM in pT bin: 12
+Fitting AntiLa InvM in pT bin: 13
+Fitting AntiLa InvM in pT bin: 14
+Fitting AntiLa InvM in pT bin: 15
+Fitting AntiLa InvM in pT bin: 16
+Fitting AntiLa InvM in pT bin: 17
+Fitting AntiLa InvM in pT bin: 18
+Fitting AntiLa InvM in pT bin: 19
+Fitting AntiLa InvM in pT bin: 20
+Fitting AntiLa InvM in pT bin: 21
+Analyzing AntiLa in jets RD04...
+event = 1M
+event = 2M
+event = 3M
+event = 4M
+event = 5M
+event = 6M
+event = 7M
+event = 8M
+event = 9M
+event = 10M
+event = 11M
+event = 12M
+event = 13M
+event = 14M
+event = 15M
+event = 16M
+event = 17M
+event = 18M
+event = 19M
+event = 20M
+event = 21M
+event = 22M
+event = 23M
+event = 24M
+event = 25M
+event = 26M
+event = 27M
+event = 28M
+Bin counting the AntiLa candidates...
+Fitting AntiLa InvM in pT bin:  1
+Fitting AntiLa InvM in pT bin:  2
+Fitting AntiLa InvM in pT bin:  3
+Fitting AntiLa InvM in pT bin:  4
+Fitting AntiLa InvM in pT bin:  5
+Fitting AntiLa InvM in pT bin:  6
+Fitting AntiLa InvM in pT bin:  7
+Fitting AntiLa InvM in pT bin:  8
+Fitting AntiLa InvM in pT bin:  9
+Fitting AntiLa InvM in pT bin: 10
+Fitting AntiLa InvM in pT bin: 11
+Fitting AntiLa InvM in pT bin: 12
+Fitting AntiLa InvM in pT bin: 13
+Fitting AntiLa InvM in pT bin: 14
+Fitting AntiLa InvM in pT bin: 15
+Fitting AntiLa InvM in pT bin: 16
+Fitting AntiLa InvM in pT bin: 17
+Fitting AntiLa InvM in pT bin: 18
+Fitting AntiLa InvM in pT bin: 19
+Fitting AntiLa InvM in pT bin: 20
+Fitting AntiLa InvM in pT bin: 21
+Analyzing inclusive Xi 1st loop in RD...
+28461846
+1 = M
+2 = M
+3 = M
+4 = M
+5 = M
+6 = M
+7 = M
+8 = M
+9 = M
+10 = M
+11 = M
+12 = M
+13 = M
+14 = M
+15 = M
+16 = M
+17 = M
+18 = M
+19 = M
+20 = M
+21 = M
+22 = M
+23 = M
+24 = M
+25 = M
+26 = M
+27 = M
+28 = M
+Fit Xi InvM...
+Fitting Xi InvM in pT bin:  1: mean = 1.321542, sigma = 0.00200304848
+Fitting Xi InvM in pT bin:  2: mean = 1.321455, sigma = 0.00209304871
+Fitting Xi InvM in pT bin:  3: mean = 1.321567, sigma = 0.00189623687
+Fitting Xi InvM in pT bin:  4: mean = 1.321759, sigma = 0.00185364016
+Fitting Xi InvM in pT bin:  5: mean = 1.321657, sigma = 0.00178937458
+Fitting Xi InvM in pT bin:  6: mean = 1.321709, sigma = 0.0020130498
+Fitting Xi InvM in pT bin:  7: mean = 1.32184, sigma = 0.00188177809
+Fitting Xi InvM in pT bin:  8: mean = 1.32192, sigma = 0.00195442264
+Fitting Xi InvM in pT bin:  9: mean = 1.322027, sigma = 0.00196018907
+Fitting Xi InvM in pT bin: 10: mean = 1.322049, sigma = 0.00195653196
+Fitting Xi InvM in pT bin: 11: mean = 1.322096, sigma = 0.00198978275
+Fitting Xi InvM in pT bin: 12: mean = 1.322157, sigma = 0.00208896543
+Fitting Xi InvM in pT bin: 13: mean = 1.322207, sigma = 0.00197348151
+Fitting Xi InvM in pT bin: 14: mean = 1.322232, sigma = 0.00199561149
+Fitting Xi InvM in pT bin: 15: mean = 1.32228, sigma = 0.00212713883
+Fitting Xi InvM in pT bin: 16: mean = 1.322352, sigma = 0.00217615054
+Fitting Xi InvM in pT bin: 17: mean = 1.322293, sigma = 0.00233147335
+Fitting Xi InvM in pT bin: 18: mean = 1.322499, sigma = 0.00222838547
+Fitting Xi InvM in pT bin: 19: mean = 1.322291, sigma = 0.00239537747
+Fitting Xi InvM in pT bin: 20: mean = 1.321766, sigma = 0.00261203419
+Fitting Xi InvM in pT bin: 21:  NEW MINIMUM FOUND.  GO BACK TO MINIMIZATION STEP.
+ =================================================
+                                                  V
+                                                  V
+                                                  V
+                                               VVVVVVV
+                                                VVVVV
+                                                 VVV
+                                                  V
+
+ NEW MINIMUM FOUND.  GO BACK TO MINIMIZATION STEP.
+ =================================================
+                                                  V
+                                                  V
+                                                  V
+                                               VVVVVVV
+                                                VVVVV
+                                                 VVV
+                                                  V
+
+mean = 1.323713, sigma = 0.000384188344
+Analyzing inclusive Xi 2nd loop in RD...
+1 = M
+2 = M
+3 = M
+4 = M
+5 = M
+6 = M
+7 = M
+8 = M
+9 = M
+10 = M
+11 = M
+12 = M
+13 = M
+14 = M
+15 = M
+16 = M
+17 = M
+18 = M
+19 = M
+20 = M
+21 = M
+22 = M
+23 = M
+24 = M
+25 = M
+26 = M
+27 = M
+28 = M
+Bin counting the Xi candidates...
+Fitting Xi InvM in pT bin:  1
+Fitting Xi InvM in pT bin:  2
+Fitting Xi InvM in pT bin:  3
+Fitting Xi InvM in pT bin:  4
+Fitting Xi InvM in pT bin:  5
+Fitting Xi InvM in pT bin:  6
+Fitting Xi InvM in pT bin:  7
+Fitting Xi InvM in pT bin:  8
+Fitting Xi InvM in pT bin:  9
+Fitting Xi InvM in pT bin: 10
+Fitting Xi InvM in pT bin: 11
+Fitting Xi InvM in pT bin: 12
+Fitting Xi InvM in pT bin: 13
+Fitting Xi InvM in pT bin: 14
+Fitting Xi InvM in pT bin: 15
+Fitting Xi InvM in pT bin: 16
+Fitting Xi InvM in pT bin: 17
+Fitting Xi InvM in pT bin: 18
+Fitting Xi InvM in pT bin: 19
+Fitting Xi InvM in pT bin: 20
+Fitting Xi InvM in pT bin: 21
+Analyzing Xi in jets RD04...
+event = 1M
+event = 2M
+event = 3M
+event = 4M
+event = 5M
+event = 6M
+event = 7M
+event = 8M
+event = 9M
+event = 10M
+event = 11M
+event = 12M
+event = 13M
+event = 14M
+event = 15M
+event = 16M
+event = 17M
+event = 18M
+event = 19M
+event = 20M
+event = 21M
+event = 22M
+event = 23M
+event = 24M
+event = 25M
+event = 26M
+event = 27M
+event = 28M
+Bin counting the Xi candidates...
+Fitting Xi InvM in pT bin:  1
+Fitting Xi InvM in pT bin:  2
+Fitting Xi InvM in pT bin:  3
+Fitting Xi InvM in pT bin:  4
+Fitting Xi InvM in pT bin:  5
+Fitting Xi InvM in pT bin:  6
+Fitting Xi InvM in pT bin:  7
+Fitting Xi InvM in pT bin:  8
+Fitting Xi InvM in pT bin:  9
+Fitting Xi InvM in pT bin: 10
+Fitting Xi InvM in pT bin: 11
+Fitting Xi InvM in pT bin: 12
+Fitting Xi InvM in pT bin: 13
+Fitting Xi InvM in pT bin: 14
+Fitting Xi InvM in pT bin: 15
+Fitting Xi InvM in pT bin: 16
+Fitting Xi InvM in pT bin: 17
+Fitting Xi InvM in pT bin: 18
+Fitting Xi InvM in pT bin: 19
+Fitting Xi InvM in pT bin: 20
+Fitting Xi InvM in pT bin: 21
+Analyzing inclusive Omega 1st loop in RD...
+28461846
+1 = M
+2 = M
+3 = M
+4 = M
+5 = M
+6 = M
+7 = M
+8 = M
+9 = M
+10 = M
+11 = M
+12 = M
+13 = M
+14 = M
+15 = M
+16 = M
+17 = M
+18 = M
+19 = M
+20 = M
+21 = M
+22 = M
+23 = M
+24 = M
+25 = M
+26 = M
+27 = M
+28 = M
+Fit Omega InvM...
+Fitting Omega InvM in pT bin:  1: W-Fit: Fit data is empty 
+mean = 1.67245, sigma = 0.002
+Fitting Omega InvM in pT bin:  2: mean = 1.667952, sigma = 0.00206683775
+Fitting Omega InvM in pT bin:  3: mean = 1.670524, sigma = 0.000477623495
+Fitting Omega InvM in pT bin:  4: mean = 1.672058, sigma = 0.00108557332
+Fitting Omega InvM in pT bin:  5: mean = 1.672343, sigma = 0.00100999952
+Fitting Omega InvM in pT bin:  6: mean = 1.672405, sigma = 0.000202637513
+Fitting Omega InvM in pT bin:  7: mean = 1.672843, sigma = 0.00153697646
+Fitting Omega InvM in pT bin:  8: mean = 1.672599, sigma = 0.00141530904
+Fitting Omega InvM in pT bin:  9: mean = 1.672178, sigma = 0.00217479506
+Fitting Omega InvM in pT bin: 10: mean = 1.672486, sigma = 0.00160461699
+Fitting Omega InvM in pT bin: 11: mean = 1.67253, sigma = 0.00145963682
+Fitting Omega InvM in pT bin: 12: mean = 1.672467, sigma = 0.00246819023
+Fitting Omega InvM in pT bin: 13: mean = 1.672465, sigma = 0.00150333516
+Fitting Omega InvM in pT bin: 14: mean = 1.672956, sigma = 0.00220178005
+Fitting Omega InvM in pT bin: 15: mean = 1.67308, sigma = 0.00199968797
+Fitting Omega InvM in pT bin: 16: mean = 1.672644, sigma = 0.00193161907
+Fitting Omega InvM in pT bin: 17: mean = 1.672632, sigma = 0.00205631402
+Fitting Omega InvM in pT bin: 18: mean = 1.672392, sigma = 0.00178789484
+Fitting Omega InvM in pT bin: 19: mean = 1.67317, sigma = 0.000671213201
+Fitting Omega InvM in pT bin: 20: mean = 1.672786, sigma = 0.000801107868
+Fitting Omega InvM in pT bin: 21: mean = 1.670592, sigma = 0.00102564543
+Analyzing inclusive Omega 2nd loop in RD...
+1 = M
+2 = M
+3 = M
+4 = M
+5 = M
+6 = M
+7 = M
+8 = M
+9 = M
+10 = M
+11 = M
+12 = M
+13 = M
+14 = M
+15 = M
+16 = M
+17 = M
+18 = M
+19 = M
+20 = M
+21 = M
+22 = M
+23 = M
+24 = M
+25 = M
+26 = M
+27 = M
+28 = M
+Bin counting the Omega candidates...
+Fitting Omega InvM in pT bin:  1
+Fitting Omega InvM in pT bin:  2
+Fitting Omega InvM in pT bin:  3
+Fitting Omega InvM in pT bin:  4
+Fitting Omega InvM in pT bin:  5
+Fitting Omega InvM in pT bin:  6
+Fitting Omega InvM in pT bin:  7
+Fitting Omega InvM in pT bin:  8
+Fitting Omega InvM in pT bin:  9
+Fitting Omega InvM in pT bin: 10
+Fitting Omega InvM in pT bin: 11
+Fitting Omega InvM in pT bin: 12
+Fitting Omega InvM in pT bin: 13
+Fitting Omega InvM in pT bin: 14
+Fitting Omega InvM in pT bin: 15
+Fitting Omega InvM in pT bin: 16
+Fitting Omega InvM in pT bin: 17
+Fitting Omega InvM in pT bin: 18
+Fitting Omega InvM in pT bin: 19
+Fitting Omega InvM in pT bin: 20
+Fitting Omega InvM in pT bin: 21
+Analyzing Omega in jets RD04...
+event = 1M
+event = 2M
+event = 3M
+event = 4M
+event = 5M
+event = 6M
+event = 7M
+event = 8M
+event = 9M
+event = 10M
+event = 11M
+event = 12M
+event = 13M
+event = 14M
+event = 15M
+event = 16M
+event = 17M
+event = 18M
+event = 19M
+event = 20M
+event = 21M
+event = 22M
+event = 23M
+event = 24M
+event = 25M
+event = 26M
+event = 27M
+event = 28M
+Bin counting the Omega candidates...
+Fitting Omega InvM in pT bin:  1
+Fitting Omega InvM in pT bin:  2
+Fitting Omega InvM in pT bin:  3
+Fitting Omega InvM in pT bin:  4
+Fitting Omega InvM in pT bin:  5
+Fitting Omega InvM in pT bin:  6
+Fitting Omega InvM in pT bin:  7
+Fitting Omega InvM in pT bin:  8
+Fitting Omega InvM in pT bin:  9
+Fitting Omega InvM in pT bin: 10
+Fitting Omega InvM in pT bin: 11
+Fitting Omega InvM in pT bin: 12
+Fitting Omega InvM in pT bin: 13
+Fitting Omega InvM in pT bin: 14
+Fitting Omega InvM in pT bin: 15
+Fitting Omega InvM in pT bin: 16
+Fitting Omega InvM in pT bin: 17
+Fitting Omega InvM in pT bin: 18
+Fitting Omega InvM in pT bin: 19
+Fitting Omega InvM in pT bin: 20
+Fitting Omega InvM in pT bin: 21
