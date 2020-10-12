@@ -1,1 +1,1 @@
-/home/cuipengyao/study/pp/Test_Data/AliAOD.root
+/home/cuipengyao/study/testData/pp/AliAOD.root

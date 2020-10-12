@@ -1,0 +1,79 @@
+#!/bin/bash
+
+cp ./Kshort/AnalysisOutputs_EffCorrJE.root ./merged/AnalysisOutputs_EffCorrJE_K.root
+cp ./Kshort/AnalysisOutputs_EffCorrMC.root ./merged/AnalysisOutputs_EffCorrMC_K.root
+cp ./Kshort/AnalysisOutputs_EffInclMC.root ./merged/AnalysisOutputs_EffInclMC_K.root
+cp ./Kshort/AnalysisOutputs_FitCbinJE.root ./merged/AnalysisOutputs_FitCbinJE_K.root
+cp ./Kshort/AnalysisOutputs_FitCbinMC.root ./merged/AnalysisOutputs_FitCbinMC_K.root
+cp ./Kshort/AnalysisOutputs_FitCbinRD.root ./merged/AnalysisOutputs_FitCbinRD_K.root
+cp ./Kshort/AnalysisOutputs_FitInvMrd.root ./merged/AnalysisOutputs_FitInvMrd_K.root
+cp ./Kshort/AnalysisOutputs_Loop1ndRD.root ./merged/AnalysisOutputs_Loop1ndRD_K.root
+cp ./Kshort/AnalysisOutputs_Loop2ndRD.root ./merged/AnalysisOutputs_Loop2ndRD_K.root
+cp ./Kshort/AnalysisOutputs_LoopIncMC.root ./merged/AnalysisOutputs_LoopIncMC_K.root
+cp ./Kshort/AnalysisOutputs_LoopJetRD.root ./merged/AnalysisOutputs_LoopJetRD_K.root
+cp ./Kshort/AnalysisOutputs_Results.root     ./merged/AnalysisOutputs_Results_K.root  
+
+cp ./Lambda/AnalysisOutputs_EffCorrJE.root ./merged/AnalysisOutputs_EffCorrJE_L.root
+cp ./Lambda/AnalysisOutputs_EffCorrMC.root ./merged/AnalysisOutputs_EffCorrMC_L.root
+cp ./Lambda/AnalysisOutputs_EffInclMC.root ./merged/AnalysisOutputs_EffInclMC_L.root
+cp ./Lambda/AnalysisOutputs_FitCbinJE.root ./merged/AnalysisOutputs_FitCbinJE_L.root
+cp ./Lambda/AnalysisOutputs_FitCbinMC.root ./merged/AnalysisOutputs_FitCbinMC_L.root
+cp ./Lambda/AnalysisOutputs_FitCbinRD.root ./merged/AnalysisOutputs_FitCbinRD_L.root
+cp ./Lambda/AnalysisOutputs_FitInvMrd.root ./merged/AnalysisOutputs_FitInvMrd_L.root
+cp ./Lambda/AnalysisOutputs_Loop1ndRD.root ./merged/AnalysisOutputs_Loop1ndRD_L.root
+cp ./Lambda/AnalysisOutputs_Loop2ndRD.root ./merged/AnalysisOutputs_Loop2ndRD_L.root
+cp ./Lambda/AnalysisOutputs_LoopIncMC.root ./merged/AnalysisOutputs_LoopIncMC_L.root
+cp ./Lambda/AnalysisOutputs_LoopJetRD.root ./merged/AnalysisOutputs_LoopJetRD_L.root
+cp ./Lambda/AnalysisOutputs_Results.root     ./merged/AnalysisOutputs_Results_L.root  
+
+cp ./AntiLa/AnalysisOutputs_EffCorrJE.root ./merged/AnalysisOutputs_EffCorrJE_A.root
+cp ./AntiLa/AnalysisOutputs_EffCorrMC.root ./merged/AnalysisOutputs_EffCorrMC_A.root
+cp ./AntiLa/AnalysisOutputs_EffInclMC.root ./merged/AnalysisOutputs_EffInclMC_A.root
+cp ./AntiLa/AnalysisOutputs_FitCbinJE.root ./merged/AnalysisOutputs_FitCbinJE_A.root
+cp ./AntiLa/AnalysisOutputs_FitCbinMC.root ./merged/AnalysisOutputs_FitCbinMC_A.root
+cp ./AntiLa/AnalysisOutputs_FitCbinRD.root ./merged/AnalysisOutputs_FitCbinRD_A.root
+cp ./AntiLa/AnalysisOutputs_FitInvMrd.root ./merged/AnalysisOutputs_FitInvMrd_A.root
+cp ./AntiLa/AnalysisOutputs_Loop1ndRD.root ./merged/AnalysisOutputs_Loop1ndRD_A.root
+cp ./AntiLa/AnalysisOutputs_Loop2ndRD.root ./merged/AnalysisOutputs_Loop2ndRD_A.root
+cp ./AntiLa/AnalysisOutputs_LoopIncMC.root ./merged/AnalysisOutputs_LoopIncMC_A.root
+cp ./AntiLa/AnalysisOutputs_LoopJetRD.root ./merged/AnalysisOutputs_LoopJetRD_A.root
+cp ./AntiLa/AnalysisOutputs_Results.root     ./merged/AnalysisOutputs_Results_A.root  
+
+cp ./Xi/AnalysisOutputs_EffCorrJE.root ./merged/AnalysisOutputs_EffCorrJE_X.root
+cp ./Xi/AnalysisOutputs_EffCorrMC.root ./merged/AnalysisOutputs_EffCorrMC_X.root
+cp ./Xi/AnalysisOutputs_EffInclMC.root ./merged/AnalysisOutputs_EffInclMC_X.root
+cp ./Xi/AnalysisOutputs_FitCbinJE.root ./merged/AnalysisOutputs_FitCbinJE_X.root
+cp ./Xi/AnalysisOutputs_FitCbinMC.root ./merged/AnalysisOutputs_FitCbinMC_X.root
+cp ./Xi/AnalysisOutputs_FitCbinRD.root ./merged/AnalysisOutputs_FitCbinRD_X.root
+cp ./Xi/AnalysisOutputs_FitInvMrd.root ./merged/AnalysisOutputs_FitInvMrd_X.root
+cp ./Xi/AnalysisOutputs_Loop1ndRD.root ./merged/AnalysisOutputs_Loop1ndRD_X.root
+cp ./Xi/AnalysisOutputs_Loop2ndRD.root ./merged/AnalysisOutputs_Loop2ndRD_X.root
+cp ./Xi/AnalysisOutputs_LoopIncMC.root ./merged/AnalysisOutputs_LoopIncMC_X.root
+cp ./Xi/AnalysisOutputs_LoopJetRD.root ./merged/AnalysisOutputs_LoopJetRD_X.root
+cp ./Xi/AnalysisOutputs_Results.root     ./merged/AnalysisOutputs_Results_X.root  
+
+cp ./Omega/AnalysisOutputs_EffCorrJE.root ./merged/AnalysisOutputs_EffCorrJE_O.root
+cp ./Omega/AnalysisOutputs_EffCorrMC.root ./merged/AnalysisOutputs_EffCorrMC_O.root
+cp ./Omega/AnalysisOutputs_EffInclMC.root ./merged/AnalysisOutputs_EffInclMC_O.root
+cp ./Omega/AnalysisOutputs_FitCbinJE.root ./merged/AnalysisOutputs_FitCbinJE_O.root
+cp ./Omega/AnalysisOutputs_FitCbinMC.root ./merged/AnalysisOutputs_FitCbinMC_O.root
+cp ./Omega/AnalysisOutputs_FitCbinRD.root ./merged/AnalysisOutputs_FitCbinRD_O.root
+cp ./Omega/AnalysisOutputs_FitInvMrd.root ./merged/AnalysisOutputs_FitInvMrd_O.root
+cp ./Omega/AnalysisOutputs_Loop1ndRD.root ./merged/AnalysisOutputs_Loop1ndRD_O.root
+cp ./Omega/AnalysisOutputs_Loop2ndRD.root ./merged/AnalysisOutputs_Loop2ndRD_O.root
+cp ./Omega/AnalysisOutputs_LoopIncMC.root ./merged/AnalysisOutputs_LoopIncMC_O.root
+cp ./Omega/AnalysisOutputs_LoopJetRD.root ./merged/AnalysisOutputs_LoopJetRD_O.root
+cp ./Omega/AnalysisOutputs_Results.root     ./merged/AnalysisOutputs_Results_O.root  
+
+hadd ./AnalysisOutputs_EffCorrJE.root ./merged/AnalysisOutputs_EffCorrJE_*.root
+hadd ./AnalysisOutputs_EffCorrMC.root ./merged/AnalysisOutputs_EffCorrMC_*.root
+hadd ./AnalysisOutputs_EffInclMC.root ./merged/AnalysisOutputs_EffInclMC_*.root
+hadd ./AnalysisOutputs_FitCbinJE.root ./merged/AnalysisOutputs_FitCbinJE_*.root
+hadd ./AnalysisOutputs_FitCbinMC.root ./merged/AnalysisOutputs_FitCbinMC_*.root
+hadd ./AnalysisOutputs_FitCbinRD.root ./merged/AnalysisOutputs_FitCbinRD_*.root
+hadd ./AnalysisOutputs_FitInvMrd.root ./merged/AnalysisOutputs_FitInvMrd_*.root
+hadd ./AnalysisOutputs_Loop1ndRD.root ./merged/AnalysisOutputs_Loop1ndRD_*.root
+hadd ./AnalysisOutputs_Loop2ndRD.root ./merged/AnalysisOutputs_Loop2ndRD_*.root
+hadd ./AnalysisOutputs_LoopIncMC.root ./merged/AnalysisOutputs_LoopIncMC_*.root
+hadd ./AnalysisOutputs_LoopJetRD.root ./merged/AnalysisOutputs_LoopJetRD_*.root
+hadd ./AnalysisOutputs_Results.root     ./merged/AnalysisOutputs_Results_*.root  

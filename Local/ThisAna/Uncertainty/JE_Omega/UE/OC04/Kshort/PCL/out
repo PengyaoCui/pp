@@ -1,0 +1,1771 @@
+nohup: ignoring input
+
+Processing runLocalStrangeJets.C...
+Info in <TUnixSystem::ACLiC>: creating shared library /afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna/JE/Kshort/PCL/AliPicoBaseDev_cxx.so
+Info in <TUnixSystem::ACLiC>: creating shared library /afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna/JE/Kshort/PCL/AliPicoCascade_cxx.so
+Error in cling::AutoloadingVisitor::InsertIntoAutoloadingState:
+   Missing FileEntry for include/RooUnfold.h
+   requested to autoload type RooUnfoldResponse
+Error in cling::AutoloadingVisitor::InsertIntoAutoloadingState:
+   Missing FileEntry for include/RooUnfold.h
+   requested to autoload type RooUnfold
+Error in cling::AutoloadingVisitor::InsertIntoAutoloadingState:
+   Missing FileEntry for include/RooUnfoldBayes.h
+   requested to autoload type RooUnfoldBayes
+Error in cling::AutoloadingVisitor::InsertIntoAutoloadingState:
+   Missing FileEntry for include/RooUnfoldBinByBin.h
+   requested to autoload type RooUnfoldBinByBin
+Error in cling::AutoloadingVisitor::InsertIntoAutoloadingState:
+   Missing FileEntry for include/RooUnfoldErrors.h
+   requested to autoload type RooUnfoldErrors
+Error in cling::AutoloadingVisitor::InsertIntoAutoloadingState:
+   Missing FileEntry for include/RooUnfoldInvert.h
+   requested to autoload type RooUnfoldInvert
+Error in cling::AutoloadingVisitor::InsertIntoAutoloadingState:
+   Missing FileEntry for include/RooUnfoldParms.h
+   requested to autoload type RooUnfoldParms
+Error in cling::AutoloadingVisitor::InsertIntoAutoloadingState:
+   Missing FileEntry for include/RooUnfoldSvd.h
+   requested to autoload type RooUnfoldSvd
+Error in cling::AutoloadingVisitor::InsertIntoAutoloadingState:
+   Missing FileEntry for include/RooUnfoldTUnfold.h
+   requested to autoload type RooUnfoldTUnfold
+Error in cling::AutoloadingVisitor::InsertIntoAutoloadingState:
+   Missing FileEntry for include/TSVDUnfold_local.h
+   requested to autoload type TSVDUnfold_local
+Error in cling::AutoloadingVisitor::InsertIntoAutoloadingState:
+   Missing FileEntry for include/TauSVDUnfold.h
+   requested to autoload type TauSVDUnfold
+In file included from /cvmfs/alice.cern.ch/el6-x86_64/Packages/AliPhysics/vAN-20190201_ROOT6-1/include/AliPicoV0RD.h:4:0,
+                 from /afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna/JE/Kshort/PCL/AliPicoCascade.cxx:5,
+                 from /afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna/JE/Kshort/PCL/AliPicoCascade_cxx_ACLiC_dict.cxx:40:
+/cvmfs/alice.cern.ch/el6-x86_64/Packages/AliPhysics/vAN-20190201_ROOT6-1/include/AliPicoV0.h:42:3: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+   const Double_t RapidityKa() const;
+   ^~~~~
+/cvmfs/alice.cern.ch/el6-x86_64/Packages/AliPhysics/vAN-20190201_ROOT6-1/include/AliPicoV0.h:43:3: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+   const Double_t RapidityLa() const;
+   ^~~~~
+In file included from /afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna/JE/Kshort/PCL/AliPicoCascade.cxx:7:0,
+                 from /afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna/JE/Kshort/PCL/AliPicoCascade_cxx_ACLiC_dict.cxx:40:
+/afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna/JE/Kshort/PCL/AliPicoCascade.h:43:3: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+   const Double_t RapidityXi() const;
+   ^~~~~
+/afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna/JE/Kshort/PCL/AliPicoCascade.h:44:3: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+   const Double_t RapidityOmega() const;
+   ^~~~~
+In file included from /afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna/JE/Kshort/PCL/AliPicoCascade_cxx_ACLiC_dict.cxx:40:0:
+/afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna/JE/Kshort/PCL/AliPicoCascade.cxx:424:1: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ const Double_t AliPicoCascade::RapidityXi() const
+ ^~~~~
+/afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna/JE/Kshort/PCL/AliPicoCascade.cxx:437:1: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ const Double_t AliPicoCascade::RapidityOmega() const
+ ^~~~~
+Info in <TUnixSystem::ACLiC>: creating shared library /afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna/JE/Kshort/PCL/AliPicoCascadeRD_cxx.so
+In file included from /cvmfs/alice.cern.ch/el6-x86_64/Packages/AliPhysics/vAN-20190201_ROOT6-1/include/AliPicoV0RD.h:4:0,
+                 from /afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna/JE/Kshort/PCL/AliPicoCascadeRD.cxx:4,
+                 from /afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna/JE/Kshort/PCL/AliPicoCascadeRD_cxx_ACLiC_dict.cxx:40:
+/cvmfs/alice.cern.ch/el6-x86_64/Packages/AliPhysics/vAN-20190201_ROOT6-1/include/AliPicoV0.h:42:3: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+   const Double_t RapidityKa() const;
+   ^~~~~
+/cvmfs/alice.cern.ch/el6-x86_64/Packages/AliPhysics/vAN-20190201_ROOT6-1/include/AliPicoV0.h:43:3: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+   const Double_t RapidityLa() const;
+   ^~~~~
+In file included from /afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna/JE/Kshort/PCL/AliPicoCascadeRD.h:4:0,
+                 from /afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna/JE/Kshort/PCL/AliPicoCascadeRD.cxx:5,
+                 from /afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna/JE/Kshort/PCL/AliPicoCascadeRD_cxx_ACLiC_dict.cxx:40:
+/afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna/JE/Kshort/PCL/AliPicoCascade.h:43:3: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+   const Double_t RapidityXi() const;
+   ^~~~~
+/afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna/JE/Kshort/PCL/AliPicoCascade.h:44:3: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+   const Double_t RapidityOmega() const;
+   ^~~~~
+Info in <TUnixSystem::ACLiC>: creating shared library /afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna/JE/Kshort/PCL/AliPicoCascadeMC_cxx.so
+In file included from /cvmfs/alice.cern.ch/el6-x86_64/Packages/AliPhysics/vAN-20190201_ROOT6-1/include/AliPicoV0MC.h:6:0,
+                 from /afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna/JE/Kshort/PCL/AliPicoCascadeMC.cxx:4,
+                 from /afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna/JE/Kshort/PCL/AliPicoCascadeMC_cxx_ACLiC_dict.cxx:40:
+/cvmfs/alice.cern.ch/el6-x86_64/Packages/AliPhysics/vAN-20190201_ROOT6-1/include/AliPicoV0.h:42:3: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+   const Double_t RapidityKa() const;
+   ^~~~~
+/cvmfs/alice.cern.ch/el6-x86_64/Packages/AliPhysics/vAN-20190201_ROOT6-1/include/AliPicoV0.h:43:3: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+   const Double_t RapidityLa() const;
+   ^~~~~
+In file included from /afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna/JE/Kshort/PCL/AliPicoCascadeMC.h:4:0,
+                 from /afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna/JE/Kshort/PCL/AliPicoCascadeMC.cxx:5,
+                 from /afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna/JE/Kshort/PCL/AliPicoCascadeMC_cxx_ACLiC_dict.cxx:40:
+/afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna/JE/Kshort/PCL/AliPicoCascade.h:43:3: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+   const Double_t RapidityXi() const;
+   ^~~~~
+/afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna/JE/Kshort/PCL/AliPicoCascade.h:44:3: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+   const Double_t RapidityOmega() const;
+   ^~~~~
+Info in <TUnixSystem::ACLiC>: creating shared library /afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna/JE/Kshort/PCL/AliAnalysisTaskUserStraneJets_cxx.so
+In file included from /cvmfs/alice.cern.ch/el6-x86_64/Packages/AliRoot/v5-09-45_ROOT6-1/include/AliAODEvent.h:19:0,
+                 from /afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna/JE/Kshort/PCL/AliAnalysisTaskUserStraneJets.cxx:19,
+                 from /afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna/JE/Kshort/PCL/AliAnalysisTaskUserStraneJets_cxx_ACLiC_dict.cxx:40:
+/cvmfs/alice.cern.ch/el6-x86_64/Packages/AliRoot/v5-09-45_ROOT6-1/include/AliVEvent.h:244:17: warning: 'virtual Int_t AliVEvent::GetMultiplicity(AliMultiplicity&) const' was hidden [-Woverloaded-virtual]
+   virtual Int_t GetMultiplicity( AliMultiplicity & ) const {return -1;}
+                 ^~~~~~~~~~~~~~~
+In file included from /afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna/JE/Kshort/PCL/AliAnalysisTaskUserStraneJets.cxx:19:0,
+                 from /afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna/JE/Kshort/PCL/AliAnalysisTaskUserStraneJets_cxx_ACLiC_dict.cxx:40:
+/cvmfs/alice.cern.ch/el6-x86_64/Packages/AliRoot/v5-09-45_ROOT6-1/include/AliAODEvent.h:271:20: warning:   by 'virtual AliAODTracklets* AliAODEvent::GetMultiplicity() const' [-Woverloaded-virtual]
+   AliAODTracklets *GetMultiplicity() const {return GetTracklets();}
+                    ^~~~~~~~~~~~~~~
+In file included from /cvmfs/alice.cern.ch/el6-x86_64/Packages/AliRoot/v5-09-45_ROOT6-1/include/AliAODEvent.h:19:0,
+                 from /afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna/JE/Kshort/PCL/AliAnalysisTaskUserStraneJets.cxx:19,
+                 from /afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna/JE/Kshort/PCL/AliAnalysisTaskUserStraneJets_cxx_ACLiC_dict.cxx:40:
+/cvmfs/alice.cern.ch/el6-x86_64/Packages/AliRoot/v5-09-45_ROOT6-1/include/AliVEvent.h:243:17: warning: 'virtual Int_t AliVEvent::GetVZEROData(AliESDVZERO&) const' was hidden [-Woverloaded-virtual]
+   virtual Int_t GetVZEROData( AliESDVZERO & ) const {return -1;}
+                 ^~~~~~~~~~~~
+In file included from /afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna/JE/Kshort/PCL/AliAnalysisTaskUserStraneJets.cxx:19:0,
+                 from /afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna/JE/Kshort/PCL/AliAnalysisTaskUserStraneJets_cxx_ACLiC_dict.cxx:40:
+/cvmfs/alice.cern.ch/el6-x86_64/Packages/AliRoot/v5-09-45_ROOT6-1/include/AliAODEvent.h:333:16: warning:   by 'virtual AliAODVZERO* AliAODEvent::GetVZEROData() const' [-Woverloaded-virtual]
+   AliAODVZERO *GetVZEROData() const { return fAODVZERO; }
+                ^~~~~~~~~~~~
+In file included from /cvmfs/alice.cern.ch/el6-x86_64/Packages/AliPhysics/vAN-20190201_ROOT6-1/include/AliPicoV0RD.h:4:0,
+                 from /afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna/JE/Kshort/PCL/AliAnalysisTaskUserStraneJets.cxx:22,
+                 from /afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna/JE/Kshort/PCL/AliAnalysisTaskUserStraneJets_cxx_ACLiC_dict.cxx:40:
+/cvmfs/alice.cern.ch/el6-x86_64/Packages/AliPhysics/vAN-20190201_ROOT6-1/include/AliPicoV0.h:42:3: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+   const Double_t RapidityKa() const;
+   ^~~~~
+/cvmfs/alice.cern.ch/el6-x86_64/Packages/AliPhysics/vAN-20190201_ROOT6-1/include/AliPicoV0.h:43:3: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+   const Double_t RapidityLa() const;
+   ^~~~~
+In file included from /afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna/JE/Kshort/PCL/AliAnalysisTaskUserStraneJets.cxx:30:0,
+                 from /afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna/JE/Kshort/PCL/AliAnalysisTaskUserStraneJets_cxx_ACLiC_dict.cxx:40:
+/afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna/JE/Kshort/PCL/AliPicoCascade.h:43:3: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+   const Double_t RapidityXi() const;
+   ^~~~~
+/afs/cern.ch/work/p/pcui/private/pp/Local/ThisAna/JE/Kshort/PCL/AliPicoCascade.h:44:3: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+   const Double_t RapidityOmega() const;
+   ^~~~~
+W-AliAODEvent::ReadFromTree: AliAODEvent::ReadFromTree() TList contains less than the standard contents 4 < 22 That might be fine though (at least for filtered AODs)
+Analyzing inclusive Kshort 1st loop in RD...
+Fit Kshort InvM...
+Analyzing inclusive Kshort 2nd loop in RD...
+Bin counting the Kshort candidates...
+Analyzing Kshort in jets RD04...
+event = 1M
+event = 2M
+event = 3M
+event = 4M
+event = 5M
+event = 6M
+event = 7M
+event = 8M
+event = 9M
+event = 10M
+event = 11M
+event = 12M
+event = 13M
+event = 14M
+event = 15M
+event = 16M
+event = 17M
+event = 18M
+event = 19M
+event = 20M
+event = 21M
+event = 22M
+event = 23M
+event = 24M
+event = 25M
+event = 26M
+event = 27M
+event = 28M
+event = 29M
+event = 30M
+event = 31M
+event = 32M
+event = 33M
+event = 34M
+event = 35M
+event = 36M
+event = 37M
+event = 38M
+event = 39M
+event = 40M
+event = 41M
+event = 42M
+event = 43M
+event = 44M
+event = 45M
+event = 46M
+event = 47M
+event = 48M
+event = 49M
+event = 50M
+event = 51M
+event = 52M
+event = 53M
+event = 54M
+event = 55M
+event = 56M
+event = 57M
+event = 58M
+event = 59M
+event = 60M
+event = 61M
+event = 62M
+event = 63M
+event = 64M
+event = 65M
+event = 66M
+event = 67M
+event = 68M
+event = 69M
+event = 70M
+event = 71M
+event = 72M
+event = 73M
+event = 74M
+event = 75M
+event = 76M
+event = 77M
+event = 78M
+event = 79M
+event = 80M
+event = 81M
+event = 82M
+event = 83M
+event = 84M
+event = 85M
+event = 86M
+event = 87M
+event = 88M
+event = 89M
+event = 90M
+event = 91M
+event = 92M
+event = 93M
+event = 94M
+event = 95M
+event = 96M
+event = 97M
+event = 98M
+event = 99M
+event = 100M
+event = 101M
+event = 102M
+event = 103M
+event = 104M
+event = 105M
+event = 106M
+event = 107M
+event = 108M
+event = 109M
+event = 110M
+event = 111M
+event = 112M
+event = 113M
+event = 114M
+event = 115M
+event = 116M
+event = 117M
+event = 118M
+event = 119M
+event = 120M
+event = 121M
+event = 122M
+event = 123M
+event = 124M
+event = 125M
+event = 126M
+event = 127M
+event = 128M
+event = 129M
+event = 130M
+event = 131M
+event = 132M
+event = 133M
+event = 134M
+event = 135M
+event = 136M
+event = 137M
+event = 138M
+event = 139M
+event = 140M
+event = 141M
+event = 142M
+event = 143M
+event = 144M
+SysError in <TFile::ReadBuffer>: error reading from file /eos/home-p/pcui/Results/pp/16-17/16/LHC16h/AliAOD.StrangeParJets_2119.root (Input/output error)
+E-TFile::Init: /eos/home-p/pcui/Results/pp/16-17/16/LHC16h/AliAOD.StrangeParJets_2119.root failed to read the file type data.
+event = 145M
+event = 146M
+event = 147M
+event = 148M
+event = 149M
+event = 150M
+event = 151M
+event = 152M
+event = 153M
+event = 154M
+event = 155M
+event = 156M
+event = 157M
+event = 158M
+event = 159M
+event = 160M
+event = 161M
+event = 162M
+event = 163M
+event = 164M
+event = 165M
+event = 166M
+event = 167M
+event = 168M
+event = 169M
+SysError in <TFile::ReadBuffer>: error reading from file /eos/home-p/pcui/Results/pp/16-17/16/LHC16h/AliAOD.StrangeParJets_505.root (Input/output error)
+E-TFile::Init: /eos/home-p/pcui/Results/pp/16-17/16/LHC16h/AliAOD.StrangeParJets_505.root failed to read the file type data.
+event = 170M
+event = 171M
+event = 172M
+event = 173M
+event = 174M
+event = 175M
+event = 176M
+event = 177M
+event = 178M
+event = 179M
+event = 180M
+event = 181M
+event = 182M
+event = 183M
+event = 184M
+event = 185M
+event = 186M
+event = 187M
+event = 188M
+event = 189M
+event = 190M
+event = 191M
+event = 192M
+event = 193M
+event = 194M
+event = 195M
+event = 196M
+event = 197M
+event = 198M
+event = 199M
+event = 200M
+event = 201M
+event = 202M
+event = 203M
+event = 204M
+event = 205M
+event = 206M
+event = 207M
+event = 208M
+event = 209M
+event = 210M
+event = 211M
+event = 212M
+event = 213M
+event = 214M
+event = 215M
+event = 216M
+event = 217M
+event = 218M
+event = 219M
+event = 220M
+event = 221M
+event = 222M
+event = 223M
+event = 224M
+event = 225M
+event = 226M
+event = 227M
+E-TFile::Init: file /eos/home-p/pcui/Results/pp/16-17/16/LHC16k/AliAOD.StrangeParJets_1263.root is truncated at 6741153 bytes: should be 9053357, trying to recover
+I-TFile::Recover: /eos/home-p/pcui/Results/pp/16-17/16/LHC16k/AliAOD.StrangeParJets_1263.root, recovered key TProcessID:ProcessID0 at address 248
+W-TFile::Init: successfully recovered 1 keys
+E-TFile::ReadBuffer: error reading all requested bytes from file /eos/home-p/pcui/Results/pp/16-17/16/LHC16k/AliAOD.StrangeParJets_1263.root, got 0 of 7001
+W-TFile::GetRecordHeader: /eos/home-p/pcui/Results/pp/16-17/16/LHC16k/AliAOD.StrangeParJets_1263.root: failed to read the StreamerInfo data from disk.
+event = 228M
+E-TFile::Init: file /eos/home-p/pcui/Results/pp/16-17/16/LHC16k/AliAOD.StrangeParJets_1267.root is truncated at 3220041 bytes: should be 9067999, trying to recover
+I-TFile::Recover: /eos/home-p/pcui/Results/pp/16-17/16/LHC16k/AliAOD.StrangeParJets_1267.root, recovered key TProcessID:ProcessID0 at address 248
+W-TFile::Init: successfully recovered 1 keys
+E-TFile::ReadBuffer: error reading all requested bytes from file /eos/home-p/pcui/Results/pp/16-17/16/LHC16k/AliAOD.StrangeParJets_1267.root, got 0 of 7001
+W-TFile::GetRecordHeader: /eos/home-p/pcui/Results/pp/16-17/16/LHC16k/AliAOD.StrangeParJets_1267.root: failed to read the StreamerInfo data from disk.
+E-TFile::Init: file /eos/home-p/pcui/Results/pp/16-17/16/LHC16k/AliAOD.StrangeParJets_1268.root is truncated at 8726985 bytes: should be 9135227, trying to recover
+I-TFile::Recover: /eos/home-p/pcui/Results/pp/16-17/16/LHC16k/AliAOD.StrangeParJets_1268.root, recovered key TProcessID:ProcessID0 at address 248
+W-TFile::Init: successfully recovered 1 keys
+E-TFile::ReadBuffer: error reading all requested bytes from file /eos/home-p/pcui/Results/pp/16-17/16/LHC16k/AliAOD.StrangeParJets_1268.root, got 0 of 7001
+W-TFile::GetRecordHeader: /eos/home-p/pcui/Results/pp/16-17/16/LHC16k/AliAOD.StrangeParJets_1268.root: failed to read the StreamerInfo data from disk.
+event = 229M
+event = 230M
+event = 231M
+event = 232M
+event = 233M
+event = 234M
+event = 235M
+event = 236M
+event = 237M
+event = 238M
+event = 239M
+event = 240M
+event = 241M
+event = 242M
+event = 243M
+event = 244M
+E-TFile::Init: file /eos/home-p/pcui/Results/pp/16-17/16/LHC16k/AliAOD.StrangeParJets_1832.root is truncated at 4621809 bytes: should be 8277673, trying to recover
+I-TFile::Recover: /eos/home-p/pcui/Results/pp/16-17/16/LHC16k/AliAOD.StrangeParJets_1832.root, recovered key TProcessID:ProcessID0 at address 248
+W-TFile::Init: successfully recovered 1 keys
+E-TFile::ReadBuffer: error reading all requested bytes from file /eos/home-p/pcui/Results/pp/16-17/16/LHC16k/AliAOD.StrangeParJets_1832.root, got 0 of 7001
+W-TFile::GetRecordHeader: /eos/home-p/pcui/Results/pp/16-17/16/LHC16k/AliAOD.StrangeParJets_1832.root: failed to read the StreamerInfo data from disk.
+E-TFile::Init: file /eos/home-p/pcui/Results/pp/16-17/16/LHC16k/AliAOD.StrangeParJets_1835.root is truncated at 1434457 bytes: should be 1891676, trying to recover
+I-TFile::Recover: /eos/home-p/pcui/Results/pp/16-17/16/LHC16k/AliAOD.StrangeParJets_1835.root, recovered key TProcessID:ProcessID0 at address 248
+W-TFile::Init: successfully recovered 1 keys
+E-TFile::ReadBuffer: error reading all requested bytes from file /eos/home-p/pcui/Results/pp/16-17/16/LHC16k/AliAOD.StrangeParJets_1835.root, got 0 of 7001
+W-TFile::GetRecordHeader: /eos/home-p/pcui/Results/pp/16-17/16/LHC16k/AliAOD.StrangeParJets_1835.root: failed to read the StreamerInfo data from disk.
+event = 245M
+E-TFile::Init: file /eos/home-p/pcui/Results/pp/16-17/16/LHC16k/AliAOD.StrangeParJets_1839.root is truncated at 1751529 bytes: should be 7179049, trying to recover
+I-TFile::Recover: /eos/home-p/pcui/Results/pp/16-17/16/LHC16k/AliAOD.StrangeParJets_1839.root, recovered key TProcessID:ProcessID0 at address 248
+W-TFile::Init: successfully recovered 1 keys
+E-TFile::ReadBuffer: error reading all requested bytes from file /eos/home-p/pcui/Results/pp/16-17/16/LHC16k/AliAOD.StrangeParJets_1839.root, got 0 of 7001
+W-TFile::GetRecordHeader: /eos/home-p/pcui/Results/pp/16-17/16/LHC16k/AliAOD.StrangeParJets_1839.root: failed to read the StreamerInfo data from disk.
+E-TFile::Init: file /eos/home-p/pcui/Results/pp/16-17/16/LHC16k/AliAOD.StrangeParJets_1841.root is truncated at 1551273 bytes: should be 7453447, trying to recover
+I-TFile::Recover: /eos/home-p/pcui/Results/pp/16-17/16/LHC16k/AliAOD.StrangeParJets_1841.root, recovered key TProcessID:ProcessID0 at address 248
+W-TFile::Init: successfully recovered 1 keys
+E-TFile::ReadBuffer: error reading all requested bytes from file /eos/home-p/pcui/Results/pp/16-17/16/LHC16k/AliAOD.StrangeParJets_1841.root, got 0 of 7001
+W-TFile::GetRecordHeader: /eos/home-p/pcui/Results/pp/16-17/16/LHC16k/AliAOD.StrangeParJets_1841.root: failed to read the StreamerInfo data from disk.
+event = 246M
+event = 247M
+event = 248M
+event = 249M
+event = 250M
+event = 251M
+event = 252M
+event = 253M
+event = 254M
+event = 255M
+event = 256M
+event = 257M
+event = 258M
+event = 259M
+event = 260M
+event = 261M
+event = 262M
+event = 263M
+event = 264M
+event = 265M
+event = 266M
+event = 267M
+event = 268M
+event = 269M
+event = 270M
+event = 271M
+event = 272M
+event = 273M
+event = 274M
+event = 275M
+event = 276M
+event = 277M
+event = 278M
+event = 279M
+event = 280M
+event = 281M
+event = 282M
+event = 283M
+event = 284M
+event = 285M
+event = 286M
+event = 287M
+event = 288M
+event = 289M
+event = 290M
+event = 291M
+event = 292M
+event = 293M
+event = 294M
+event = 295M
+event = 296M
+event = 297M
+event = 298M
+event = 299M
+event = 300M
+event = 301M
+event = 302M
+event = 303M
+event = 304M
+event = 305M
+event = 306M
+event = 307M
+event = 308M
+event = 309M
+event = 310M
+event = 311M
+event = 312M
+event = 313M
+event = 314M
+event = 315M
+event = 316M
+event = 317M
+event = 318M
+event = 319M
+event = 320M
+event = 321M
+event = 322M
+event = 323M
+event = 324M
+event = 325M
+event = 326M
+event = 327M
+event = 328M
+event = 329M
+event = 330M
+event = 331M
+event = 332M
+event = 333M
+event = 334M
+event = 335M
+event = 336M
+event = 337M
+event = 338M
+event = 339M
+event = 340M
+event = 341M
+event = 342M
+event = 343M
+event = 344M
+event = 345M
+event = 346M
+event = 347M
+event = 348M
+event = 349M
+event = 350M
+event = 351M
+event = 352M
+event = 353M
+event = 354M
+event = 355M
+event = 356M
+event = 357M
+event = 358M
+event = 359M
+event = 360M
+event = 361M
+event = 362M
+event = 363M
+event = 364M
+event = 365M
+event = 366M
+event = 367M
+event = 368M
+event = 369M
+event = 370M
+event = 371M
+event = 372M
+event = 373M
+event = 374M
+event = 375M
+event = 376M
+event = 377M
+event = 378M
+event = 379M
+event = 380M
+event = 381M
+event = 382M
+event = 383M
+event = 384M
+event = 385M
+event = 386M
+event = 387M
+event = 388M
+event = 389M
+event = 390M
+event = 391M
+event = 392M
+event = 393M
+event = 394M
+event = 395M
+event = 396M
+event = 397M
+event = 398M
+event = 399M
+event = 400M
+event = 401M
+event = 402M
+event = 403M
+event = 404M
+event = 405M
+event = 406M
+event = 407M
+event = 408M
+event = 409M
+event = 410M
+event = 411M
+event = 412M
+event = 413M
+event = 414M
+event = 415M
+event = 416M
+event = 417M
+event = 418M
+event = 419M
+event = 420M
+event = 421M
+event = 422M
+event = 423M
+event = 424M
+event = 425M
+event = 426M
+event = 427M
+event = 428M
+event = 429M
+event = 430M
+event = 431M
+event = 432M
+event = 433M
+event = 434M
+event = 435M
+event = 436M
+event = 437M
+event = 438M
+event = 439M
+event = 440M
+event = 441M
+event = 442M
+event = 443M
+event = 444M
+event = 445M
+event = 446M
+event = 447M
+event = 448M
+event = 449M
+event = 450M
+event = 451M
+event = 452M
+event = 453M
+event = 454M
+event = 455M
+event = 456M
+event = 457M
+event = 458M
+event = 459M
+event = 460M
+event = 461M
+event = 462M
+event = 463M
+event = 464M
+event = 465M
+event = 466M
+event = 467M
+event = 468M
+event = 469M
+event = 470M
+event = 471M
+event = 472M
+event = 473M
+event = 474M
+event = 475M
+event = 476M
+event = 477M
+event = 478M
+event = 479M
+event = 480M
+event = 481M
+event = 482M
+event = 483M
+event = 484M
+event = 485M
+event = 486M
+event = 487M
+event = 488M
+event = 489M
+event = 490M
+event = 491M
+event = 492M
+event = 493M
+event = 494M
+event = 495M
+event = 496M
+event = 497M
+event = 498M
+event = 499M
+event = 500M
+event = 501M
+event = 502M
+event = 503M
+event = 504M
+event = 505M
+event = 506M
+event = 507M
+event = 508M
+event = 509M
+event = 510M
+event = 511M
+event = 512M
+event = 513M
+event = 514M
+event = 515M
+event = 516M
+event = 517M
+event = 518M
+event = 519M
+event = 520M
+event = 521M
+event = 522M
+event = 523M
+event = 524M
+event = 525M
+event = 526M
+event = 527M
+event = 528M
+event = 529M
+event = 530M
+event = 531M
+event = 532M
+event = 533M
+event = 534M
+event = 535M
+event = 536M
+event = 537M
+event = 538M
+event = 539M
+event = 540M
+event = 541M
+event = 542M
+event = 543M
+event = 544M
+event = 545M
+event = 546M
+event = 547M
+event = 548M
+event = 549M
+event = 550M
+event = 551M
+event = 552M
+event = 553M
+event = 554M
+event = 555M
+event = 556M
+event = 557M
+event = 558M
+event = 559M
+event = 560M
+event = 561M
+event = 562M
+event = 563M
+event = 564M
+event = 565M
+event = 566M
+event = 567M
+event = 568M
+event = 569M
+event = 570M
+event = 571M
+event = 572M
+event = 573M
+event = 574M
+event = 575M
+event = 576M
+event = 577M
+event = 578M
+event = 579M
+event = 580M
+event = 581M
+event = 582M
+event = 583M
+event = 584M
+event = 585M
+event = 586M
+event = 587M
+event = 588M
+event = 589M
+event = 590M
+event = 591M
+event = 592M
+event = 593M
+event = 594M
+event = 595M
+event = 596M
+event = 597M
+event = 598M
+event = 599M
+event = 600M
+event = 601M
+event = 602M
+event = 603M
+event = 604M
+event = 605M
+event = 606M
+event = 607M
+event = 608M
+event = 609M
+event = 610M
+event = 611M
+event = 612M
+event = 613M
+event = 614M
+event = 615M
+event = 616M
+event = 617M
+event = 618M
+event = 619M
+event = 620M
+event = 621M
+event = 622M
+event = 623M
+event = 624M
+event = 625M
+event = 626M
+event = 627M
+event = 628M
+event = 629M
+event = 630M
+event = 631M
+event = 632M
+event = 633M
+event = 634M
+event = 635M
+event = 636M
+event = 637M
+event = 638M
+event = 639M
+event = 640M
+event = 641M
+event = 642M
+event = 643M
+event = 644M
+event = 645M
+event = 646M
+event = 647M
+event = 648M
+event = 649M
+event = 650M
+event = 651M
+event = 652M
+event = 653M
+event = 654M
+event = 655M
+event = 656M
+event = 657M
+event = 658M
+event = 659M
+event = 660M
+event = 661M
+event = 662M
+event = 663M
+event = 664M
+event = 665M
+event = 666M
+event = 667M
+event = 668M
+event = 669M
+event = 670M
+event = 671M
+event = 672M
+event = 673M
+event = 674M
+event = 675M
+event = 676M
+event = 677M
+event = 678M
+event = 679M
+event = 680M
+event = 681M
+event = 682M
+event = 683M
+event = 684M
+event = 685M
+event = 686M
+event = 687M
+event = 688M
+event = 689M
+event = 690M
+event = 691M
+event = 692M
+event = 693M
+event = 694M
+event = 695M
+event = 696M
+event = 697M
+event = 698M
+event = 699M
+event = 700M
+event = 701M
+event = 702M
+event = 703M
+event = 704M
+event = 705M
+event = 706M
+event = 707M
+event = 708M
+event = 709M
+event = 710M
+event = 711M
+event = 712M
+event = 713M
+event = 714M
+event = 715M
+event = 716M
+event = 717M
+event = 718M
+event = 719M
+event = 720M
+event = 721M
+event = 722M
+event = 723M
+event = 724M
+event = 725M
+event = 726M
+event = 727M
+event = 728M
+event = 729M
+event = 730M
+event = 731M
+event = 732M
+event = 733M
+event = 734M
+event = 735M
+event = 736M
+event = 737M
+event = 738M
+event = 739M
+event = 740M
+event = 741M
+event = 742M
+event = 743M
+event = 744M
+event = 745M
+event = 746M
+event = 747M
+event = 748M
+event = 749M
+event = 750M
+event = 751M
+event = 752M
+event = 753M
+event = 754M
+event = 755M
+event = 756M
+event = 757M
+event = 758M
+event = 759M
+event = 760M
+event = 761M
+event = 762M
+event = 763M
+event = 764M
+event = 765M
+event = 766M
+event = 767M
+event = 768M
+event = 769M
+event = 770M
+event = 771M
+event = 772M
+event = 773M
+event = 774M
+event = 775M
+event = 776M
+event = 777M
+event = 778M
+event = 779M
+event = 780M
+event = 781M
+event = 782M
+event = 783M
+event = 784M
+event = 785M
+event = 786M
+event = 787M
+event = 788M
+event = 789M
+event = 790M
+event = 791M
+event = 792M
+event = 793M
+event = 794M
+event = 795M
+event = 796M
+event = 797M
+event = 798M
+event = 799M
+event = 800M
+event = 801M
+event = 802M
+event = 803M
+event = 804M
+event = 805M
+event = 806M
+event = 807M
+event = 808M
+event = 809M
+event = 810M
+event = 811M
+event = 812M
+event = 813M
+event = 814M
+event = 815M
+event = 816M
+event = 817M
+event = 818M
+event = 819M
+event = 820M
+event = 821M
+event = 822M
+event = 823M
+event = 824M
+event = 825M
+event = 826M
+event = 827M
+event = 828M
+event = 829M
+event = 830M
+event = 831M
+event = 832M
+event = 833M
+event = 834M
+event = 835M
+event = 836M
+event = 837M
+event = 838M
+event = 839M
+event = 840M
+event = 841M
+event = 842M
+event = 843M
+event = 844M
+event = 845M
+event = 846M
+event = 847M
+event = 848M
+event = 849M
+event = 850M
+event = 851M
+event = 852M
+event = 853M
+event = 854M
+event = 855M
+event = 856M
+event = 857M
+event = 858M
+event = 859M
+event = 860M
+event = 861M
+event = 862M
+event = 863M
+event = 864M
+event = 865M
+event = 866M
+event = 867M
+event = 868M
+event = 869M
+event = 870M
+event = 871M
+event = 872M
+event = 873M
+event = 874M
+event = 875M
+event = 876M
+event = 877M
+event = 878M
+event = 879M
+event = 880M
+event = 881M
+event = 882M
+event = 883M
+event = 884M
+event = 885M
+event = 886M
+event = 887M
+event = 888M
+event = 889M
+event = 890M
+event = 891M
+event = 892M
+event = 893M
+event = 894M
+event = 895M
+event = 896M
+event = 897M
+event = 898M
+event = 899M
+event = 900M
+event = 901M
+event = 902M
+event = 903M
+event = 904M
+event = 905M
+event = 906M
+event = 907M
+event = 908M
+event = 909M
+event = 910M
+event = 911M
+event = 912M
+event = 913M
+event = 914M
+event = 915M
+event = 916M
+event = 917M
+event = 918M
+event = 919M
+event = 920M
+event = 921M
+event = 922M
+event = 923M
+event = 924M
+event = 925M
+event = 926M
+event = 927M
+event = 928M
+event = 929M
+event = 930M
+event = 931M
+event = 932M
+event = 933M
+event = 934M
+event = 935M
+event = 936M
+event = 937M
+event = 938M
+event = 939M
+event = 940M
+event = 941M
+event = 942M
+event = 943M
+event = 944M
+event = 945M
+event = 946M
+event = 947M
+event = 948M
+event = 949M
+event = 950M
+event = 951M
+event = 952M
+event = 953M
+event = 954M
+event = 955M
+event = 956M
+event = 957M
+event = 958M
+event = 959M
+event = 960M
+event = 961M
+event = 962M
+event = 963M
+event = 964M
+event = 965M
+event = 966M
+event = 967M
+event = 968M
+event = 969M
+event = 970M
+event = 971M
+event = 972M
+event = 973M
+event = 974M
+event = 975M
+event = 976M
+event = 977M
+event = 978M
+event = 979M
+event = 980M
+event = 981M
+event = 982M
+event = 983M
+event = 984M
+event = 985M
+event = 986M
+event = 987M
+event = 988M
+event = 989M
+event = 990M
+event = 991M
+event = 992M
+event = 993M
+event = 994M
+event = 995M
+event = 996M
+event = 997M
+event = 998M
+event = 999M
+event = 1000M
+event = 1001M
+event = 1002M
+event = 1003M
+event = 1004M
+event = 1005M
+event = 1006M
+event = 1007M
+event = 1008M
+event = 1009M
+event = 1010M
+event = 1011M
+event = 1012M
+event = 1013M
+event = 1014M
+event = 1015M
+event = 1016M
+event = 1017M
+event = 1018M
+event = 1019M
+event = 1020M
+event = 1021M
+event = 1022M
+event = 1023M
+event = 1024M
+event = 1025M
+event = 1026M
+event = 1027M
+event = 1028M
+event = 1029M
+event = 1030M
+event = 1031M
+event = 1032M
+event = 1033M
+event = 1034M
+event = 1035M
+event = 1036M
+event = 1037M
+event = 1038M
+event = 1039M
+event = 1040M
+event = 1041M
+event = 1042M
+event = 1043M
+event = 1044M
+event = 1045M
+event = 1046M
+event = 1047M
+event = 1048M
+event = 1049M
+event = 1050M
+event = 1051M
+event = 1052M
+event = 1053M
+event = 1054M
+event = 1055M
+event = 1056M
+event = 1057M
+event = 1058M
+event = 1059M
+event = 1060M
+event = 1061M
+event = 1062M
+event = 1063M
+event = 1064M
+event = 1065M
+event = 1066M
+event = 1067M
+event = 1068M
+event = 1069M
+event = 1070M
+event = 1071M
+event = 1072M
+event = 1073M
+event = 1074M
+event = 1075M
+event = 1076M
+event = 1077M
+event = 1078M
+event = 1079M
+event = 1080M
+event = 1081M
+event = 1082M
+event = 1083M
+event = 1084M
+event = 1085M
+event = 1086M
+event = 1087M
+event = 1088M
+event = 1089M
+event = 1090M
+event = 1091M
+event = 1092M
+event = 1093M
+event = 1094M
+event = 1095M
+event = 1096M
+event = 1097M
+event = 1098M
+event = 1099M
+event = 1100M
+event = 1101M
+event = 1102M
+event = 1103M
+event = 1104M
+event = 1105M
+event = 1106M
+event = 1107M
+event = 1108M
+event = 1109M
+event = 1110M
+event = 1111M
+event = 1112M
+event = 1113M
+event = 1114M
+event = 1115M
+event = 1116M
+event = 1117M
+event = 1118M
+event = 1119M
+event = 1120M
+event = 1121M
+event = 1122M
+event = 1123M
+event = 1124M
+event = 1125M
+event = 1126M
+event = 1127M
+event = 1128M
+event = 1129M
+event = 1130M
+event = 1131M
+event = 1132M
+event = 1133M
+event = 1134M
+event = 1135M
+event = 1136M
+event = 1137M
+event = 1138M
+event = 1139M
+event = 1140M
+event = 1141M
+event = 1142M
+event = 1143M
+event = 1144M
+event = 1145M
+event = 1146M
+event = 1147M
+event = 1148M
+event = 1149M
+event = 1150M
+event = 1151M
+event = 1152M
+event = 1153M
+event = 1154M
+event = 1155M
+event = 1156M
+event = 1157M
+event = 1158M
+event = 1159M
+event = 1160M
+event = 1161M
+event = 1162M
+event = 1163M
+event = 1164M
+event = 1165M
+event = 1166M
+E-TFile::Init: file /eos/home-p/pcui/Results/pp/16-17/17/LHC17l/AliAOD.StrangeParJets_3898.root is truncated at 7759417 bytes: should be 8095670, trying to recover
+I-TFile::Recover: /eos/home-p/pcui/Results/pp/16-17/17/LHC17l/AliAOD.StrangeParJets_3898.root, recovered key TProcessID:ProcessID0 at address 248
+W-TFile::Init: successfully recovered 1 keys
+E-TFile::ReadBuffer: error reading all requested bytes from file /eos/home-p/pcui/Results/pp/16-17/17/LHC17l/AliAOD.StrangeParJets_3898.root, got 0 of 7001
+W-TFile::GetRecordHeader: /eos/home-p/pcui/Results/pp/16-17/17/LHC17l/AliAOD.StrangeParJets_3898.root: failed to read the StreamerInfo data from disk.
+event = 1167M
+event = 1168M
+event = 1169M
+event = 1170M
+event = 1171M
+event = 1172M
+event = 1173M
+event = 1174M
+event = 1175M
+event = 1176M
+event = 1177M
+event = 1178M
+event = 1179M
+event = 1180M
+event = 1181M
+event = 1182M
+event = 1183M
+event = 1184M
+event = 1185M
+event = 1186M
+event = 1187M
+event = 1188M
+event = 1189M
+event = 1190M
+event = 1191M
+event = 1192M
+event = 1193M
+event = 1194M
+event = 1195M
+event = 1196M
+event = 1197M
+event = 1198M
+event = 1199M
+event = 1200M
+event = 1201M
+event = 1202M
+event = 1203M
+event = 1204M
+event = 1205M
+event = 1206M
+event = 1207M
+event = 1208M
+event = 1209M
+event = 1210M
+event = 1211M
+event = 1212M
+event = 1213M
+event = 1214M
+event = 1215M
+event = 1216M
+event = 1217M
+event = 1218M
+event = 1219M
+event = 1220M
+event = 1221M
+event = 1222M
+event = 1223M
+event = 1224M
+event = 1225M
+event = 1226M
+event = 1227M
+event = 1228M
+event = 1229M
+event = 1230M
+event = 1231M
+event = 1232M
+event = 1233M
+event = 1234M
+event = 1235M
+event = 1236M
+event = 1237M
+event = 1238M
+event = 1239M
+event = 1240M
+event = 1241M
+event = 1242M
+event = 1243M
+event = 1244M
+event = 1245M
+event = 1246M
+event = 1247M
+event = 1248M
+event = 1249M
+event = 1250M
+event = 1251M
+event = 1252M
+event = 1253M
+event = 1254M
+event = 1255M
+event = 1256M
+E-TFile::Init: file /eos/home-p/pcui/Results/pp/16-17/17/LHC17m/AliAOD.StrangeParJets_2530.root is truncated at 9428193 bytes: should be 9716759, trying to recover
+I-TFile::Recover: /eos/home-p/pcui/Results/pp/16-17/17/LHC17m/AliAOD.StrangeParJets_2530.root, recovered key TProcessID:ProcessID0 at address 248
+W-TFile::Init: successfully recovered 1 keys
+E-TFile::ReadBuffer: error reading all requested bytes from file /eos/home-p/pcui/Results/pp/16-17/17/LHC17m/AliAOD.StrangeParJets_2530.root, got 0 of 7001
+W-TFile::GetRecordHeader: /eos/home-p/pcui/Results/pp/16-17/17/LHC17m/AliAOD.StrangeParJets_2530.root: failed to read the StreamerInfo data from disk.
+E-TFile::Init: file /eos/home-p/pcui/Results/pp/16-17/17/LHC17m/AliAOD.StrangeParJets_2531.root is truncated at 3020113 bytes: should be 10050755, trying to recover
+I-TFile::Recover: /eos/home-p/pcui/Results/pp/16-17/17/LHC17m/AliAOD.StrangeParJets_2531.root, recovered key TProcessID:ProcessID0 at address 248
+W-TFile::Init: successfully recovered 1 keys
+E-TFile::ReadBuffer: error reading all requested bytes from file /eos/home-p/pcui/Results/pp/16-17/17/LHC17m/AliAOD.StrangeParJets_2531.root, got 0 of 7001
+W-TFile::GetRecordHeader: /eos/home-p/pcui/Results/pp/16-17/17/LHC17m/AliAOD.StrangeParJets_2531.root: failed to read the StreamerInfo data from disk.
+E-TFile::Init: file /eos/home-p/pcui/Results/pp/16-17/17/LHC17m/AliAOD.StrangeParJets_2532.root is truncated at 4939201 bytes: should be 10010077, trying to recover
+I-TFile::Recover: /eos/home-p/pcui/Results/pp/16-17/17/LHC17m/AliAOD.StrangeParJets_2532.root, recovered key TProcessID:ProcessID0 at address 248
+W-TFile::Init: successfully recovered 1 keys
+E-TFile::ReadBuffer: error reading all requested bytes from file /eos/home-p/pcui/Results/pp/16-17/17/LHC17m/AliAOD.StrangeParJets_2532.root, got 0 of 7001
+W-TFile::GetRecordHeader: /eos/home-p/pcui/Results/pp/16-17/17/LHC17m/AliAOD.StrangeParJets_2532.root: failed to read the StreamerInfo data from disk.
+E-TFile::Init: file /eos/home-p/pcui/Results/pp/16-17/17/LHC17m/AliAOD.StrangeParJets_2533.root is truncated at 7308849 bytes: should be 10472658, trying to recover
+I-TFile::Recover: /eos/home-p/pcui/Results/pp/16-17/17/LHC17m/AliAOD.StrangeParJets_2533.root, recovered key TProcessID:ProcessID0 at address 248
+W-TFile::Init: successfully recovered 1 keys
+E-TFile::ReadBuffer: error reading all requested bytes from file /eos/home-p/pcui/Results/pp/16-17/17/LHC17m/AliAOD.StrangeParJets_2533.root, got 0 of 7001
+W-TFile::GetRecordHeader: /eos/home-p/pcui/Results/pp/16-17/17/LHC17m/AliAOD.StrangeParJets_2533.root: failed to read the StreamerInfo data from disk.
+E-TFile::Init: file /eos/home-p/pcui/Results/pp/16-17/17/LHC17m/AliAOD.StrangeParJets_2534.root is truncated at 6808217 bytes: should be 9242808, trying to recover
+I-TFile::Recover: /eos/home-p/pcui/Results/pp/16-17/17/LHC17m/AliAOD.StrangeParJets_2534.root, recovered key TProcessID:ProcessID0 at address 248
+W-TFile::Init: successfully recovered 1 keys
+E-TFile::ReadBuffer: error reading all requested bytes from file /eos/home-p/pcui/Results/pp/16-17/17/LHC17m/AliAOD.StrangeParJets_2534.root, got 0 of 7001
+W-TFile::GetRecordHeader: /eos/home-p/pcui/Results/pp/16-17/17/LHC17m/AliAOD.StrangeParJets_2534.root: failed to read the StreamerInfo data from disk.
+event = 1257M
+event = 1258M
+event = 1259M
+event = 1260M
+event = 1261M
+E-TFile::Init: file /eos/home-p/pcui/Results/pp/16-17/17/LHC17m/AliAOD.StrangeParJets_2632.root is truncated at 4305065 bytes: should be 11220198, trying to recover
+I-TFile::Recover: /eos/home-p/pcui/Results/pp/16-17/17/LHC17m/AliAOD.StrangeParJets_2632.root, recovered key TProcessID:ProcessID0 at address 248
+W-TFile::Init: successfully recovered 1 keys
+E-TFile::ReadBuffer: error reading all requested bytes from file /eos/home-p/pcui/Results/pp/16-17/17/LHC17m/AliAOD.StrangeParJets_2632.root, got 0 of 7001
+W-TFile::GetRecordHeader: /eos/home-p/pcui/Results/pp/16-17/17/LHC17m/AliAOD.StrangeParJets_2632.root: failed to read the StreamerInfo data from disk.
+E-TFile::Init: file /eos/home-p/pcui/Results/pp/16-17/17/LHC17m/AliAOD.StrangeParJets_2634.root is truncated at 8076489 bytes: should be 11270552, trying to recover
+I-TFile::Recover: /eos/home-p/pcui/Results/pp/16-17/17/LHC17m/AliAOD.StrangeParJets_2634.root, recovered key TProcessID:ProcessID0 at address 248
+W-TFile::Init: successfully recovered 1 keys
+E-TFile::ReadBuffer: error reading all requested bytes from file /eos/home-p/pcui/Results/pp/16-17/17/LHC17m/AliAOD.StrangeParJets_2634.root, got 0 of 7001
+W-TFile::GetRecordHeader: /eos/home-p/pcui/Results/pp/16-17/17/LHC17m/AliAOD.StrangeParJets_2634.root: failed to read the StreamerInfo data from disk.
+event = 1262M
+event = 1263M
+event = 1264M
+event = 1265M
+event = 1266M
+event = 1267M
+event = 1268M
+event = 1269M
+event = 1270M
+event = 1271M
+event = 1272M
+event = 1273M
+event = 1274M
+event = 1275M
+event = 1276M
+event = 1277M
+event = 1278M
+event = 1279M
+event = 1280M
+event = 1281M
+event = 1282M
+event = 1283M
+event = 1284M
+event = 1285M
+event = 1286M
+event = 1287M
+event = 1288M
+SysError in <TFile::ReadBuffer>: error reading from file /eos/home-p/pcui/Results/pp/16-17/17/LHC17m/AliAOD.StrangeParJets_406.root (Input/output error)
+E-TFile::Init: /eos/home-p/pcui/Results/pp/16-17/17/LHC17m/AliAOD.StrangeParJets_406.root failed to read the file type data.
+event = 1289M
+event = 1290M
+event = 1291M
+event = 1292M
+event = 1293M
+event = 1294M
+event = 1295M
+event = 1296M
+event = 1297M
+event = 1298M
+event = 1299M
+event = 1300M
+event = 1301M
+event = 1302M
+event = 1303M
+event = 1304M
+event = 1305M
+event = 1306M
+event = 1307M
+event = 1308M
+event = 1309M
+event = 1310M
+event = 1311M
+event = 1312M
+event = 1313M
+event = 1314M
+event = 1315M
+event = 1316M
+event = 1317M
+event = 1318M
+event = 1319M
+event = 1320M
+event = 1321M
+event = 1322M
+event = 1323M
+event = 1324M
+event = 1325M
+event = 1326M
+event = 1327M
+event = 1328M
+event = 1329M
+event = 1330M
+event = 1331M
+event = 1332M
+event = 1333M
+event = 1334M
+event = 1335M
+event = 1336M
+event = 1337M
+event = 1338M
+event = 1339M
+event = 1340M
+event = 1341M
+event = 1342M
+event = 1343M
+event = 1344M
+event = 1345M
+event = 1346M
+event = 1347M
+event = 1348M
+event = 1349M
+event = 1350M
+event = 1351M
+event = 1352M
+event = 1353M
+event = 1354M
+event = 1355M
+event = 1356M
+event = 1357M
+event = 1358M
+event = 1359M
+event = 1360M
+event = 1361M
+event = 1362M
+event = 1363M
+event = 1364M
+event = 1365M
+event = 1366M
+event = 1367M
+event = 1368M
+event = 1369M
+event = 1370M
+event = 1371M
+event = 1372M
+event = 1373M
+event = 1374M
+event = 1375M
+event = 1376M
+event = 1377M
+event = 1378M
+event = 1379M
+event = 1380M
+event = 1381M
+event = 1382M
+event = 1383M
+event = 1384M
+event = 1385M
+event = 1386M
+event = 1387M
+event = 1388M
+event = 1389M
+event = 1390M
+event = 1391M
+event = 1392M
+SysError in <TFile::ReadBuffer>: error reading from file /eos/home-p/pcui/Results/pp/16-17/17/LHC17o/AliAOD.StrangeParJets_3032.root (Input/output error)
+E-TFile::Init: /eos/home-p/pcui/Results/pp/16-17/17/LHC17o/AliAOD.StrangeParJets_3032.root failed to read the file type data.
+event = 1393M
+event = 1394M
+event = 1395M
+event = 1396M
+event = 1397M
+event = 1398M
+event = 1399M
+event = 1400M
+event = 1401M
+event = 1402M
+event = 1403M
+event = 1404M
+event = 1405M
+event = 1406M
+event = 1407M
+E-TFile::Init: file /eos/home-p/pcui/Results/pp/16-17/17/LHC17o/AliAOD.StrangeParJets_3488.root is truncated at 5005945 bytes: should be 9132227, trying to recover
+I-TFile::Recover: /eos/home-p/pcui/Results/pp/16-17/17/LHC17o/AliAOD.StrangeParJets_3488.root, recovered key TProcessID:ProcessID0 at address 248
+W-TFile::Init: successfully recovered 1 keys
+E-TFile::ReadBuffer: error reading all requested bytes from file /eos/home-p/pcui/Results/pp/16-17/17/LHC17o/AliAOD.StrangeParJets_3488.root, got 0 of 7001
+W-TFile::GetRecordHeader: /eos/home-p/pcui/Results/pp/16-17/17/LHC17o/AliAOD.StrangeParJets_3488.root: failed to read the StreamerInfo data from disk.
+E-TFile::Init: file /eos/home-p/pcui/Results/pp/16-17/17/LHC17o/AliAOD.StrangeParJets_3494.root is truncated at 10095697 bytes: should be 10287501, trying to recover
+I-TFile::Recover: /eos/home-p/pcui/Results/pp/16-17/17/LHC17o/AliAOD.StrangeParJets_3494.root, recovered key TProcessID:ProcessID0 at address 248
+W-TFile::Init: successfully recovered 1 keys
+E-TFile::ReadBuffer: error reading all requested bytes from file /eos/home-p/pcui/Results/pp/16-17/17/LHC17o/AliAOD.StrangeParJets_3494.root, got 0 of 7001
+W-TFile::GetRecordHeader: /eos/home-p/pcui/Results/pp/16-17/17/LHC17o/AliAOD.StrangeParJets_3494.root: failed to read the StreamerInfo data from disk.
+event = 1408M
+E-TFile::Init: file /eos/home-p/pcui/Results/pp/16-17/17/LHC17o/AliAOD.StrangeParJets_3496.root is truncated at 2235793 bytes: should be 10205938, trying to recover
+I-TFile::Recover: /eos/home-p/pcui/Results/pp/16-17/17/LHC17o/AliAOD.StrangeParJets_3496.root, recovered key TProcessID:ProcessID0 at address 248
+W-TFile::Init: successfully recovered 1 keys
+E-TFile::ReadBuffer: error reading all requested bytes from file /eos/home-p/pcui/Results/pp/16-17/17/LHC17o/AliAOD.StrangeParJets_3496.root, got 0 of 7001
+W-TFile::GetRecordHeader: /eos/home-p/pcui/Results/pp/16-17/17/LHC17o/AliAOD.StrangeParJets_3496.root: failed to read the StreamerInfo data from disk.
+E-TFile::Init: file /eos/home-p/pcui/Results/pp/16-17/17/LHC17o/AliAOD.StrangeParJets_3497.root is truncated at 2269169 bytes: should be 9441282, trying to recover
+I-TFile::Recover: /eos/home-p/pcui/Results/pp/16-17/17/LHC17o/AliAOD.StrangeParJets_3497.root, recovered key TProcessID:ProcessID0 at address 248
+W-TFile::Init: successfully recovered 1 keys
+E-TFile::ReadBuffer: error reading all requested bytes from file /eos/home-p/pcui/Results/pp/16-17/17/LHC17o/AliAOD.StrangeParJets_3497.root, got 0 of 7001
+W-TFile::GetRecordHeader: /eos/home-p/pcui/Results/pp/16-17/17/LHC17o/AliAOD.StrangeParJets_3497.root: failed to read the StreamerInfo data from disk.
+E-TFile::Init: file /eos/home-p/pcui/Results/pp/16-17/17/LHC17o/AliAOD.StrangeParJets_3498.root is truncated at 2269169 bytes: should be 8320860, trying to recover
+I-TFile::Recover: /eos/home-p/pcui/Results/pp/16-17/17/LHC17o/AliAOD.StrangeParJets_3498.root, recovered key TProcessID:ProcessID0 at address 248
+W-TFile::Init: successfully recovered 1 keys
+E-TFile::ReadBuffer: error reading all requested bytes from file /eos/home-p/pcui/Results/pp/16-17/17/LHC17o/AliAOD.StrangeParJets_3498.root, got 0 of 7001
+W-TFile::GetRecordHeader: /eos/home-p/pcui/Results/pp/16-17/17/LHC17o/AliAOD.StrangeParJets_3498.root: failed to read the StreamerInfo data from disk.
+event = 1409M
+event = 1410M
+event = 1411M
+event = 1412M
+event = 1413M
+event = 1414M
+event = 1415M
+event = 1416M
+event = 1417M
+event = 1418M
+event = 1419M
+event = 1420M
+event = 1421M
+event = 1422M
+event = 1423M
+event = 1424M
+event = 1425M
+event = 1426M
+event = 1427M
+event = 1428M
+event = 1429M
+event = 1430M
+event = 1431M
+event = 1432M
+event = 1433M
+event = 1434M
+event = 1435M
+event = 1436M
+event = 1437M
+event = 1438M
+event = 1439M
+event = 1440M
+event = 1441M
+event = 1442M
+event = 1443M
+event = 1444M
+event = 1445M
+event = 1446M
+event = 1447M
+event = 1448M
+event = 1449M
+event = 1450M
+event = 1451M
+event = 1452M
+event = 1453M
+event = 1454M
+event = 1455M
+event = 1456M
+event = 1457M
+event = 1458M
+event = 1459M
+event = 1460M
+event = 1461M
+event = 1462M
+event = 1463M
+event = 1464M
+event = 1465M
+event = 1466M
+event = 1467M
+event = 1468M
+event = 1469M
+event = 1470M
+event = 1471M
+event = 1472M
+event = 1473M
+event = 1474M
+event = 1475M
+event = 1476M
+event = 1477M
+event = 1478M
+event = 1479M
+event = 1480M
+event = 1481M
+event = 1482M
+event = 1483M
+event = 1484M
+event = 1485M
+event = 1486M
+event = 1487M
+event = 1488M
+E-TFile::Init: file /eos/home-p/pcui/Results/pp/16-17/17/LHC17r/AliAOD.StrangeParJets_564.root is truncated at 583705 bytes: should be 10854524, trying to recover
+I-TFile::Recover: /eos/home-p/pcui/Results/pp/16-17/17/LHC17r/AliAOD.StrangeParJets_564.root, recovered key TProcessID:ProcessID0 at address 248
+W-TFile::Init: successfully recovered 1 keys
+E-TFile::ReadBuffer: error reading all requested bytes from file /eos/home-p/pcui/Results/pp/16-17/17/LHC17r/AliAOD.StrangeParJets_564.root, got 0 of 7001
+W-TFile::GetRecordHeader: /eos/home-p/pcui/Results/pp/16-17/17/LHC17r/AliAOD.StrangeParJets_564.root: failed to read the StreamerInfo data from disk.
+event = 1489M
+event = 1490M
+event = 1491M
+event = 1492M
+event = 1493M
+event = 1494M
+event = 1495M
+event = 1496M
+event = 1497M
+event = 1498M
+event = 1499M
+event = 1500M
+event = 1501M
+event = 1502M
+event = 1503M
+event = 1504M
+Bin counting the Kshort candidates...
+Fitting Kshort InvM in pT bin:  1
+Fitting Kshort InvM in pT bin:  2
+Fitting Kshort InvM in pT bin:  3
+Fitting Kshort InvM in pT bin:  4
+Fitting Kshort InvM in pT bin:  5
+Fitting Kshort InvM in pT bin:  6
+Fitting Kshort InvM in pT bin:  7
