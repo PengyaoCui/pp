@@ -2,7 +2,7 @@ const auto useGrid(kFALSE);  // local or grid
 const char* gridMode = "full";  // set the grid run mode (can be "full", "test", "offline", "submit" or "terminate")
 const char* uniqueName = "LHC16l";//
 
-const auto isMC(kFALSE);   // trigger, if MC handler should be used
+const auto isMC(kTRUE);   // trigger, if MC handler should be used
 //const char* pattern = "/AOD/*AOD.root";  //MC
 //const char* gridDir = "/alice/sim/2017/LHC17j5b/";  //MC
 const char* pattern = "/pass1/AOD208/*AOD.root"; //RD

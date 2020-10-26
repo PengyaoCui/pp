@@ -19,10 +19,10 @@ AliAnalysisTaskSEStrangeMaker *AddTaskStrangeMaker(const Bool_t bMC=kFALSE)
 
   mgr->AddTask(task);
   mgr->ConnectInput( task, 0, mgr->GetCommonInputContainer());
-  mgr->ConnectOutput(task, 1, mgr->CreateContainer("listPicoV0MakerEH", TList::Class(), AliAnalysisManager::kOutputContainer, AliAnalysisManager::GetCommonFileName()));
+  //mgr->ConnectOutput(task, 1, mgr->CreateContainer("listPicoV0MakerEH", TList::Class(), AliAnalysisManager::kOutputContainer, AliAnalysisManager::GetCommonFileName()));
   mgr->ConnectOutput(task, 1, mgr->CreateContainer("listCascadeMakerEH", TList::Class(), AliAnalysisManager::kOutputContainer, AliAnalysisManager::GetCommonFileName()));
 
-  if (bMC) mgr->ConnectOutput(task, 2, mgr->CreateContainer("listPicoV0MakerMC", TList::Class(), AliAnalysisManager::kOutputContainer, AliAnalysisManager::GetCommonFileName()));
+  //if (bMC) mgr->ConnectOutput(task, 2, mgr->CreateContainer("listPicoV0MakerMC", TList::Class(), AliAnalysisManager::kOutputContainer, AliAnalysisManager::GetCommonFileName()));
   if (bMC) mgr->ConnectOutput(task, 2, mgr->CreateContainer("listCascadeMakerMC", TList::Class(), AliAnalysisManager::kOutputContainer, AliAnalysisManager::GetCommonFileName()));
 //=============================================================================
 
