@@ -192,7 +192,7 @@ void runLocalStrangeJets()
         if(!IsUE){
           ana->AnaResults(2*0.75*TMath::TwoPi()*0.06);
         }else{
-          if(IsPCLU) ana->AnaResults(2*0.75*TMath::TwoPi()*0.12);//to be changed
+          if(IsPCLU) ana->AnaResults(2*0.75*TMath::TwoPi()*0.48);//to be changed
           if(IsOC) ana->AnaResults(2*0.75*TMath::TwoPi()*0.79);
           if(IsNJ) ana->AnaResults(2*0.75*TMath::TwoPi());
         }
