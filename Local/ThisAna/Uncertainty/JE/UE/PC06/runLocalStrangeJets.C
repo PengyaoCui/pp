@@ -15,8 +15,8 @@
 const TString  tType[] ={"Kshort", "Lambda", "AntiLa", "Xi"};
 //const TString  tType[] ={"Xi", "Omega"};
 
-Bool_t IsMC  = 0;
-Bool_t IsAnaResults  = 0;
+Bool_t IsMC  = 1;
+Bool_t IsAnaResults  = 1;
 Bool_t IsFd  = 0;
 Bool_t IsIon = kFALSE;
 

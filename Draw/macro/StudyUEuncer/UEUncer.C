@@ -7,9 +7,6 @@ void UEUncer(const TString sType = "Xi"){
   TString sFile = "AnalysisOutputs_Results.root";
   TString sList = "listResults";
   TString sHist = "hNco";
-  //if(sType == "Lambda" || sType == "AntiLa") sFile = "AnalysisOutputs_MakeLaFdR.root";
-  //if(sType == "Lambda" || sType == "AntiLa") sList = "listMakeLaFdR";
-  //if(sType == "Lambda" || sType == "AntiLa") sHist = "hPtLaNormCorr";
   TString List = Form("%s_%s_Default_JC", sList.Data(), sType.Data());
   TString OCList = Form("%s_%s_Default_OC", sList.Data(), sType.Data());
   TString PCLList = Form("%s_%s_Default_PCL", sList.Data(), sType.Data());

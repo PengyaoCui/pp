@@ -15,8 +15,8 @@
 const TString  tType[] ={"Kshort", "Lambda", "AntiLa", "Xi"};
 //const TString  tType[] ={"Xi", "Omega"};
 
-Bool_t IsMC  = 0;
-Bool_t IsAnaResults  = 0;
+Bool_t IsMC  = 1;
+Bool_t IsAnaResults  = 1;
 Bool_t IsFd  = 0;
 Bool_t IsIon = kFALSE;
 
@@ -97,8 +97,8 @@ void runLocalStrangeJets()
   TString sCut= "Default";
 
   Bool_t IsUE = 1;
-  Bool_t PCL  = 1;
-  Bool_t PCU  = 0;
+  Bool_t PCL  = 0;
+  Bool_t PCU  = 1;
   Bool_t IsOC = 0;
   Bool_t IsNJ = 0;
 
