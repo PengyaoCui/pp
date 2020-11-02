@@ -66,9 +66,9 @@ void UEUncer(const TString sType = "Xi"){
     auto E3 = hUE[0]->GetBinError(i);
     auto V4 = hUE[1]->GetBinContent(i); //PC06
     auto E4 = hUE[1]->GetBinError(i);
-    h2->SetBinContent(i, TMath::Abs(V3-V2)/(TMath::Sqrt(12.)*(V1-V2))); 
+    h2->SetBinContent(i, TMath::Abs(V3-V2)/TMath::Sqrt(12.)); 
     h2->SetBinError(i, TMath::Sqrt(E3*E3 + E2*E2)/TMath::Sqrt(12.)); 
-    h3->SetBinContent(i, TMath::Abs(V4-V2)/(TMath::Sqrt(12.)*(V1-V2))); 
+    h3->SetBinContent(i, TMath::Abs(V4-V2)/TMath::Sqrt(12.)); 
     h3->SetBinError(i, TMath::Sqrt(E4*E4 + E2*E2)/TMath::Sqrt(12.)); 
   }
 
