@@ -17,7 +17,7 @@ const TString  tType[] ={"Kshort", "Lambda", "AntiLa", "Xi"};
 
 Bool_t IsMC  = 1;
 Bool_t IsAnaResults  = 1;
-Bool_t IsFd  = 0;
+Bool_t IsFd  = 1;
 Bool_t IsIon = kFALSE;
 
 Bool_t IsJet = 1;
@@ -97,8 +97,8 @@ void runLocalStrangeJets()
   TString sCut= "Default";
 
   Bool_t IsUE = 1;
-  Bool_t PCL  = 0;
-  Bool_t PCU  = 1;
+  Bool_t PCL  = 1;
+  Bool_t PCU  = 0;
   Bool_t IsOC = 0;
   Bool_t IsNJ = 0;
 
@@ -224,30 +224,30 @@ void runLocalStrangeJets()
     ana->AnaMakeFdR(hPtXiIncl, hPtXiNegKine, 2*0.75*TMath::TwoPi());
 
     if(IsJet){
-      auto hPtXiJC = (TH1D*)f2->Get("JC_Xi"); 
+      //auto hPtXiJC = (TH1D*)f2->Get("JC_Xi"); 
       auto hPtXiPCL = (TH1D*)f2->Get("PCL_Xi"); 
       auto hPtXiPCU = (TH1D*)f2->Get("PCU_Xi"); 
-      auto hPtXiOC = (TH1D*)f2->Get("OC_Xi"); 
-      auto hPtXiNJ = (TH1D*)f2->Get("NJ_Xi"); 
+      //auto hPtXiOC = (TH1D*)f2->Get("OC_Xi"); 
+      //auto hPtXiNJ = (TH1D*)f2->Get("NJ_Xi"); 
       //hPtXiJC=RebinTH1D( hPtXiJC, hRebin);
       
-      auto hPtXiUE = (TH1D*)f2->Get("PCL_Xi"); 
-      TH1D *hPtXiJE = (TH1D*)hPtXiJC->Clone("hPtXiJE"); hPtXiJE->Reset(); hPtXiJE->Add(hPtXiJC, hPtXiUE, 1., -0.5); 
-      auto lLaJC = (TList*)f1->Get(Form("%s_Lambda_%s",slistResults.Data(), sFix.Data()));
-      auto hPtLaJC = (TH1D*)lLaJC->FindObject("hSco");
-      auto lLaUE = (TList*)f1->Get(Form("%s_Lambda_%s_PCL",slistResults.Data(), sCut.Data()));
-      auto hPtLaUE = (TH1D*)lLaUE->FindObject("hSco");
-      TH1D *hPtLaJE = (TH1D*)hPtLaJC->Clone("hPtLaJE"); hPtLaJE->Reset(); hPtLaJE->Add(hPtLaJC, hPtLaUE, 1., -0.5); 
+      //auto hPtXiUE = (TH1D*)f2->Get("PCL_Xi"); 
+      //TH1D *hPtXiJE = (TH1D*)hPtXiJC->Clone("hPtXiJE"); hPtXiJE->Reset(); hPtXiJE->Add(hPtXiJC, hPtXiUE, 1., -0.5); 
+      //auto lLaJC = (TList*)f1->Get(Form("%s_Lambda_%s",slistResults.Data(), sFix.Data()));
+      //auto hPtLaJC = (TH1D*)lLaJC->FindObject("hSco");
+      //auto lLaUE = (TList*)f1->Get(Form("%s_Lambda_%s_PCL",slistResults.Data(), sCut.Data()));
+      //auto hPtLaUE = (TH1D*)lLaUE->FindObject("hSco");
+      //TH1D *hPtLaJE = (TH1D*)hPtLaJC->Clone("hPtLaJE"); hPtLaJE->Reset(); hPtLaJE->Add(hPtLaJC, hPtLaUE, 1., -0.5); 
 
       ana->SetDataLoopsMC(sFileLoopIncMC, Form("%s_%s_%s",slistLoopIncMC.Data(),sType1.Data(),sCut.Data()));
       ana->SetDataResults(sFileResults,   Form("%s_%s_%s",slistResults.Data(), sType1.Data(),sFix.Data()));
       ana->SetDataLoop1st(sFileLoopJetRD, Form("%s_%s_%s",sListLoopJetRD.Data(),sType1.Data(),sFix.Data()));
       ana->SetDataMakeFdR(sFileMakeLaFdR, Form("%s_%s_%s",slistMakeLaFdR.Data(),sType1.Data(),sFix.Data()));
-      if(PCL){ana->AnaMakeFdR(hPtXiPCL, hPtXiNegKine, 2*0.75*TMath::TwoPi()*0.12); }
-      if(PCU){ana->AnaMakeFdR(hPtXiPCU, hPtXiNegKine, 2*0.75*TMath::TwoPi()*0.12); }
-      if(IsOC){ana->AnaMakeFdR(hPtXiOC, hPtXiNegKine, 2*0.75*TMath::TwoPi()*0.79); }
-      if(IsNJ){ana->AnaMakeFdR(hPtXiNJ, hPtXiNegKine, 2*0.75*TMath::TwoPi()); }
-      if(!IsUE){ana->AnaMakeFdRJC(hPtXiJE, hPtXiNegKine, hPtLaJE, 2*0.75*TMath::TwoPi()*0.06);}
+      if(PCL){ana->AnaMakeFdR(hPtXiPCL, hPtXiNegKine, 2*0.75*TMath::TwoPi()*0.27); }
+      if(PCU){ana->AnaMakeFdR(hPtXiPCU, hPtXiNegKine, 2*0.75*TMath::TwoPi()*0.27); }
+      //if(IsOC){ana->AnaMakeFdR(hPtXiOC, hPtXiNegKine, 2*0.75*TMath::TwoPi()*0.79); }
+      //if(IsNJ){ana->AnaMakeFdR(hPtXiNJ, hPtXiNegKine, 2*0.75*TMath::TwoPi()); }
+      //if(!IsUE){ana->AnaMakeFdRJC(hPtXiJE, hPtXiNegKine, hPtLaJE, 2*0.75*TMath::TwoPi()*0.06);}
     }
      
     sType1 = "AntiLa";
@@ -260,29 +260,29 @@ void runLocalStrangeJets()
     ana->AnaMakeFdR(hPtXiIncl, hPtXiPosKine, 2*0.75*TMath::TwoPi());
     
     if(IsJet){
-      auto hPtXiJC = (TH1D*)f2->Get("JC_Xi"); 
+      //auto hPtXiJC = (TH1D*)f2->Get("JC_Xi"); 
       auto hPtXiPCL = (TH1D*)f2->Get("PCL_Xi"); 
       auto hPtXiPCU = (TH1D*)f2->Get("PCU_Xi"); 
-      auto hPtXiOC = (TH1D*)f2->Get("OC_Xi"); 
-      auto hPtXiNJ = (TH1D*)f2->Get("NJ_Xi"); 
+      //auto hPtXiOC = (TH1D*)f2->Get("OC_Xi"); 
+      //auto hPtXiNJ = (TH1D*)f2->Get("NJ_Xi"); 
       //hPtXiJC=RebinTH1D( hPtXiJC, hRebin);
       auto hPtXiUE = (TH1D*)f2->Get("PCL_Xi"); 
-      TH1D *hPtXiJE = (TH1D*)hPtXiJC->Clone("hPtXiJE"); hPtXiJE->Reset(); hPtXiJE->Add(hPtXiJC, hPtXiUE, 1., -0.5); 
-      auto lLaJC = (TList*)f1->Get(Form("%s_AntiLa_%s",slistResults.Data(), sFix.Data()));
-      auto hPtLaJC = (TH1D*)lLaJC->FindObject("hSco");
+      //TH1D *hPtXiJE = (TH1D*)hPtXiJC->Clone("hPtXiJE"); hPtXiJE->Reset(); hPtXiJE->Add(hPtXiJC, hPtXiUE, 1., -0.5); 
+      //auto lLaJC = (TList*)f1->Get(Form("%s_AntiLa_%s",slistResults.Data(), sFix.Data()));
+      //auto hPtLaJC = (TH1D*)lLaJC->FindObject("hSco");
       auto lLaUE = (TList*)f1->Get(Form("%s_AntiLa_%s_PCL",slistResults.Data(), sCut.Data()));
       auto hPtLaUE = (TH1D*)lLaUE->FindObject("hSco");
-      TH1D *hPtLaJE = (TH1D*)hPtLaJC->Clone("hPtLaJE"); hPtLaJE->Reset(); hPtLaJE->Add(hPtLaJC, hPtLaUE, 1., -0.5); 
+      //TH1D *hPtLaJE = (TH1D*)hPtLaJC->Clone("hPtLaJE"); hPtLaJE->Reset(); hPtLaJE->Add(hPtLaJC, hPtLaUE, 1., -0.5); 
 
       ana->SetDataLoopsMC(sFileLoopIncMC, Form("%s_%s_%s",slistLoopIncMC.Data(),sType1.Data(),sCut.Data()));
       ana->SetDataResults(sFileResults,   Form("%s_%s_%s",slistResults.Data(), sType1.Data(),sFix.Data()));
       ana->SetDataLoop1st(sFileLoopJetRD, Form("%s_%s_%s",sListLoopJetRD.Data(),sType1.Data(),sFix.Data()));
       ana->SetDataMakeFdR(sFileMakeLaFdR, Form("%s_%s_%s",slistMakeLaFdR.Data(),sType1.Data(),sFix.Data()));
-      if(PCL){ana->AnaMakeFdR(hPtXiPCL, hPtXiNegKine, 2*0.75*TMath::TwoPi()*0.12); }
-      if(PCU){ana->AnaMakeFdR(hPtXiPCU, hPtXiNegKine, 2*0.75*TMath::TwoPi()*0.12); }
-      if(IsOC){ana->AnaMakeFdR(hPtXiOC, hPtXiNegKine, 2*0.75*TMath::TwoPi()*0.79); }
-      if(IsNJ){ana->AnaMakeFdR(hPtXiNJ, hPtXiNegKine, 2*0.75*TMath::TwoPi()); }
-      if(!IsUE){ana->AnaMakeFdRJC(hPtXiJE, hPtXiNegKine, hPtLaJE, 2*0.75*TMath::TwoPi()*0.06);}
+      if(PCL){ana->AnaMakeFdR(hPtXiPCL, hPtXiNegKine, 2*0.75*TMath::TwoPi()*0.27); }
+      if(PCU){ana->AnaMakeFdR(hPtXiPCU, hPtXiNegKine, 2*0.75*TMath::TwoPi()*0.27); }
+      //if(IsOC){ana->AnaMakeFdR(hPtXiOC, hPtXiNegKine, 2*0.75*TMath::TwoPi()*0.79); }
+      //if(IsNJ){ana->AnaMakeFdR(hPtXiNJ, hPtXiNegKine, 2*0.75*TMath::TwoPi()); }
+      //if(!IsUE){ana->AnaMakeFdRJC(hPtXiJE, hPtXiNegKine, hPtLaJE, 2*0.75*TMath::TwoPi()*0.06);}
     }
     
   }     

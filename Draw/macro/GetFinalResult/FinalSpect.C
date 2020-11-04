@@ -8,9 +8,9 @@ void FinalSpect(const TString sType = "AntiLa", const Bool_t IsSum = kFALSE){
   auto sCInclList = Form("listIn");
   auto sCJEList = Form("listJE");
   auto sCJCList = Form("listJC");
-  auto sCPCList = Form("listPC");
-  auto sCOCList = Form("listOC04");
-  auto sCNJList = Form("listNJ");
+  auto sCPCList = Form("listPC04");
+  auto sCP2List = Form("listPC02");
+  auto sCP6List = Form("listPC06");
 
   auto sCHist = Form("h%s", sType.Data());
   
@@ -21,7 +21,7 @@ void FinalSpect(const TString sType = "AntiLa", const Bool_t IsSum = kFALSE){
   auto sEUHist = "hUErr";  
   auto sEJCHist = "hJCErr";  
 
-  auto sLatex(Form("p-Pb #sqrt{#it{s}_{NN}} = 5.02 TeV"));
+  auto sLatex(Form("pp #sqrt{#it{s}} = 13 TeV"));
  
   Double_t XMin = 0.;
   Double_t XMax;
@@ -47,41 +47,41 @@ void FinalSpect(const TString sType = "AntiLa", const Bool_t IsSum = kFALSE){
   auto hJE1   = (TH1D*)GetTH1D(sPath, sCFile, sCJEList,   sCHist); hJE1->SetName("JECen");
   auto hUE1   = (TH1D*)GetTH1D(sPath, sCFile, sCPCList,   sCHist); hUE1->SetName("UECen");
   auto hJC1   = (TH1D*)GetTH1D(sPath, sCFile, sCJCList,   sCHist); hJC1->SetName("JCCen");
-  auto hOC1   = (TH1D*)GetTH1D(sPath, sCFile, sCOCList,   sCHist); hOC1->SetName("OCCen");
-  auto hNJ1   = (TH1D*)GetTH1D(sPath, sCFile, sCNJList,   sCHist); hNJ1->SetName("NJCen");
+  auto hP21   = (TH1D*)GetTH1D(sPath, sCFile, sCP2List,   sCHist); hP21->SetName("P2Cen");
+  auto hP61   = (TH1D*)GetTH1D(sPath, sCFile, sCP6List,   sCHist); hP61->SetName("P6Cen");
 
   auto hIncl2 = (TH1D*)GetTH1D(sPath, sEFile, sEList, sEIHist); hIncl2->SetName("InclErr");
   auto hJE2 = (TH1D*)GetTH1D(sPath, sEFile, sEList, sEJHist); hJE2->SetName("JEErr");
   auto hUE2 = (TH1D*)GetTH1D(sPath, sEFile, sEList, sEUHist); hUE2->SetName("UEErr");
   auto hJC2 = (TH1D*)GetTH1D(sPath, sEFile, sEList, sEJCHist); hJC2->SetName("JCErr");
-  auto hOC2 = (TH1D*)hUE2->Clone("OCErr");
-  auto hNJ2 = (TH1D*)hUE2->Clone("NJErr");
+  auto hP22 = (TH1D*)hUE2->Clone("P2Err");
+  auto hP62 = (TH1D*)hUE2->Clone("P6Err");
 
   if(sType == "Lambda" && IsSum){
     auto hAIncl1 = (TH1D*)GetTH1D(sPath, sCFile,sCInclList, Form("hAntiLa")); hAIncl1->SetName("AInclCen");
     auto hAJE1   = (TH1D*)GetTH1D(sPath, sCFile,sCJEList,   Form("hAntiLa")); hAJE1->SetName("AJECen");
     auto hAUE1   = (TH1D*)GetTH1D(sPath, sCFile,sCPCList,   Form("hAntiLa")); hAUE1->SetName("AUECen");
     auto hAJC1   = (TH1D*)GetTH1D(sPath, sCFile,sCJCList,   Form("hAntiLa")); hAJC1->SetName("AJCCen");
-    auto hAOC1   = (TH1D*)GetTH1D(sPath, sCFile,sCOCList,   Form("hAntiLa")); hAOC1->SetName("AOCCen");
-    auto hANJ1   = (TH1D*)GetTH1D(sPath, sCFile,sCNJList,   Form("hAntiLa")); hANJ1->SetName("ANJCen");
+    auto hAP21   = (TH1D*)GetTH1D(sPath, sCFile,sCP2List,   Form("hAntiLa")); hAP21->SetName("AP2Cen");
+    auto hAP61   = (TH1D*)GetTH1D(sPath, sCFile,sCP6List,   Form("hAntiLa")); hAP61->SetName("AP6Cen");
                                                   
     auto hAIncl2 = (TH1D*)GetTH1D(sPath, sEFile, Form("AntiLa_UncerTot"), sEIHist); hAIncl2->SetName("AInclErr");
     auto hAJE2 = (TH1D*)GetTH1D(sPath, sEFile, Form("AntiLa_UncerTot"), sEJHist); hAJE2->SetName("AJEErr");
     auto hAUE2 = (TH1D*)GetTH1D(sPath, sEFile, Form("AntiLa_UncerTot"), sEUHist); hAUE2->SetName("AUEErr");
     auto hAJC2 = (TH1D*)GetTH1D(sPath, sEFile, Form("AntiLa_UncerTot"), sEJCHist); hAJC2->SetName("AJCErr");
-    auto hAOC2 = (TH1D*)hAUE2->Clone("AOCErr");
-    auto hANJ2 = (TH1D*)hAUE2->Clone("ANJErr");
+    auto hAP22 = (TH1D*)hAUE2->Clone("AP2Err");
+    auto hAP62 = (TH1D*)hAUE2->Clone("AP6Err");
    
     hIncl1->Add(hAIncl1);
     hJE1->Add(hAJE1);
     hUE1->Add(hAUE1);
     hJC1->Add(hAJC1);
-    hOC1->Add(hAOC1);
-    hNJ1->Add(hANJ1);
-    Double_t dIncl1, dJE1, dUE1, dJC1, dOC1, dNJ1;
-    Double_t dIncl2, dJE2, dUE2, dJC2, dOC2, dNJ2;
-    Double_t dAIncl1, dAJE1, dAUE1, dAJC1, dAOC1, dANJ1;
-    Double_t dAIncl2, dAJE2, dAUE2, dAJC2, dAOC2, dANJ2;
+    hP21->Add(hAP21);
+    hP61->Add(hAP61);
+    Double_t dIncl1, dJE1, dUE1, dJC1, dP21, dP61;
+    Double_t dIncl2, dJE2, dUE2, dJC2, dP22, dP62;
+    Double_t dAIncl1, dAJE1, dAUE1, dAJC1, dAP21, dAP61;
+    Double_t dAIncl2, dAJE2, dAUE2, dAJC2, dAP22, dAP62;
     for(Int_t i = 1; i<=hIncl2->GetNbinsX(); i++){ 
       hIncl2->SetBinError(i, 0); 
       dIncl1 =  hIncl1->GetBinContent(i); 
@@ -114,22 +114,22 @@ void FinalSpect(const TString sType = "AntiLa", const Bool_t IsSum = kFALSE){
       dAJC2 = hAJC2->GetBinContent(i);
       hJC2->SetBinContent(i, TMath::Sqrt(dJC1*dJC2*dJC1*dJC2 + dAJC1*dAJC2*dAJC1*dAJC2)/(dJC1+dAJC1));
     } hJC2->SetName("JCErr");
-    for(Int_t i = 1; i<=hOC2->GetNbinsX(); i++){ 
-      hOC2->SetBinError(i, 0); 
-      dOC1 =  hOC1->GetBinContent(i); 
-      dOC2 =  hOC2->GetBinContent(i);
-      dAOC1 = hAOC1->GetBinContent(i); 
-      dAOC2 = hAOC2->GetBinContent(i);
-      hOC2->SetBinContent(i, TMath::Sqrt(dOC1*dOC2*dOC1*dOC2 + dAOC1*dAOC2*dAOC1*dAOC2)/(dOC1+dAOC1));
-    } hOC2->SetName("OCErr");
-    for(Int_t i = 1; i<=hNJ2->GetNbinsX(); i++){ 
-      hNJ2->SetBinError(i, 0); 
-      dNJ1 =  hNJ1->GetBinContent(i); 
-      dNJ2 =  hNJ2->GetBinContent(i);
-      dANJ1 = hANJ1->GetBinContent(i); 
-      dANJ2 = hANJ2->GetBinContent(i);
-      hNJ2->SetBinContent(i, TMath::Sqrt(dNJ1*dNJ2*dNJ1*dNJ2 + dANJ1*dANJ2*dANJ1*dANJ2)/(dNJ1+dANJ1));
-    } hNJ2->SetName("NJErr");
+    for(Int_t i = 1; i<=hP22->GetNbinsX(); i++){ 
+      hP22->SetBinError(i, 0); 
+      dP21 =  hP21->GetBinContent(i); 
+      dP22 =  hP22->GetBinContent(i);
+      dAP21 = hAP21->GetBinContent(i); 
+      dAP22 = hAP22->GetBinContent(i);
+      hP22->SetBinContent(i, TMath::Sqrt(dP21*dP22*dP21*dP22 + dAP21*dAP22*dAP21*dAP22)/(dP21+dAP21));
+    } hP22->SetName("P2Err");
+    for(Int_t i = 1; i<=hP62->GetNbinsX(); i++){ 
+      hP62->SetBinError(i, 0); 
+      dP61 =  hP61->GetBinContent(i); 
+      dP62 =  hP62->GetBinContent(i);
+      dAP61 = hAP61->GetBinContent(i); 
+      dAP62 = hAP62->GetBinContent(i);
+      hP62->SetBinContent(i, TMath::Sqrt(dP61*dP62*dP61*dP62 + dAP61*dAP62*dAP61*dAP62)/(dP61+dAP61));
+    } hP62->SetName("P6Err");
   }
   //-----------------------------------
   const auto nI = hIncl1->GetNbinsX();
@@ -164,17 +164,17 @@ void FinalSpect(const TString sType = "AntiLa", const Bool_t IsSum = kFALSE){
   //DrawGraph(gUE, cLine[3], sMark[3], "P");
   DrawGraph(gUE, cLine[3], "E2");
   //-----------------------------------
-  DrawHisto(hOC1, cLine[3], sMark[3], "same");
-  leg->AddEntry(hOC1, "OC");
-  auto gOC = (TGraphErrors*)ConvHistogramToGraphErrors(hOC1, hOC2, nJ); gOC->SetName("OCerr");
-  //DrawGraph(gOC, cLine[3], sMark[3], "P");
-  DrawGraph(gOC, cLine[3], "E2");
+  DrawHisto(hP21, cLine[3], sMark[3], "same");
+  leg->AddEntry(hP21, "P2");
+  auto gP2 = (TGraphErrors*)ConvHistogramToGraphErrors(hP21, hP22, nJ); gP2->SetName("P2err");
+  //DrawGraph(gP2, cLine[3], sMark[3], "P");
+  DrawGraph(gP2, cLine[3], "E2");
   //-----------------------------------
-  DrawHisto(hNJ1, cLine[3], sMark[3], "same");
-  leg->AddEntry(hNJ1, "NJ");
-  auto gNJ = (TGraphErrors*)ConvHistogramToGraphErrors(hNJ1, hNJ2, nJ); gNJ->SetName("NJerr");
-  //DrawGraph(gNJ, cLine[3], sMark[3], "P");
-  DrawGraph(gNJ, cLine[3], "E2");
+  DrawHisto(hP61, cLine[3], sMark[3], "same");
+  leg->AddEntry(hP61, "P6");
+  auto gP6 = (TGraphErrors*)ConvHistogramToGraphErrors(hP61, hP62, nJ); gP6->SetName("P6err");
+  //DrawGraph(gP6, cLine[3], sMark[3], "P");
+  DrawGraph(gP6, cLine[3], "E2");
 
   TFile *f = TFile::Open("./result/pp.root", "UPDATE");
   TList *l = new TList();
@@ -182,20 +182,20 @@ void FinalSpect(const TString sType = "AntiLa", const Bool_t IsSum = kFALSE){
   l->Add(hJE1);
   l->Add(hUE1);
   l->Add(hJC1);
-  l->Add(hOC1);
-  l->Add(hNJ1);
+  l->Add(hP21);
+  l->Add(hP61);
   l->Add(hIncl2);
   l->Add(hJE2);
   l->Add(hUE2);
   l->Add(hJC2);
-  l->Add(hOC2);
-  l->Add(hNJ2);
+  l->Add(hP22);
+  l->Add(hP62);
   l->Add(gIncl);
   l->Add(gJE);
   l->Add(gUE);
   l->Add(gJC);
-  l->Add(gOC);
-  l->Add(gNJ);
+  l->Add(gP2);
+  l->Add(gP6);
   if(!IsSum)l->Write(Form("%s",sType.Data()), TObject::kSingleKey);
   if(IsSum)l->Write(Form("%s_sum",sType.Data()), TObject::kSingleKey);
   f->Close();

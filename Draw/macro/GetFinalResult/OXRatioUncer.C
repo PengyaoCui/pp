@@ -10,9 +10,9 @@ void OXRatioUncer(){
   auto CListIn = "listIn";
   auto CListJE = "listJE";
   auto CListJC = "listJC";
-  auto CListPC = "listPC";
-  auto CListOC = "listOC04";
-  auto CListNJ = "listNJ";
+  auto CListPC = "listPC04";
+  auto CListP2 = "listPC02";
+  auto CListP6 = "listPC06";
  
   auto hInR = (TH1D*)GetTH1D(sPath, CFile, CListIn, Form("hOXRatio")); hInR->SetName("hInR"); ;
   auto hJCR = (TH1D*)GetTH1D(sPath, CFile, CListJC, Form("hOXRatio")); hJCR->SetName("hJCR"); ;
@@ -63,50 +63,53 @@ void OXRatioUncer(){
 
   //===========================UESub
   auto hJCK = (TH1D*)GetTH1D(sPath, sFile, sListD, "JCCen") ; hJCK->SetName("hJCK");
-  auto hNJK = (TH1D*)GetTH1D(sPath, sFile, sListD, "NJCen") ; hNJK->SetName("hNJK");
-  auto hOCK = (TH1D*)GetTH1D(sPath, sFile, sListD, "OCCen") ; hOCK->SetName("hOCK");
+  auto hP6K = (TH1D*)GetTH1D(sPath, sFile, sListD, "P6Cen") ; hP6K->SetName("hP6K");
+  auto hP2K = (TH1D*)GetTH1D(sPath, sFile, sListD, "P2Cen") ; hP2K->SetName("hP2K");
   auto hPCK = (TH1D*)GetTH1D(sPath, sFile, sListD, "UECen") ; hPCK->SetName("hPCK");
 
   TH1D* hJC = (TH1D*)GetTH1D(sPath, sFile, sList, "JCCen") ; hJC->SetName("hJC");
-  TH1D* hNJ = (TH1D*)GetTH1D(sPath, sFile, sList, "NJCen") ; hNJ->SetName("hNJ");
-  TH1D* hOC = (TH1D*)GetTH1D(sPath, sFile, sList, "OCCen") ; hOC->SetName("hOC"); 
+  TH1D* hP6 = (TH1D*)GetTH1D(sPath, sFile, sList, "P6Cen") ; hP6->SetName("hP6");
+  TH1D* hP2 = (TH1D*)GetTH1D(sPath, sFile, sList, "P2Cen") ; hP2->SetName("hP2"); 
   TH1D* hPC = (TH1D*)GetTH1D(sPath, sFile, sList, "UECen") ; hPC->SetName("hPC");
 
-  auto hNJR = (TH1D*)hNJ->Clone("hNJR");hNJR->Reset();
-  auto hOCR = (TH1D*)hOC->Clone("hOCR");hOCR->Reset();
+  auto hP6R = (TH1D*)hP6->Clone("hP6R");hP6R->Reset();
+  auto hP2R = (TH1D*)hP2->Clone("hP2R");hP2R->Reset();
 
-  hNJK = (TH1D*)RebinToOmega(hNJK, hNJR);
-  hOCK = (TH1D*)RebinToOmega(hOCK, hNJR);
+  hP6K = (TH1D*)RebinToOmega(hP6K, hP6R);
+  hP2K = (TH1D*)RebinToOmega(hP2K, hP6R);
 
-  TH1D* hJCNJ = (TH1D*) hJC->Clone("hJCNJ"); TH1D* hJCNJK = (TH1D*) hJCK->Clone("hJCNJK");
-  TH1D* hJCOC = (TH1D*) hJC->Clone("hJCOC"); TH1D* hJCOCK = (TH1D*) hJCK->Clone("hJCOCK");
-  hJCNJK = (TH1D*)RebinToOmega(hJCNJK, hNJR);
-  hJCOCK = (TH1D*)RebinToOmega(hJCOCK, hNJR);
+  TH1D* hJCP6 = (TH1D*) hJC->Clone("hJCP6"); TH1D* hJCP6K = (TH1D*) hJCK->Clone("hJCP6K");
+  TH1D* hJCP2 = (TH1D*) hJC->Clone("hJCP2"); TH1D* hJCP2K = (TH1D*) hJCK->Clone("hJCP2K");
+  hJCP6K = (TH1D*)RebinToOmega(hJCP6K, hP6R);
+  hJCP2K = (TH1D*)RebinToOmega(hJCP2K, hP6R);
 
-  hJCNJ->Add(hNJ, -1.); hJCOC->Add(hOC, -1.);
-  hJCNJK->Add(hNJK, -1.); hJCOCK->Add(hOCK, -1.);
+  hJCP6->Add(hP6, -1.); hJCP2->Add(hP2, -1.);
+  hJCP6K->Add(hP6K, -1.); hJCP2K->Add(hP2K, -1.);
 
-  hNJR->Divide(hJCNJ, hJCNJK, 1., 1.);
-  hOCR->Divide(hJCOC, hJCOCK, 1., 1.);
+  hP6R->Divide(hJCP6, hJCP6K, 1., 1.);
+  hP2R->Divide(hJCP2, hJCP2K, 1., 1.);
 
   
-  TH1D* heNJR = (TH1D*)hJER->Clone("heNJR");
-  TH1D* hePCR = (TH1D*)hJER->Clone("hePCR");
-  TH1D* heOCR = (TH1D*)hJER->Clone("heOCR");
+  //TH1D* heP6R = (TH1D*)hJER->Clone("heP6R");
+  //TH1D* hePCR = (TH1D*)hJER->Clone("hePCR");
+  //TH1D* heP2R = (TH1D*)hJER->Clone("heP2R");
+  TH1D* heR = (TH1D*)hJER->Clone("heR");
   
-  for(Int_t i = 1; i<= hNJR->GetNbinsX(); i++){
+  for(Int_t i = 1; i<= hP6R->GetNbinsX(); i++){
     auto dJER = hJER->GetBinContent(i);
-    auto dNJR = hNJR->GetBinContent(i);
-    auto dOCR = hOCR->GetBinContent(i);
-    heNJR->SetBinContent(i, TMath::Abs(dNJR)/TMath::Sqrt(12.));
-    heOCR->SetBinContent(i, TMath::Abs(dOCR)/TMath::Sqrt(12.));
-    hePCR->SetBinContent(i, TMath::Abs(dJER)/TMath::Sqrt(12.));
+    auto dP6R = hP6R->GetBinContent(i);
+    auto dP2R = hP2R->GetBinContent(i);
+    //heP6R->SetBinContent(i, TMath::Abs(dP6R)/TMath::Sqrt(12.));
+    //heP2R->SetBinContent(i, TMath::Abs(dP2R)/TMath::Sqrt(12.));
+    //hePCR->SetBinContent(i, TMath::Abs(dJER)/TMath::Sqrt(12.));
+    heR->SetBinContent(i, TMath::Abs(dP6R - dP2R)/TMath::Sqrt(12.));
   }       
 
-  TH1D* hU[] = {hePCR, heNJR, heOCR};
-  auto hUMax = (TH1D*)MaxHistograms(3, hU);
-  auto hUMin = (TH1D*)MinHistograms(3, hU);
-  hUMax->Add(hUMin, -1.);
+  //TH1D* hU[] = {hePCR, heP6R, heP2R};
+  //auto hUMax = (TH1D*)MaxHistograms(3, hU);
+  //auto hUMin = (TH1D*)MinHistograms(3, hU);
+  //hUMax->Add(hUMin, -1.);
+  auto hUMax = (TH1D*)heR->Clone("hUMax");
   auto heJEU = (TH1D*)hJER->Clone("heJEU");heJEU->Reset();
   heJEU->Divide(hUMax, hJER, 1., 1.);heJEU->SetName("heJEU");
   for(Int_t i = 1; i<= heJEU->GetNbinsX(); i++){heJEU->SetBinError(i, 0);}
@@ -199,6 +202,29 @@ void OXRatioUncer(){
   l->Write(Form("Omega_toXRatio"), TObject::kSingleKey);
   f->Close();
 
+  auto can = MakeCanvas("can");
+  auto leg = new TLegend(0.65,0.9,1.0,0.6); SetLegend(leg);
+  heJER->GetYaxis()->SetTitle("Relative systematic error");
+  heJER->GetYaxis()->SetRangeUser(0, 0.5);
+  DrawHisto(heJER, cLine[0], sMark[0], "same");leg->AddEntry(heJER, "Total","l");
+  DrawHisto(heJEI, cLine[1], sMark[1], "same");leg->AddEntry(heJEI, "Strange reconstruction","l");
+  DrawHisto(heJEJ, cLine[2], sMark[2], "same");leg->AddEntry(heJEJ, "Jet #it{p}_{T} scale","l");
+  DrawHisto(heJEU, cLine[3], sMark[3], "same");leg->AddEntry(heJEU, "UE subtraction","l");
+
+  //-----------------------------------
+  auto tex =  new TLatex();
+  tex->SetNDC();
+  tex->SetTextSizePixels(24);
+  tex->DrawLatex(0.15, 0.9, "pp at #sqrt{s} = 13 TeV");
+  tex->DrawLatex(0.15, 0.83, "Jet: Anti-#it{k}_{T}, #it{R} = 0.4");
+  tex->DrawLatex(0.15, 0.75, "#it{p}_{T, jet}^{ch} > 10 GeV/#it{c}, |#it{#eta}_{jet}| < 0.35");
+  tex->DrawLatex(0.15, 0.65, Form("#Omega/#Xi"));
+  leg->Draw();
+  gStyle->SetOptStat("");
+  can->SaveAs(Form("./figure/Uncert/OXRatio_JCUncert.pdf"));
+  can->SaveAs(Form("./figure/Uncert/OXRatio_JCUncert.eps"));
+  //DrawAliLogo(0.65, 0.90, 24, kTRUE);
+  CanvasEnd(can);
 
   return;
 }

@@ -1,11 +1,11 @@
 #include "./SourceFun.h"
 
 void Draw(){
-  TString sPath[] = {"/home/cuipengyao/study/pp/Local/ThisAna/JE", "/home/cuipengyao/study/pp/Local/ThisAna/JE"};
-  TString sFile[] = {"AnalysisOutputs_EffCorrJE.root", "AnalysisOutputs_EffCorrJE.root"};
-  TString sList[] = {"listEffCorrJE_Xi_Default_JC", "listEffCorrJE_Omega_Default_JC"};
-  TString sHist[] = {"hPtEffi", "hPtEffi"};
-  TString sLeg[] = { "#Xi", "#Omega"}; 
+  TString sPath[] = {"./GetFinalResult/result"};
+  TString sFile[] = {"pp.root"};
+  TString sList[] = {"Lambda_sum_toKRatio"};
+  TString sHist[] = {"heJEI"};
+  TString sLeg[] = { "StrangRec", ""}; 
 
   Double_t XMin = 0.6;
   Double_t XMax = 8.;
@@ -64,7 +64,7 @@ void Draw(){
   leg->Draw();
   gStyle->SetOptStat("");
 
-  can->SaveAs(Form("./figure/JC_Cascade_Efficiency.eps"));
+  can->SaveAs(Form("./figure/LKRatioJC_Uncer.eps"));
   CanvasEnd(can);
   return;
 }

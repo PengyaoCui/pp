@@ -378,11 +378,11 @@ TH1D *GetJCRatioOX(TString Path = "/home/cuipengyao/study/pp/Local/ThisAna/JE_Om
 }
 
 //-------------------------------------------------------------
-TH1D *GetPCRatioLK()
+TH1D *GetPCRatioLK(TString sPath = "/home/cuipengyao/study/pp/Local/ThisAna/JE")
 {
-  auto hK(GetPCPtSpect("Kshort"));
-  auto hL(GetPCPtSpect("Lambda"));
-  auto hA(GetPCPtSpect("AntiLa"));
+  auto hK(GetPCPtSpect("Kshort", sPath));
+  auto hL(GetPCPtSpect("Lambda", sPath));
+  auto hA(GetPCPtSpect("AntiLa", sPath));
 //=============================================================================
   hL->Add(hA);
 
@@ -398,10 +398,10 @@ TH1D *GetPCRatioLK()
 
 
 //-------------------------------------------------------------
-TH1D *GetPCRatioXK()
+TH1D *GetPCRatioXK(TString sPath = "/home/cuipengyao/study/pp/Local/ThisAna/JE")
 {
-  auto hK(GetPCPtSpect("Kshort"));
-  auto hX(GetPCPtSpect("Xi"));
+  auto hK(GetPCPtSpect("Kshort", sPath));
+  auto hX(GetPCPtSpect("Xi", sPath));
 //=============================================================================
 
   const TString sh("hXKRatio");
@@ -438,11 +438,11 @@ TH1D *GetPCRatioOK(TString Path = "/home/cuipengyao/study/pp/Local/ThisAna/JE_Om
 }
 
 //-------------------------------------------------------------
-TH1D *GetPCRatioXL()
+TH1D *GetPCRatioXL(TString sPath = "/home/cuipengyao/study/pp/Local/ThisAna/JE")
 {
-  auto hL(GetPCPtSpect("Lambda"));
-  auto hA(GetPCPtSpect("AntiLa"));
-  auto hX(GetPCPtSpect("Xi"));
+  auto hL(GetPCPtSpect("Lambda", sPath));
+  auto hA(GetPCPtSpect("AntiLa", sPath));
+  auto hX(GetPCPtSpect("Xi", sPath));
 //=============================================================================
   hL->Add(hA);
   

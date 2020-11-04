@@ -4,11 +4,11 @@
 void FitXi(TString sCone = "Incl");
 void FitXiSpect(){
   FitXi("Incl");
-  FitXi("JC");
+  //FitXi("JC");
   FitXi("PCL");
   FitXi("PCU");
-  FitXi("OC");
-  FitXi("NJ");
+  //FitXi("OC");
+  //FitXi("NJ");
 }
 void FitXi(TString sCone = "Incl"){
   //-----------------------------------
@@ -98,7 +98,7 @@ void FitXi(TString sCone = "Incl"){
   DeNormHistBinWidth(h2);
   if(sCone == "Incl" || sCone == "NJ")h2->Scale(nEvent*2.*0.75*TMath::TwoPi());
   if(sCone == "JC")h2->Scale(nEvent*2.*0.75*TMath::TwoPi()*0.06);
-  if(sCone == "PCL" || sCone == "PCU")h2->Scale(nEvent*2.*0.75*TMath::TwoPi()*0.12);
+  if(sCone == "PCL" || sCone == "PCU")h2->Scale(nEvent*2.*0.75*TMath::TwoPi()*0.27);
   if(sCone == "OC")h2->Scale(nEvent*2.*0.75*TMath::TwoPi()*0.94);
   TFile *file = TFile::Open("XiSpect.root", "UPDATE");
   file->cd();

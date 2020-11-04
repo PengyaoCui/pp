@@ -19,12 +19,12 @@ void TotUncer(const TString sType = "Lambda"){
   auto sEJetFile = "JetPtUncer.root";
   auto sEJetList = Form("%s_JetPt", sType.Data());
   
-  auto sCPCList = "listPC"; 
+  auto sCPCList = "listPC04"; 
   auto sCUEHist = Form("h%s", sType.Data());
   auto sEUEFile = "UEUncer.root";
   auto sEUEList = Form("%s_UESub", sType.Data());
 
-  auto sLatex(Form("p-Pb #sqrt{#it{s}_{NN}} = 5.02 TeV"));
+  auto sLatex(Form("pp #sqrt{#it{s}} = 13 TeV"));
   Double_t XMin = 0.6;
   Double_t XMax = 12.;
   
@@ -147,7 +147,7 @@ void TotUncer(const TString sType = "Lambda"){
   leg = new TLegend(0.65,0.9,1.0,0.6); SetLegend(leg);
   DrawHisto(hJErr, cLine[0], sMark[0], "same"); leg->AddEntry(hJErr, "Total","l");
   hJErr->GetYaxis()->SetTitle("Relative systematic error");
-  hJErr->GetYaxis()->SetRangeUser(0, 1.);
+  hJErr->GetYaxis()->SetRangeUser(0, 0.5);
   DrawHisto(hJErrContI, cLine[1], sMark[1], "same");leg->AddEntry(hJErrContI, "Strange reconstruction","l");
   DrawHisto(hJErrContJ, cLine[2], sMark[2], "same");leg->AddEntry(hJErrContJ, "Jet #it{p}_{T} scale","l");
   DrawHisto(hJErrContU, cLine[3], sMark[3], "same");leg->AddEntry(hJErrContU, "UE subtraction","l");
@@ -163,6 +163,7 @@ void TotUncer(const TString sType = "Lambda"){
   leg->Draw();
   gStyle->SetOptStat("");
   can->SaveAs(Form("./figure/Uncert/%s_JCUncert.pdf", sType.Data()));
+  can->SaveAs(Form("./figure/Uncert/%s_JCUncert.eps", sType.Data()));
   //DrawAliLogo(0.65, 0.90, 24, kTRUE);
   CanvasEnd(can);
   return;
