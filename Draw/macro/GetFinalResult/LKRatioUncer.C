@@ -132,19 +132,23 @@ void LKRatioUncer(){
   auto hJPt1R = (TH1D*)hJPt1->Clone("hJPt1R");hJPt1R->Reset();
   hJPt0R->Divide(hJPt0, hJPt0K, 1., 2.); hJPt1R->Divide(hJPt1, hJPt1K, 1., 2.);
 
-  auto heJPt0R = (TH1D*)hJCR->Clone("heJPt0R");heJPt0R->Reset();
-  auto heJPt1R = (TH1D*)hJCR->Clone("heJPt1R");heJPt1R->Reset();
+  //auto heJPt0R = (TH1D*)hJCR->Clone("heJPt0R");heJPt0R->Reset();
+  //auto heJPt1R = (TH1D*)hJCR->Clone("heJPt1R");heJPt1R->Reset();
+  auto heJPtR = (TH1D*)hJCR->Clone("heJPtR");heJPtR->Reset();
   for(Int_t i = 1; i<= hJPt0R->GetNbinsX(); i++){
     auto dJER = hJCR->GetBinContent(i);
     auto dJPt0R = hJPt0R->GetBinContent(i);
     auto dJPt1R = hJPt1R->GetBinContent(i);
-    heJPt0R->SetBinContent(i, TMath::Abs(dJPt0R));
-    heJPt1R->SetBinContent(i, TMath::Abs(dJPt1R));
+    //heJPt0R->SetBinContent(i, TMath::Abs(dJPt0R));
+    //heJPt1R->SetBinContent(i, TMath::Abs(dJPt1R));
+    heJPtR->SetBinContent(i, TMath::Abs(dJPt1R-dJPt0R));
   }
-  TH1D* hJPt[] = {heJPt0R, heJPt1R, hJCR};
-  auto hJPtMax = (TH1D*)MaxHistograms(3, hJPt);
-  auto hJPtMin = (TH1D*)MinHistograms(3, hJPt);
-  hJPtMax->Add(hJPtMin, -1.);
+  //TH1D* hJPt[] = {heJPt0R, heJPt1R, hJCR};
+  //auto hJPtMax = (TH1D*)MaxHistograms(3, hJPt);
+  //auto hJPtMin = (TH1D*)MinHistograms(3, hJPt);
+  //hJPtMax->Add(hJPtMin, -1.);
+  //hJPtMax->Scale(1./TMath::Sqrt(12.));
+  auto hJPtMax = (TH1D*)heJPtR->Clone("hJPtMax");
   hJPtMax->Scale(1./TMath::Sqrt(12.));
   auto heJEJ = (TH1D*)hJER->Clone("heJEJ");heJEJ->Reset();
   heJEJ->Divide(hJPtMax, hJER, 1., 1.);heJEJ->SetName("heJEJ");
