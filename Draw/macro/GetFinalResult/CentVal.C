@@ -28,7 +28,7 @@ void CentVal(){
     h = GetJCPtSpect(sType[i]); listJC->Add(h); 
     h = GetJEPtSpect(sType[i]); listJE->Add(h); 
     h = GetPCPtSpect(sType[i], sPC2); listPC02->Add(h); 
-    h = GetPCPtSpect(sType[i], Path); listPC04->Add(h); 
+    h = GetPCPtSpect(sType[i]); listPC04->Add(h); 
     h = GetPCPtSpect(sType[i], sPC6); listPC06->Add(h); 
   }
 
