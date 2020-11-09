@@ -206,6 +206,25 @@ void OXRatioUncer(){
   l->Write(Form("Omega_toXRatio"), TObject::kSingleKey);
   f->Close();
 
+  ofstream OutFile;
+  OutFile.open(Form("./dat/OXRatioUncer.dat"));
+  OutFile<<left<<setw(15)<<"OXRatio"<<endl;
+  OutFile<<left<<setw(15)<<"pT(GeV/c)";
+  OutFile<<left<<setw(15)<<"ParRec";
+  OutFile<<left<<setw(15)<<"JetPt";
+  OutFile<<left<<setw(15)<<"UESub";
+  OutFile<<left<<setw(15)<<"Total";
+  OutFile<<endl;
+  for(Int_t i=1; i <= heJEI->GetNbinsX(); i++){
+    OutFile<<left<<setw(15)<<heJEI->GetBinCenter(i);
+    OutFile<<left<<setw(15)<<heJEI->GetBinContent(i)*100.;
+    OutFile<<left<<setw(15)<<heJEJ->GetBinContent(i)*100.;
+    OutFile<<left<<setw(15)<<heJEU->GetBinContent(i)*100.;
+    OutFile<<left<<setw(15)<<heJER->GetBinContent(i)*100.;
+    OutFile<<endl;
+  }
+
+
   auto can = MakeCanvas("can");
   auto leg = new TLegend(0.65,0.9,1.0,0.6); SetLegend(leg);
   heJER->GetYaxis()->SetTitle("Relative systematic error");

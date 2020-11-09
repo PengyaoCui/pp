@@ -33,7 +33,11 @@ void InclUncer(const TString sType = "Kshort"){
   TH1D* h1 = nullptr;
   TH1D* hT[nhist+1];
   TFile *f = TFile::Open("./result/InclUncer.root", "UPDATE");
-
+  ofstream OutFile;
+  OutFile.open(Form("./dat/InclUncer_%s.dat", sType.Data()));
+  OutFile<<left<<setw(15)<<sType<<endl;
+  OutFile<<left<<setw(15)<<"pT(GeV/c)";
+  //OutFile<<"pT(GeV/c)";
   for (Int_t i = 0; i< nhist; ++i){
     sList = Form("%s_%s", sType.Data(), sCut[i].Data()); 
     TString sMyHist = sHist; 
@@ -46,18 +50,31 @@ void InclUncer(const TString sType = "Kshort"){
     SetFrame(h1, "#it{p}_{T}(GeV/#it{c})", "Relative syst.");
     leg->AddEntry(h1, sCut[i],"l");
     hT[i] = h1;
+    OutFile<<left<<setw(15)<<sCut[i];
   }
+
   TH1D* hMaterial = (TH1D*)h1->Clone("hMaterial"); hMaterial->Reset();
   for(Int_t j = 1; j<= h1->GetNbinsX(); j++){hMaterial->SetBinContent(j, 0.04); hMaterial->SetBinError(j, 0);}
   DrawHisto(hMaterial, cLine[nhist+1], sMark[nhist+1], "same");
   hMaterial->SetLineStyle(2);
   leg->AddEntry(hMaterial, "Material Budget", "l");
+  OutFile<<left<<setw(15)<<"Material";
+  OutFile<<left<<setw(15)<<"Total";
  
   hT[nhist]=hMaterial; 
   auto hTotal = (TH1D*)QuadraticSum(nhist+1, hT);
   DrawHisto(hTotal, cLine[nhist], sMark[nhist], "same");
   SetFrame(hTotal, "#it{p}_{T}(GeV/#it{c})", "Relative syst.");
   leg->AddEntry(hTotal, "Total","l");
+  OutFile<<endl;
+  for(Int_t j = 1; j<= h1->GetNbinsX(); j++){ 
+    OutFile<<left<<setw(15)<<h1->GetBinCenter(j);
+    for(Int_t i = 0; i<= nhist; ++i){
+      OutFile<<left<<setw(15)<<hT[i]->GetBinContent(j)*100.;
+    }
+    OutFile<<left<<setw(15)<<hTotal->GetBinContent(j)*100.;
+    OutFile<<endl;
+  }
   
   f->cd(); 
   hTotal->Write(Form("%s_InclUncer",sType.Data()), TObject::kSingleKey);

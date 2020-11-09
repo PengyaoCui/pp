@@ -131,6 +131,24 @@ void TotUncer(const TString sType = "Lambda"){
   NormHistBinWidth(hUErr); 
   hUErr->SetName("hUErr");
   
+  ofstream OutFile;
+  OutFile.open(Form("./dat/TotUncer_%s.dat", sType.Data()));
+  OutFile<<left<<setw(15)<<sType<<endl;
+  OutFile<<left<<setw(15)<<"pT(GeV/c)";
+  OutFile<<left<<setw(15)<<"ParRec";
+  OutFile<<left<<setw(15)<<"JetPt";
+  OutFile<<left<<setw(15)<<"UESub";
+  OutFile<<left<<setw(15)<<"Total";
+  OutFile<<endl;
+  for(Int_t i=1; i <= hJErrContI->GetNbinsX(); i++){
+    OutFile<<left<<setw(15)<<hJErrContI->GetBinCenter(i);
+    OutFile<<left<<setw(15)<<hJErrContI->GetBinContent(i)*100.;
+    OutFile<<left<<setw(15)<<hJErrContJ->GetBinContent(i)*100.;
+    OutFile<<left<<setw(15)<<hJErrContU->GetBinContent(i)*100.;
+    OutFile<<left<<setw(15)<<hJErr->GetBinContent(i)*100.;
+    OutFile<<endl;
+  } 
+
   TFile *f = TFile::Open("./result/TotUncer.root", "UPDATE");
   TList *l = new TList();
   l->Add(hIErr);
