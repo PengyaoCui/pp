@@ -15,11 +15,13 @@ for i in \
   "\"Kshort\"","\"Topological\"" \
   "\"Kshort\"","\"TPCPID\"" \
   "\"Kshort\"","\"TrackQuality\"" \
+  "\"Lambda\"","\"CompetMass\"" \
   "\"Lambda\"","\"SigExtrac\"" \
   "\"Lambda\"","\"MLoverP\"" \
   "\"Lambda\"","\"Topological\"" \
   "\"Lambda\"","\"TPCPID\"" \
   "\"Lambda\"","\"TrackQuality\"" \
+  "\"AntiLa\"","\"CompetMass\"" \
   "\"AntiLa\"","\"SigExtrac\"" \
   "\"AntiLa\"","\"MLoverP\"" \
   "\"AntiLa\"","\"Topological\"" \

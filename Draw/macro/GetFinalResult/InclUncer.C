@@ -1,9 +1,9 @@
 #include "./inc/SourceFun.h"
 
-void InclUncer(const TString sType = "Kshort"){
+void InclUncer(const TString sType = "Lambda"){
                
   TString sCut[] = {"CompetMass", "MLoverP", "SigExtrac", "Topological", "TPCPID", "TrackQuality"}; // 
-  if(sType == "Lambda" || sType == "AntiLa"){sCut[0] = "MLoverP"; sCut[1] = "SigExtrac"; sCut[2] = "Topological", sCut[3] = "TPCPID", sCut[4] = "TrackQuality";} 
+  if(sType == "Lambda" || sType == "AntiLa"){sCut[0] = "CompetMass", sCut[1] = "MLoverP"; sCut[2] = "SigExtrac"; sCut[3] = "Topological", sCut[4] = "TPCPID", sCut[5] = "TrackQuality";} 
   if(sType == "Xi" || sType == "Omega"){sCut[0] = "SigExtrac"; sCut[1] = "Topological", sCut[2] = "TPCPID", sCut[3] = "TrackQuality";} 
   
   
@@ -26,7 +26,7 @@ void InclUncer(const TString sType = "Kshort"){
   leg = new TLegend(0.65,0.85,1.0,0.5); SetLegend(leg);
   //-----------------------------------
   auto nHist = sizeof(sCut)/sizeof(TString);
-  if(sType == "Lambda" || sType == "AntiLa") nHist = 5;
+  if(sType == "Lambda" || sType == "AntiLa") nHist = 6;
   if(sType == "Xi" || sType == "Omega") nHist = 4;
   const auto nhist = nHist;
 
